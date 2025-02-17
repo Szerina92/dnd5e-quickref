@@ -1,36 +1,46 @@
 data_reaction = [
     {
-        title: "Opportunity attack",
+        title: "Gelegenheitsangriff",
         icon: "crossed-swords",
-        subtitle: "Enemy leaves your reach",
-        description: "You can rarely move heedlessly past your foes without putting yourself in danger",
-        reference: "PHB, pg. 195.",
+        subtitle: "Feind verlässt deinen Bereich",
+        description: "Man kommt selten einfach so an seinen Feinden vorbei ohne sich in Gefahr zu bringen",
+        reference: "PHB, Seite 195.",
         bullets: [
-            "Trigger: enemy creature you can see leaves your reach.",
-            "Make one melee attack against the provoking creature.",
-            "The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
-            "Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, action, or reaction."
+            "Auslöser: Eine feindliche Kreatur, die du sehen kannst, verlässt den Bereich deiner Nahkampfreichweite",
+            "Führe einen Nahkampfangriff gegen die provozierende Kreatur aus.",
+			"Der Angriff unterbricht die Bewegung der provozierenden Kreatur in dem Moment, wo sie den Bereich deiner Nahkampfreichweite verlässt.",
+            "Kreaturen provozieren keinen Gelegenheitsangriff, wenn sie teleportieren oder wenn jemand oder etwas sie bewegt ohne ihre Bewegung, Aktion oder Reaktion zu nutzen."
         ]
     },
     {
-        title: "Readied action",
+        title: "Vorbereitete Aktion",
         icon: "stopwatch",
-        subtitle: "Part of your Ready action",
-        description: "Execute the reaction specified by your Ready action",
-        reference: "PHB, pg. 193.",
+        subtitle: "Löse Aktion aus",
+        description: "Führe die Aktion aus, die du in deiner Vorbereiten-Aktion festgelegt hast",
+        reference: "PHB, Seiten 192-193.",
         bullets: [
-            "Trigger: specified by your <i>Ready</i> action."
+            "Auslöser: in deiner <i>Vorbereiten</i>-Aktion festgelegt"
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Zauberwirken",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 reaction",
-        description: "Cast a spell with a casting time of 1 reaction",
-        reference: "PHB, pg. 192.",
+        subtitle: "Zauberzeit: 1 Reaktion",
+        description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Reaktion",
+        reference: "PHB, Seite 193.",
         bullets: [
-            "Trigger: specified by the spell.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Auslöser: vom Zauberspruch festgelegt",
+            "Für Details siehe die <i>Zauberwirken</i> Aktion."
+        ]
+    },
+    {
+        title: "Nutze ein Merkmal",
+        icon: "embrassed-energy",
+        subtitle: "Volks-/Klassenmerkmal",
+        description: "Nutze ein Volks- oder Klassenmerkmal, das eine Reaktion verbraucht",
+        reference: "Siehe die Beschreibung des Merkmals",
+        bullets: [
+			"Auslöser: vom Merkmal festgelegt",
         ]
     }
 ]
