@@ -34,7 +34,7 @@ data_action = [
             "Eine Kreatur kann eine andere Kreatur <i>Packen</i>. Charaktere greifen normalerweise mit einem waffenlosen Schlag an. Wie auch immer ein Griff eingeleitet wird, er folgt diesen Regeln.",
             "<em><strong>Gepackt Zustand.</em></strong> Wenn du eine Kreatur erfolgreich Packst, versetzt du sie in den <i>Gepackt</i> Zustand.",
 	    "<em><strong>Ein Packen pro Hand.</em></strong> Eine Kreatur muss eine Hand frei haben, um eine andere Kreatur zu Packen. Einige Werteblöcke und Spieleffekte erlauben es einer Kreatur, mit einem Tentakel, einem Schlund oder einem anderen Körperteil zu greifen. Welchen Teil auch immer der Packende verwendet, er kann mit diesem Teil immer nur eine Kreatur gleichzeitig greifen, und der Packende kann diesen Teil nicht verwenden, um eine andere Kreatur anzuvisieren, es sei denn, er beendet den Griff.",
-	    "<em><strong>Entkommen aus einem Griff.</em></strong> Eine gepackte Kreatur kann ihre Aktion nutzen, um einen Wurf auf Stärke (Athletik) oder Geschicklichkeit (Akrobatik) gegen den SG des Griffs zu machen, wodurch der Zustand bei einem Erfolg für sich selbst beendet wird. Der Zustand endet auch, wenn der Packende den <i>Kampfunfähig</i> Zustand hat oder wenn die Entfernung zwischen dem gepackten Ziel und dem Packenden die Reichweite des Griffs überschreitet."
+	    "<em><strong>Entkommen aus einem Haltegriff.</em></strong> Eine gepackte Kreatur kann ihre Aktion nutzen, um einen Wurf auf Stärke (Athletik) oder Geschicklichkeit (Akrobatik) gegen den SG des Haltegriffs zu machen, wodurch der Zustand bei einem Erfolg für sich selbst beendet wird. Der Zustand endet auch, wenn der Packende den <i>Kampfunfähig</i> Zustand hat oder wenn die Entfernung zwischen dem gepackten Ziel und dem Packenden die Reichweite des Haltegriffs überschreitet."
         ]
     },
     {
@@ -56,18 +56,20 @@ data_action = [
         icon: "sprint",
         subtitle: "Doppelte Geschwindigkeit",
         description: "Erhalte zusätzliche Bewegung für den aktuellen Zug",
-        reference: "PHB, Seite 192.",
+        reference: "PHB 2024",
         bullets: [
-            "Die Erhöhung entspricht deiner Geschwindigkeit, nachdem alle Bonus angerechnet wurden."
-        ]
+            "Wenn du die Spurten Aktion ausführst, erhältst du für den aktuellen Zug zusätzliche Bewegung. Die Erhöhung entspricht deiner Geschwindigkeit nach Anwendung aller Modifikatoren. Mit einer Geschwindigkeit von 9 Metern kannst du dich in deinem Zug beispielsweise bis zu 18 Meter weit bewegen, wenn du Spurt ausführst. Wenn deine Geschwindigkeit von 9 Metern auf 4,5 Meter reduziert wird, kannst du dich in diesem Zug bis zu 9 Meter weit bewegen, wenn du Spurt ausführst.",
+            "Wenn du eine besondere Geschwindigkeit hast, wie z. B. eine Fluggeschwindigkeit oder Schwimmgeschwindigkeit, kannst du diese Geschwindigkeit anstelle deiner Geschwindigkeit verwenden, wenn du diese Aktion ausführst. Du wählst jedes Mal, wenn du diese Aktion ausführst, welche Geschwindigkeit du verwenden möchtest."
+	]
     },
     {
         title: "Rückzug",
         icon: "journey",
         subtitle: "Verhindere Gelegenheitsangriffe",
-        description: "Deine Bewegung löst für den Rest deines Zuges keine Gelegenheitsangriffe aus",
-        reference: "PHB, Seite 192.",
+        description: "Bewege dich frei über das Feld",
+        reference: "PHB 2024",
         bullets: [
+	"Wenn du die Rückzug Aktion ausführst, löst deine Bewegung für den Rest des aktuellen Zuges keine Gelegenheitsangriffe aus."	
         ]
     },
     {
@@ -75,10 +77,10 @@ data_action = [
         icon: "aura",
         subtitle: "Stärke deine Abwehr",
         description: "Konzentriere dich darauf Angriffen auszuweichen",
-        reference: "PHB, Seite 192.",
+        reference: "PHB 2024",
         bullets: [
-            "Bis zum Start deines nächsten Zuges ist jeder Angriff gegen dich im Nachteil, wenn du den Angreifer sehen kannst. Außerdem machst du Geschicklichkeits-Rettungswürfe mit Vorteil.",
-			"Du verlierst diese Vorteile, wenn du <i>kampfunfähig</i> wirst oder wenn deine Geschwindigkeit auf 0 fällt."
+            "Wenn du die Ausweichen Aktion ausführst, erhältst du die folgenden Vorteile: Bis zum Beginn deines nächsten Zuges hat jeder Angriffswurf gegen dich einen Nachteil, wenn du den Angreifer sehen kannst, und du führst Geschicklichkeitsrettungswürfe mit Vorteil aus.",
+	    "Du verlierst diese Vorteile, wenn du den <i>Kampfunfähig</i> Zustand hast oder deine Geschwindigkeit 0 beträgt."
         ]
     },
     {
@@ -86,18 +88,18 @@ data_action = [
         icon: "manacles",
         subtitle: "Akrobatik/Athletik vs. Athletik",
         description: "Entkomme einem Haltegriff",
-        reference: "PHB, Seite 195.",
+        reference: "PHB 2024",
         bullets: [
-            "Um einem Haltegriff zu entkommen, musst du eine Probe auf Stärke (Athletik) oder Geschicklichkeit (Akrobatik) gegen eine Probe auf Stärke (Athletik) der Kreatur, die dich gepackt hält, gewinnen.",
-			"Anderen Umständen, die dich festhalten (zum Beispiel Handschellen) zu entkommen, kann eine Probe auf Geschicklichkeit oder Stärke erfordern, je nach Anforderung des Umstands."
+            "Eine gepackte Kreatur kann ihre Aktion nutzen, um einen Wurf auf Stärke (Athletik) oder Geschicklichkeit (Akrobatik) gegen den SG des Haltegriffs zu machen, wodurch der Zustand bei einem Erfolg für sich selbst beendet wird. Der Zustand endet auch, wenn der Packende den <i>Kampfunfähig</i> Zustand hat oder wenn die Entfernung zwischen dem gepackten Ziel und dem Packenden die Reichweite des Haltegriffs überschreitet.",
+	    "Anderen Umständen, die dich festhalten (zum Beispiel Handschellen) zu entkommen, kann eine Probe auf Geschicklichkeit oder Stärke erfordern, je nach Anforderung des Umstands."
         ]
     },
     {
         title: "Helfen",
         icon: "telepathy",
         subtitle: "Gewähre Vorteil",
-        description: "Gewähre einem Verbündeten Vorteil auf eine Fähigkeitenprobe oder einen Angriff",
-        reference: "PHB, Seite 192.",
+        description: "Wenn du die Helfen Aktion ausführst, führst du eine der folgenden Aktionen aus.",
+        reference: "PHB 2024",
         bullets: [
             "Das Ziel erhält Vorteil auf die nächste Fähigkeitenprobe, die es macht um die Aufgabe zu erfüllen, bei der du ihr hilfst.",
 			"Alternativ erhält das Ziel Vorteil auf den nächsten Angriff gegen ein bestimmtes Ziel innerhalb von 5 Fuß neben dir.",
@@ -145,8 +147,8 @@ data_action = [
     {
         title: "Nutze ein Merkmal",
         icon: "embrassed-energy",
-        subtitle: "Volks-/Klassenmerkmal",
-        description: "Nutze ein Volks- oder Klassenmerkmal, das eine Aktion verbraucht",
+        subtitle: "Spezies-/Klassenmerkmal",
+        description: "Nutze ein Spezies- oder Klassenmerkmal, das eine Aktion verbraucht",
         reference: "Siehe die Beschreibung des Merkmals",
         bullets: [
 
@@ -180,7 +182,12 @@ data_action = [
         description: "Vollführe jede Aktion, die du dir vorstellen kannst",
         reference: "PHB, Seite 193.",
         bullets: [
-            "Wenn du eine Aktion beschreibst, die nicht in den Regeln beschrieben wird, teilt der DM dir mit ob sie möglich ist und was du gegebenenfalls dafür würfeln musst um heraus zu finden ob du erfolgreich bist."
+            "With the Influence action, you urge a monster to do something. Describe or roleplay how you’re communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The DM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.",
+	    "Willing. If your urging aligns with the monster’s desires, no ability check is necessary; the monster fulfills your request in a way it prefers.",
+	    "Unwilling. If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn’t comply.",
+	    "Hesitant. If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster’s attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you’re interacting with the monster. The DM chooses the check, which has a default DC equal to 15 or the monster’s Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the DM) before urging it in the same way again.",
+	    "<p>With the Influence action, you urge a monster to do something. Describe or roleplay how you’re communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The DM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.</p><p><em><strong>Willing.</strong></em> If your urging aligns with the monster’s desires, no ability check is necessary; the monster fulfills your request in a way it prefers.</p><p><em><strong>Unwilling.</strong></em> If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn’t comply.</p><p><em><strong>Hesitant.</strong></em> If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster’s attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you’re interacting with the monster. The DM chooses the check, which has a default DC equal to 15 or the monster’s Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the DM) before urging it in the same way again.</p><table><caption>Influence Checks</caption><thead><tr><th><p>Ability Check</p></th><th><p>Interaction</p></th></tr></thead><tbody><tr><td><p>Charisma (Täuschen)</p></td><td><p>Deceiving a monster that understands you</p></td></tr><tr><td><p>Charisma (Einschüchtern)</p></td><td><p>Intimidating a monster</p></td></tr><tr><td><p>Charisma (Auftreten)</p></td><td><p>Amusing a monster</p></td></tr><tr><td><p>Charisma (Überzeugen)</p></td><td><p>Persuading a monster that understands you</p></td></tr><tr><td><p>Charisma (Mit Tieren umgehen)</p></td><td><p>Gently coaxing a Beast or Monstrosity</p></td></tr></tbody></table>"
+
         ]
     },
     {
@@ -190,17 +197,19 @@ data_action = [
         description: "Vollführe jede Aktion, die du dir vorstellen kannst",
         reference: "PHB, Seite 193.",
         bullets: [
-            "Wenn du eine Aktion beschreibst, die nicht in den Regeln beschrieben wird, teilt der DM dir mit ob sie möglich ist und was du gegebenenfalls dafür würfeln musst um heraus zu finden ob du erfolgreich bist."
+            "When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.",
+	    "The Areas of Knowledge table suggests which skills are applicable to various areas of knowledge.",
+	    "<table><caption>Areas of Knowledge</caption><thead><tr><th><p>Skill</p></th><th><p>Areas</p></th></tr></thead><tbody><tr><td><p>Arcana</p></td><td><p>Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)</p></td></tr><tr><td><p>History</p></td><td><p>Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)</p></td></tr><tr><td><p>Investigation</p></td><td><p>Traps, ciphers, riddles, and gadgetry</p></td></tr><tr><td><p>Nature</p></td><td><p>Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)</p></td></tr><tr><td><p>Religion</p></td><td><p>Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)</p></td></tr></tbody></table>"
         ]
     },
     {
         title: "Nutzen (WIP)",
         icon: "juggler",
-        subtitle: "Text",
-        description: "Text",
+        subtitle: "Interagiere mit Objekten",
+        description: "Interagiere mit Objekten",
         reference: "PHB 2024",
         bullets: [
-            "Text"
+            "Normalerweise interagierst du mit einem Objekt, während du etwas anderes tust, z. B. wenn du im Rahmen der Angriffsaktion ein Schwert ziehst. Wenn ein Objekt eine Aktion erfordert, um es zu benutzen, führst du die Nutzen Aktion aus."
         ]
     }	
 ]
