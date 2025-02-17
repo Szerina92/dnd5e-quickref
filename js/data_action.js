@@ -38,6 +38,16 @@ data_action = [
         ]
     },
     {
+        title: "Stoßen",
+        icon: "grab",
+        subtitle: "Athletik vs. Akrobatik/Athletik",
+        description: "Versuche eine Kreatur von dir weg oder zu Boden zu Stoßen",
+        reference: "PHB 2024",
+        bullets: [
+            "Das Ziel muss einen Stärke- oder Geschicklichkeitsrettungswurf (es entscheidet sich für einen) bestehen, oder du stößt es entweder 1,5 Meter weit weg oder versetzt es in den <i>Liegend</i> Zustand. Der SG für den Rettungswurf beträgt 8 plus deinen Stärkemodifikator und Übungsbonus. Dieses Stoßen ist nur möglich, wenn das Ziel nicht mehr als eine Größe größer ist als du."
+        ]
+    },
+    {
         title: "Magie (WIP)",
         icon: "magic-swirl",
         subtitle: "Zauberzeit: 1 Aktion/länger",
@@ -206,7 +216,7 @@ data_action = [
         title: "Nutzen (WIP)",
         icon: "juggler",
         subtitle: "Interagiere mit Objekten",
-        description: "Interagiere mit Objekten",
+        description: "Verwende einen nicht magischen Gegenstand.",
         reference: "PHB 2024",
         bullets: [
             "Normalerweise interagierst du mit einem Objekt, während du etwas anderes tust, z. B. wenn du im Rahmen der Angriffsaktion ein Schwert ziehst. Wenn ein Objekt eine Aktion erfordert, um es zu benutzen, führst du die Nutzen Aktion aus."
