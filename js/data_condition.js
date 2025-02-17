@@ -1,7 +1,7 @@
 data_condition = [
    {
         title: "Betäubt",
-        icon: "internal-injury",
+        icon: "betaeubt",
         subtitle: "Du bist betäubt",
         description: "Du bist betäubt",
         reference: "PHB, Seite 290.",
@@ -13,7 +13,7 @@ data_condition = [
     },
     {
         title: "Bewusstlos",
-        icon: "coma",
+        icon: "bewusstlos",
         subtitle: "Du bist bewusstlos",
         description: "Du bist bewusstlos",
         reference: "PHB, Seite 290.",
@@ -27,7 +27,7 @@ data_condition = [
     },
     {
         title: "Bezaubert",
-        icon: "smitten",
+        icon: "bezaubert",
         subtitle: "Du bist bezaubert",
         description: "Du bist von einer anderen Kreatur bezaubert",
         reference: "PHB, Seite 290.",
@@ -38,7 +38,7 @@ data_condition = [
     },
     {
         title: "Blind",
-        icon: "sight-disabled",
+        icon: "blind",
         subtitle: "Du kannst nicht sehen",
         description: "Du kannst nicht sehen",
         reference: "PHB, Seite 290.",
@@ -50,7 +50,7 @@ data_condition = [
     },
     {
         title: "Erschöpfung",
-        icon: "crawl",
+        icon: "erschoepfung",
         subtitle: "Du bist erschöpft",
         description: "Erschöpfung wird in sechs Stufen unterschieden",
         reference: "PHB, Seite 291.",
@@ -63,7 +63,7 @@ data_condition = [
     },
     {
         title: "Festgesetzt",
-        icon: "imprisoned",
+        icon: "festgesetzt",
         subtitle: "Du bist festgesetzt",
         description: "Du bist festgesetzt",
         reference: "PHB, Seite 290.",
@@ -76,7 +76,7 @@ data_condition = [
     },
     {
         title: "Gelähmt",
-        icon: "internal-injury",
+        icon: "gelaehmt",
         subtitle: "Du bist gelähmt",
         description: "Du kannst nichts tun",
 		reference: "PHB, Seite 291.",
@@ -89,7 +89,7 @@ data_condition = [
     },
     {
         title: "Gepackt",
-        icon: "grab",
+        icon: "gepackt",
         subtitle: "Geschwindigkeit: 0",
         description: "Du bist im Haltegriff",
         reference: "PHB, Seite 291.",
@@ -101,7 +101,7 @@ data_condition = [
     },
     {
         title: "Kampfunfähig",
-        icon: "internal-injury",
+        icon: "kampfunfaehig",
         subtitle: "Weder Aktion noch Reaktion",
         description: "Du kannst weder Aktionen noch Reaktionen ausführen",
         reference: "PHB, Seite 291.",
@@ -110,7 +110,7 @@ data_condition = [
     },
     {
         title: "Liegend",
-        icon: "crawl",
+        icon: "liegend",
         subtitle: "Du liegst",
         description: "Du liegst",
         reference: "PHB, Seite 291.",
@@ -122,7 +122,7 @@ data_condition = [
     },
     {
         title: "Taub",
-        icon: "hearing-disabled",
+        icon: "taub",
         subtitle: "Du kannst nicht hören",
         description: "Du kannst nicht hören",
         reference: "PHB, Seite 292.",
@@ -145,7 +145,7 @@ data_condition = [
     },
     {
         title: "Verängstigt",
-        icon: "sharp-smile",
+        icon: "veraengstigt",
         subtitle: "Du hast Angst",
         description: "Du hast Angst",
         reference: "PHB, Seite 292.",
@@ -156,7 +156,7 @@ data_condition = [
     },
     {
         title: "Vergiftet",
-        icon: "deathcab",
+        icon: "vergiftet",
         subtitle: "Du bist vergiftet",
         description: "Du bist vergiftet",
         reference: "PHB, Seite 292.",
@@ -166,7 +166,7 @@ data_condition = [
     },
     {
         title: "Versteinert",
-        icon: "stone-pile",
+        icon: "versteinert",
         subtitle: "Du wirst zu Stein",
         description: "Du bist, zusammen mit allen nicht-magischen Objekten die du trägst oder mitführst, in eine feste, unbewegliche Substanz (meistens Stein) verwandelt worden",
         reference: "PHB, Seite 292.",
@@ -181,7 +181,7 @@ data_condition = [
     },
     {
         title: "Konzentration (WIP)",
-        icon: "concentration-orb",
+        icon: "konzentration",
         subtitle: "Blaaaa",
         description: "Du bist bewusstlos",
         reference: "PHB, Seite 290.",
@@ -195,7 +195,7 @@ data_condition = [
     },
     {
         title: "Stabilisiert (WIP)",
-        icon: "concentration-orb",
+        icon: "stabil",
         subtitle: "Blaaaa",
         description: "Du bist bewusstlos",
         reference: "PHB, Seite 290.",
@@ -209,7 +209,7 @@ data_condition = [
     },
     {
         title: "0 Trefferpunkte",
-        icon: "death-skull",
+        icon: "tod",
         subtitle: "Du stirbst",
         description: "Du stirbst",
         reference: "PHB, Seite 197.",
