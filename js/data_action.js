@@ -3,44 +3,42 @@ data_action = [
         title: "Angriff",
         icon: "crossed-swords",
         subtitle: "Nah- oder Fernkampfangriff",
-        description: "Vollführe einen Nah- oder Fernkampfangriff mit deiner Waffe",
-        reference: "PHB, pgs. 192,194-195.",
+        description: "Wenn du die Angriffsaktion ausführst, kannst du einen Angriffswurf mit einer Waffe oder einem waffenlosen Angriff machen.",
+        reference: "PHB 2024",
         bullets: [
-            "Bestimmte Merkmale, wie zum Beispiel der <i>Zusätzliche Angriff</i> des Kämpfers, erlauben mehr als einen Angriff mit dieser Aktion auszuführen. Jeder dieser Angriffe ist ein eigener Angriffswurf und kann sich gegen eine andere Kreatur richten. Du kannst dich zwischen den Angriffen bewegen.",
-			"Wenn du mit einer leichten Nahkampfwaffe angreifst, kannst du eine Bonusaktion verwenden, um mit einer zweiten leichten Nahkampfwaffe in deiner anderen Hand anzugreifen (siehe die Bonusaktion <i>Angriff mit Zweitwaffe</i>).",
-            "Du kannst einen deiner Nahkampfangriffe durch die <i>Ringen</i>- oder <i>Stoßen</i>-Aktion ersetzen.",
-            "Manche Zustände gewähren Vorteil auf einen Angriff: Angriffe gegen blinde, gelähmte, versteinerte, festgesetzte, betäubte oder bewusstlose Ziele; Nahkampfangriffe gegen liegende Ziele; Angriffe durch unsichtbare oder versteckte Angreifer.",
-            "Manche Zustände gewähren Nachteil auf einen Angriff: Angriffe gegen unsichtbare oder versteckte Ziele; Fernkampfangriffe gegen liegende Ziele; Angriffe durch blinde, verängstigte, vergiftete oder festgesetzte Angreifer." 
+            "<em><strong>Waffen anlegen und ablegen.</em></strong> Du kannst eine Waffe entweder anlegen oder ablegen, wenn du im Rahmen dieser Aktion einen Angriff ausführst. Dies geschieht entweder vor oder nach dem Angriff. Wenn du eine Waffe vor einem Angriff anlegst, musst du sie für diesen Angriff nicht verwenden. Das Anlegen einer Waffe umfasst das Ziehen aus der Scheide oder das Aufheben. Das Ablegen einer Waffe umfasst das Einstecken, Verstauen oder Fallenlassen.",
+	    "<em><strong>Zwischen Angriffen bewegen.</em></strong> Wenn du dich in deinem Zug bewegst und über ein Merkmal wie <i>ZUsätzlicher Angriff</i> verfügst, das dir im Rahmen der Angriffsaktion mehr als einen Angriff ermöglicht, kannst du einen Teil oder die gesamte Bewegung nutzen, um dich zwischen diesen Angriffen zu bewegen.",	
         ]
     },
     {
-        title: "Ringen",
+        title: "Waffenlos",
+        icon: "fist",
+        subtitle: "Nah- oder Fernkampfangriff",
+        description: "Vollführe einen Nah- oder Fernkampfangriff mit deiner Waffe",
+        reference: "PHB 2024",
+        bullets: [
+            "Anstatt eine Waffe für einen Nahkampfangriff zu verwenden, kannst du einen Faustschlag, Tritt, Kopfstoß oder einen ähnlichen kräftigen Schlag einsetzen. Im Spiel ist dies ein Waffenloser Schlag – ein Nahkampfangriff, bei dem du deinen Körper einsetzt, um einem Ziel in einem Umkreis von 1,5 Metern Schaden zuzufügen, es zu packen oder zu Stoßen. <br>Wann immer du deinen Waffenlosen Schlag einsetzt, wähle eine der folgenden Optionen für seine Wirkung.",
+	    "<em><strong>Schaden.</em></strong> Du führst einen Angriffswurf gegen das Ziel durch. Dein Bonus auf den Wurf entspricht deinem Stärkemodifikator plus deinem Übungsbonus. Bei einem Treffer erleidet das Ziel einen Wuchtschaden in Höhe von 1 plus deinem Stärkemodifikator.",
+            "<em><strong>Packen.</em></strong> Das Ziel muss einen Stärke- oder Geschicklichkeitsrettungswurf (es entscheidet sich für einen) bestehen, sonst erleidet es den Zustand <i>Gepackt</i>. Der SG für den Rettungswurf und alle Entkommen versuche beträgt 8 plus deinen Stärkemodifikator und Übungsbonus. DPacken ist nur möglich, wenn das Ziel nicht mehr als eine Größe größer ist als du und du eine Hand frei hast, um es zu ergreifen.",
+            "<em><strong>Stoßen.</em></strong> Das Ziel muss einen Stärke- oder Geschicklichkeitsrettungswurf (es entscheidet sich für einen) bestehen, oder du stößt es entweder 1,5 Meter weit weg oder versetzt es in den <i>Liegend</i> Zustand. Der SG für den Rettungswurf beträgt 8 plus deinen Stärkemodifikator und Übungsbonus. Dieses Stoßen ist nur möglich, wenn das Ziel nicht mehr als eine Größe größer ist als du.",
+            "Siehe auch <i>Gepackt</i> Zustand" 
+        ]
+    },
+    {
+        title: "Packen",
         icon: "grab",
         subtitle: "Athletik vs. Akrobatik/Athletik",
-        description: "Spezieller Nahkampfangriff. Versuche eine Kreatur zu packen oder ringe mit ihr",
-        reference: "PHB, Seite 195.",
+        description: "Versuche eine Kreatur zu packen oder ringe mit ihr",
+        reference: "PHB 2024",
         bullets: [
-            "Du kannst die <i>Angriff</i>-Aktion für einen speziellen Nahkampfangriff verwenden, das Ringen. Wenn du in der Lage bist mehrere Angriffe mit der <i>Angriff</i>-Aktion zu machen, ersetzt dieser Angriff einen davon.",
-            "Das Ziel, mit dem du ringst, darf nicht mehr als eine Größenkategorie größer als du sein und muss sich innerhalb deiner Reichweite befinden.",
-			"Mit mindestens einer freien Hand versuchst du das Ziel mit einer Ringen-Probe zu packen. Du wirfst dazu eine Probe auf Stärke (Athletik), die von deinem Ziel mit einer Probe auf Stärke (Athletik) oder Geschicklichkeit (Akrobatik) - dein Ziel hat die Wahl - gekontert wird.",
-			"Wenn du erfolgreich bist, erhält dein Ziel den <i>Gepackt</i> Zustand (seine Geschwindigkeit ist 0)."
+            "Eine Kreatur kann eine andere Kreatur <i>Packen</i>. Charaktere greifen normalerweise mit einem waffenlosen Schlag an. Wie auch immer ein Griff eingeleitet wird, er folgt diesen Regeln.",
+            "<em><strong>Gepackt Zustand.</em></strong> Wenn du eine Kreatur erfolgreich Packst, versetzt du sie in den <i>Gepackt</i> Zustand.",
+	    "<em><strong>Ein Packen pro Hand.</em></strong> Eine Kreatur muss eine Hand frei haben, um eine andere Kreatur zu Packen. Einige Werteblöcke und Spieleffekte erlauben es einer Kreatur, mit einem Tentakel, einem Schlund oder einem anderen Körperteil zu greifen. Welchen Teil auch immer der Packende verwendet, er kann mit diesem Teil immer nur eine Kreatur gleichzeitig greifen, und der Packende kann diesen Teil nicht verwenden, um eine andere Kreatur anzuvisieren, es sei denn, er beendet den Griff.",
+	    "<em><strong>Entkommen aus einem Griff.</em></strong> Eine gepackte Kreatur kann ihre Aktion nutzen, um einen Wurf auf Stärke (Athletik) oder Geschicklichkeit (Akrobatik) gegen den SG des Griffs zu machen, wodurch der Zustand bei einem Erfolg für sich selbst beendet wird. Der Zustand endet auch, wenn der Packende den <i>Kampfunfähig</i> Zustand hat oder wenn die Entfernung zwischen dem gepackten Ziel und dem Packenden die Reichweite des Griffs überschreitet."
         ]
     },
     {
-        title: "Stoßen",
-        icon: "hand",
-        subtitle: "Athletik vs. Akrobatik/Athletik",
-        description: "Spezieller Nahkampfangriff. Stoße eine Kreatur, entweder um sie zu Boden zu werfen oder von dir fort zu schieben",
-        reference: "PHB, Seite 195.",
-        bullets: [
-            "Du kannst die <i>Angriff</i>-Aktion für einen speziellen Nahkampfangriff verwenden, das Stoßen. Wenn du in der Lage bist mehrere Angriffe mit der <i>Angriff</i>-Aktion zu machen, ersetzt dieser Angriff einen davon.",
-            "Das Ziel, das du stößt, darf nicht mehr als eine Größenkategorie größer als du sein und muss sich innerhalb deiner Reichweite befinden.",
-            "Du wirfst dazu eine Probe auf Stärke (Athletik), die von deinem Ziel mit einer Probe auf Stärke (Athletik) oder Geschicklichkeit (Akrobatik) - dein Ziel hat die Wahl - gekontert wird.",
-			"Wenn du erfolgreich bist, erhält dein Ziel entweder den <i>Liegend</i> Zustand oder du schiebst es 5 Fuß von dir weg."
-        ]
-    },
-    {
-        title: "Zauberwirken",
+        title: "Magie (WIP)",
         icon: "magic-swirl",
         subtitle: "Zauberzeit: 1 Aktion/länger",
         description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Aktion oder länger",
@@ -104,28 +102,6 @@ data_action = [
             "Das Ziel erhält Vorteil auf die nächste Fähigkeitenprobe, die es macht um die Aufgabe zu erfüllen, bei der du ihr hilfst.",
 			"Alternativ erhält das Ziel Vorteil auf den nächsten Angriff gegen ein bestimmtes Ziel innerhalb von 5 Fuß neben dir.",
             "Der Vorteil ist einmalig bis zum Beginn deines nächsten Zuges nutzbar."
-        ]
-    },
-    {
-        title: "Gegenstand benutzen",
-        icon: "snatch",
-        subtitle: "Nutze zweiten Gegenstand",
-        description: "Interagiere mit einem zweiten Objekt oder nutze besondere Merkmale eines Objektes",
-        reference: "PHB, Seite 192.",
-        bullets: [
-            "Mit einem Objekt kannst du innerhalb deines Zuges kostenlos interagieren (zum Beispiel eine Waffe ziehen, oder eine Tür öffnen). Wenn du ein zweites mal mit einem Objekt interagieren möchtest, nutze diese Aktion.",
-			"Wenn ein Objekt zur Benutzung den Einsatz deiner Aktion erfordert, nutze ebenfalls diese Aktion."
-        ]
-    },
-    {
-        title: "Schild nutzen",
-        icon: "round-shield",
-        subtitle: "Lege einen Schild an oder ab",
-        description: "Lege einen Schild an oder ab",
-        reference: "PHB, pgs. 144-146.",
-        bullets: [
-            "Einen Schild an- oder abzulegen erfordert eine Aktion.",
-			"Rüstung an- oder abzulegen dauert mehrere Minuten (1 min Leichte Rüstung, 5 min Mittelschwere Rüstung, 10 min Schwere Rüstung)",
         ]
     },
     {
@@ -196,5 +172,35 @@ data_action = [
         bullets: [
             "Wenn du eine Aktion beschreibst, die nicht in den Regeln beschrieben wird, teilt der DM dir mit ob sie möglich ist und was du gegebenenfalls dafür würfeln musst um heraus zu finden ob du erfolgreich bist."
         ]
-    }
+    },
+    {
+        title: "Beeinflussen (WIP)",
+        icon: "juggler",
+        subtitle: "Jede andere Aktion",
+        description: "Vollführe jede Aktion, die du dir vorstellen kannst",
+        reference: "PHB, Seite 193.",
+        bullets: [
+            "Wenn du eine Aktion beschreibst, die nicht in den Regeln beschrieben wird, teilt der DM dir mit ob sie möglich ist und was du gegebenenfalls dafür würfeln musst um heraus zu finden ob du erfolgreich bist."
+        ]
+    },
+    {
+        title: "Studieren (WIP)",
+        icon: "juggler",
+        subtitle: "Jede andere Aktion",
+        description: "Vollführe jede Aktion, die du dir vorstellen kannst",
+        reference: "PHB, Seite 193.",
+        bullets: [
+            "Wenn du eine Aktion beschreibst, die nicht in den Regeln beschrieben wird, teilt der DM dir mit ob sie möglich ist und was du gegebenenfalls dafür würfeln musst um heraus zu finden ob du erfolgreich bist."
+        ]
+    },
+    {
+        title: "Nutzen (WIP)",
+        icon: "juggler",
+        subtitle: "Text",
+        description: "Text",
+        reference: "PHB 2024",
+        bullets: [
+            "Text"
+        ]
+    }	
 ]
