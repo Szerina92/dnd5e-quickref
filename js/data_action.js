@@ -7,7 +7,7 @@ data_action = [
         reference: "PHB 2024",
         bullets: [
             "<em><strong>Waffen anlegen und ablegen.</em></strong> Du kannst eine Waffe entweder anlegen oder ablegen, wenn du im Rahmen dieser Aktion einen Angriff ausführst. Dies geschieht entweder vor oder nach dem Angriff. Wenn du eine Waffe vor einem Angriff anlegst, musst du sie für diesen Angriff nicht verwenden. Das Anlegen einer Waffe umfasst das Ziehen aus der Scheide oder das Aufheben. Das Ablegen einer Waffe umfasst das Einstecken, Verstauen oder Fallenlassen.",
-	    "<em><strong>Zwischen Angriffen bewegen.</em></strong> Wenn du dich in deinem Zug bewegst und über ein Merkmal wie <i>ZUsätzlicher Angriff</i> verfügst, das dir im Rahmen der Angriffsaktion mehr als einen Angriff ermöglicht, kannst du einen Teil oder die gesamte Bewegung nutzen, um dich zwischen diesen Angriffen zu bewegen.",	
+	    "<em><strong>Zwischen Angriffen bewegen.</em></strong> Wenn du dich in deinem Zug bewegst und über ein Merkmal wie <i>ZUsätzlicher Angriff</i> verfügst, das dir im Rahmen der Angriffsaktion mehr als einen Angriff ermöglicht, kannst du einen Teil oder die gesamte Bewegung nutzen, um dich zwischen diesen Angriffen zu bewegen."
         ]
     },
     {
@@ -216,7 +216,7 @@ data_action = [
         description: "Verwende einen nicht magischen Gegenstand.",
         reference: "PHB 2024",
         bullets: [
-            "Normalerweise interagierst du mit einem Objekt, während du etwas anderes tust, z. B. wenn du im Rahmen der Angriffsaktion ein Schwert ziehst. Wenn ein Objekt eine Aktion erfordert, um es zu benutzen, führst du die Nutzen Aktion aus."
+            "Normalerweise interagierst du mit einem Objekt, während du etwas anderes tust, z. B. wenn du im Rahmen der Angriffsaktion ein Schwert ziehst. Wenn ein Objekt eine Aktion erfordert, um es zu benutzen, führst du die Nutzen Aktion aus.",
         ]
     }	
 ]
