@@ -180,6 +180,20 @@ data_condition = [
         ]
     },
     {
+        title: "Konzentration",
+        icon: "concentration-orb",
+        subtitle: "Blaaaa",
+        description: "Du bist bewusstlos",
+        reference: "PHB, Seite 290.",
+        bullets: [
+            "Du bist <i>kampfunfähig</i>, kannst dich nicht bewegen und nimmst deine Umgebung nicht wahr.",
+            "Du lässt fallen was du in Händen hältst und fällst hin.",
+            "Angriffe gegen dich sind im Vorteil.",
+			"Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
+            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+        ]
+    },
+    {
         title: "0 Trefferpunkte",
         icon: "death-skull",
         subtitle: "Du stirbst",
