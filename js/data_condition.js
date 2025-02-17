@@ -3,7 +3,7 @@ data_condition = [
         title: "Betäubt",
         icon: "betaeubt",
         subtitle: "Du bist betäubt",
-        description: "Du bist betäubt",
+        description: "Während du Betäubt bist, treten die folgenden Effekte auf",
         reference: "PHB 2024",
         bullets: [
             "<em><strong>Kampfunfähig.</strong></em> Du hast den <i>Kampfunfähig</i> Zustand.",
@@ -15,37 +15,37 @@ data_condition = [
         title: "Bewusstlos",
         icon: "bewusstlos",
         subtitle: "Du bist bewusstlos",
-        description: "Du bist bewusstlos",
-        reference: "PHB, Seite 290.",
+        description: "Während du Bewusstlos bist, treten die folgenden Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Du bist <i>kampfunfähig</i>, kannst dich nicht bewegen und nimmst deine Umgebung nicht wahr.",
-            "Du lässt fallen was du in Händen hältst und fällst hin.",
-            "Angriffe gegen dich sind im Vorteil.",
-			"Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
-            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "<em><strong>Untätig.</strong></em> Du hast die <i>Kampfunfähig</i> und <i>Liegend</i> Zustände und du lässt fallen was du in den Händen hältst. Wenn der Zustand endet, bleibst du <i>Liegend</i>.",
+            "<em><strong>Geschwindigkeit 0.</strong></em> Deine Geschwindigkeit ist 0 und kann nicht erhöht werden.",
+            "<em><strong>Angriffe Betroffen.</strong></em> Angriffswürfe gegen dich sind im Vortei.",
+	    "<em><strong>Rettungswürfe Betroffen.</strong></em> Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "<em><strong>Automatische Kritische Treffer.</strong></em> Jeder Angriffswurf der dich Trifft ist ein <i>Kritischer Treffer</i>, wenn der Angreifer sich innerhalb von 1,5 Metern von dir befindet.",
+	    "<em><strong>Unbewusst.</strong></em> Du bist dir deiner Umgebung nicht bewusst",
         ]
     },
     {
         title: "Bezaubert",
         icon: "bezaubert",
         subtitle: "Du bist bezaubert",
-        description: "Du bist von einer anderen Kreatur bezaubert",
-        reference: "PHB, Seite 290.",
+        description: "Während du Bezaubert bist, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Du kannst den Bezaubernden nicht angreifen oder als Ziel für verletztende Fähigkeiten oder magische Effekte wählen.",
-			"Der Bezaubernde hat Vorteil auf Fähigkeitenproben in sozialer Interaktion mit dir."
+            "<em><strong>Kann dem Bezaubernden nichts anhaben.</strong></em> Du kannst den Bezaubernden nicht angreifen oder als Ziel für verletztende Fähigkeiten oder magische Effekte wählen.",
+	    "<em><strong>Sozialer Vorteil.</strong></em> Der Bezaubernde hat Vorteil auf Attributswürfe bei sozialen Interaktion mit dir."
         ]
     },
     {
         title: "Blind",
         icon: "blind",
         subtitle: "Du kannst nicht sehen",
-        description: "Du kannst nicht sehen",
-        reference: "PHB, Seite 290.",
+        description: "Während du Blind bist, treten folgende Effekte auf",
+        reference: "PHB 2014",
         bullets: [
-            "Du verlierst Fähigkeitenproben die Sicht benötigen automatisch.",
-			"Du hast Nachteil auf Angriffswürfe.",
-            "Angriffswürfe gegen dich haben Vorteil.",
+            "<em><strong>Kann nicht Sehen.</strong></em> Du kannst nicht sehen und verlierst Attributswürfe die Sicht benötigen automatisch.",
+	    "<em><strong>Angriffe Betroffen.</strong></em> Angriffswürfe gegen dich haben einen Vorteil, und deine Angriffswürfe haben einen Nachteil.",
         ]
     },
     {
@@ -53,12 +53,12 @@ data_condition = [
         icon: "erschoepfung",
         subtitle: "Du bist erschöpft",
         description: "Erschöpfung wird in sechs Stufen unterschieden",
-        reference: "PHB, Seite 291.",
+        reference: "PHB 2024",
         bullets: [
-            "<table><tr><th>Stufe</th><th></th><th></th><th style='text-align:left'>Effekt</th></tr><tr><td>1</td><td></td><td></td><td>Nachteil auf Fähigkeitenproben</td></tr><tr><td>2</td><td></td><td></td><td>Geschwindigkeit halbiert</td></tr><tr><td>3</td><td></td><td></td><td>Nachteil auf Angriffe und Rettungswürfe</td></tr><tr><td>4</td><td></td><td></td><td>Trefferpunkte-Maximum halbiert</td></tr><tr><td>5</td><td></td><td></td><td>Geschwindigkeit auf 0 reduziert</td></tr><tr><td>6</td><td></td><td></td><td>Tod</td></tr></table>",
-            "Du erleidest den Effekt deiner aktuelle Erschöpfungsstufe, sowie aller niedrigeren Stufen.",
-            "Eine lange Rast zu beenden reduziert deine Erschöpfungsstufe um 1, vorausgesetzt du hattest zu essen und zu trinken.",
-			"Von den Toten erweckt zu werden, reduziert deine Erschöpfungsstufe um 1."
+            "<em><strong>Erschöpfungsstufen.</strong></em> Dieser Zustand ist kumulativ. Jedes Mal, wenn du ihn erhältst, erhältst du 1 Erschöpfungsstufe. Du stirbst, wenn deine Erschöpfungsstufe 6 beträgt.",
+	    "<em><strong>W20 Würfe Betroffen.</strong></em> Wenn du einen W20 Test würfelst, wird der Wurf um 2 reduziert pro Erschöpfungsstufe",
+	    "<em><strong>Geschwindigkeit Reduziert.</strong></em> Deine Geschwindigkeit ist um eine Anzahl an Metern reduziert gleich 1,5 mal deiner Erschöpfungsstufe",
+	    "<em><strong>Erschöpfungsstufen Entfernen.</strong></em> Wenn du eine Lange Rast beendest, wird 1 Erschöpfungsstufe entfernt. Wenn deine Erschöpfungsstufe 0 erreicht, endet der Zustand.",
         ]
     },
     {
@@ -180,31 +180,26 @@ data_condition = [
         ]
     },
     {
-        title: "Konzentration (WIP)",
+        title: "Konzentration",
         icon: "konzentration",
-        subtitle: "Blaaaa",
-        description: "Du bist bewusstlos",
-        reference: "PHB, Seite 290.",
+        subtitle: "Du konzentrierst dich",
+        description: " ",
+        reference: "PHB 2024",
         bullets: [
-            "Du bist <i>kampfunfähig</i>, kannst dich nicht bewegen und nimmst deine Umgebung nicht wahr.",
-            "Du lässt fallen was du in Händen hältst und fällst hin.",
-            "Angriffe gegen dich sind im Vorteil.",
-			"Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
-            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "Einige Zauber und andere Effekte erfordern Konzentration, um aktiv zu bleiben, wie in ihren Beschreibungen angegeben. Wenn der Zaubernde des Effekts die Konzentration verliert, endet der Effekt. Wenn der Effekt eine maximale Dauer hat, gibt die Beschreibung des Effekts an, wie lange sich der Zaubernde darauf konzentrieren kann: bis zu 1 Minute, 1 Stunde oder eine andere Dauer. Der Zaubernde kann die Konzentration jederzeit beenden (keine Aktion erforderlich). Die Konzentration wird durch die folgenden Faktoren unterbrochen.",
+            "<em><strong>Ein anderer Konzentrationseffekt.</em></strong> Du verlierst die Konzentration auf einen Effekt in dem Moment, in dem du einen Zauber wirkst, der Konzentration erfordert, oder einen anderen Effekt aktivierst, der Konzentration erfordert.",
+            "<em><strong>Schaden.</em></strong> Wenn du Schaden nimmst, musst du einen Konstitutionsrettungswurf bestehen, um die Konzentration aufrechtzuerhalten. Der SG entspricht 10 oder der Hälfte des erlittenen Schadens (abgerundet), je nachdem, welche Zahl höher ist, bis zu einem maximalen SG von 30.",
+	    "<em><strong>Kampfunfähig oder Tot.</em></strong> Deine Konzentration endet, wenn du den Zustand <i>Kampfunfähig</i> erhältst oder stirbst.",
         ]
     },
     {
-        title: "Stabilisiert (WIP)",
+        title: "Stabilisiert",
         icon: "stabil",
-        subtitle: "Blaaaa",
-        description: "Du bist bewusstlos",
-        reference: "PHB, Seite 290.",
+        subtitle: "Du bist Stabil",
+        description: " ",
+        reference: "PHB 2024",
         bullets: [
-            "Du bist <i>kampfunfähig</i>, kannst dich nicht bewegen und nimmst deine Umgebung nicht wahr.",
-            "Du lässt fallen was du in Händen hältst und fällst hin.",
-            "Angriffe gegen dich sind im Vorteil.",
-			"Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
-            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "Eine Kreatur ist stabil wenn sie 0 Trefferpunkte hat, aber keine Todesrettungswürfe werfen muss.",
         ]
     },
     {
