@@ -4,11 +4,11 @@ data_condition = [
         icon: "betaeubt",
         subtitle: "Du bist betäubt",
         description: "Du bist betäubt",
-        reference: "PHB, Seite 290.",
+        reference: "PHB 2024",
         bullets: [
-            "Du bist <i>Kampfunfähig</i>, kannst dich nicht bewegen und nur stammelnd reden.",
-			"Angriffe gegen dich sind im Vorteil.",
-            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "<em><strong>Kampfunfähig.</strong></em> Du hast den <i>Kampfunfähig</i> Zustand.",
+	    "<em><strong>Rettungswürfe Betroffen.</strong></em> Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+	    "<em><strong>Angriffe Betroffen</strong></em> Angriffswürfe gegen dich sind im Vorteil.",     
         ]
     },
     {
