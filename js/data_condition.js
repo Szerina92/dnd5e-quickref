@@ -1,14 +1,28 @@
 data_condition = [
-    {
-        title: "Blind",
-        icon: "sight-disabled",
-        subtitle: "Du kannst nicht sehen",
-        description: "Du kannst nicht sehen",
+   {
+        title: "Betäubt",
+        icon: "internal-injury",
+        subtitle: "Du bist betäubt",
+        description: "Du bist betäubt",
         reference: "PHB, Seite 290.",
         bullets: [
-            "Du verlierst Fähigkeitenproben die Sicht benötigen automatisch.",
-			"Du hast Nachteil auf Angriffswürfe.",
-            "Angriffswürfe gegen dich haben Vorteil.",
+            "Du bist <i>Kampfunfähig</i>, kannst dich nicht bewegen und nur stammelnd reden.",
+			"Angriffe gegen dich sind im Vorteil.",
+            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+        ]
+    },
+    {
+        title: "Bewusstlos",
+        icon: "coma",
+        subtitle: "Du bist bewusstlos",
+        description: "Du bist bewusstlos",
+        reference: "PHB, Seite 290.",
+        bullets: [
+            "Du bist <i>kampfunfähig</i>, kannst dich nicht bewegen und nimmst deine Umgebung nicht wahr.",
+            "Du lässt fallen was du in Händen hältst und fällst hin.",
+            "Angriffe gegen dich sind im Vorteil.",
+			"Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
+            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
         ]
     },
     {
@@ -23,13 +37,15 @@ data_condition = [
         ]
     },
     {
-        title: "Taub",
-        icon: "elf-ear",
-        subtitle: "Du kannst nicht hören",
-        description: "Du kannst nicht hören",
-        reference: "PHB, Seite 292.",
+        title: "Blind",
+        icon: "sight-disabled",
+        subtitle: "Du kannst nicht sehen",
+        description: "Du kannst nicht sehen",
+        reference: "PHB, Seite 290.",
         bullets: [
-            "Du verlierst Fähigkeitenproben die Hören benötigen automatisch.",
+            "Du verlierst Fähigkeitenproben die Sicht benötigen automatisch.",
+			"Du hast Nachteil auf Angriffswürfe.",
+            "Angriffswürfe gegen dich haben Vorteil.",
         ]
     },
     {
@@ -46,14 +62,29 @@ data_condition = [
         ]
     },
     {
-        title: "Verängstigt",
-        icon: "sharp-smile",
-        subtitle: "Du hast Angst",
-        description: "Du hast Angst",
-        reference: "PHB, Seite 292.",
+        title: "Festgesetzt",
+        icon: "imprisoned",
+        subtitle: "Du bist festgesetzt",
+        description: "Du bist festgesetzt",
+        reference: "PHB, Seite 290.",
         bullets: [
-            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil, solange die Quelle deiner Angst für dich sichtbar ist.",
-			"Du kannst dich nicht willentlich der Quelle deiner Angst nähern.",
+            "Deine Geschwindigkeit ist 0 und du kannst nicht von Bonus auf deine Geschwindigkeit profitieren.",
+            "Du bist bei Angriffen im Nachteil.",
+            "Angriffe gegen dich sind im Vorteil.",
+            "Du bist bei Rettungswürfen auf Geschicklichkeit im Nachteil."
+        ]
+    },
+    {
+        title: "Gelähmt",
+        icon: "internal-injury",
+        subtitle: "Du bist gelähmt",
+        description: "Du kannst nichts tun",
+		reference: "PHB, Seite 291.",
+        bullets: [
+            "Du bist <i>kampfunfähig</i> und kannst dich weder bewegen noch sprechen.",
+			"Angriffswürfe gegen dich sind im Vorteil.",
+            "Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
+            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
         ]
     },
     {
@@ -78,6 +109,28 @@ data_condition = [
         ]
     },
     {
+        title: "Liegend",
+        icon: "crawl",
+        subtitle: "Du liegst",
+        description: "Du liegst",
+        reference: "PHB, Seite 291.",
+        bullets: [
+            "Deine einzige Bewegungsoption ist <i>Kriechen</i>, wenn du nicht aufstehst.",
+			"Du bist bei Angriffen im Nachteil.",
+			"Angriffe gegen dich sind im Vorteil, wenn der Angreifer innerhalb von 5 Fuß von dir ist, anderenfalls sind sie im Nachteil."
+        ]
+    },
+    {
+        title: "Taub",
+        icon: "hearing-disabled",
+        subtitle: "Du kannst nicht hören",
+        description: "Du kannst nicht hören",
+        reference: "PHB, Seite 292.",
+        bullets: [
+            "Du verlierst Fähigkeitenproben die Hören benötigen automatisch.",
+        ]
+    },
+    {
         title: "Unsichtbar",
         icon: "invisible",
         subtitle: "Du wirst nicht gesehen",
@@ -91,16 +144,24 @@ data_condition = [
         ]
     },
     {
-        title: "Gelähmt",
-        icon: "internal-injury",
-        subtitle: "Du bist gelähmt",
-        description: "Du kannst nichts tun",
-		reference: "PHB, Seite 291.",
+        title: "Verängstigt",
+        icon: "sharp-smile",
+        subtitle: "Du hast Angst",
+        description: "Du hast Angst",
+        reference: "PHB, Seite 292.",
         bullets: [
-            "Du bist <i>kampfunfähig</i> und kannst dich weder bewegen noch sprechen.",
-			"Angriffswürfe gegen dich sind im Vorteil.",
-            "Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
-            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil, solange die Quelle deiner Angst für dich sichtbar ist.",
+			"Du kannst dich nicht willentlich der Quelle deiner Angst nähern.",
+        ]
+    },
+    {
+        title: "Vergiftet",
+        icon: "deathcab",
+        subtitle: "Du bist vergiftet",
+        description: "Du bist vergiftet",
+        reference: "PHB, Seite 292.",
+        bullets: [
+            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil.",
         ]
     },
     {
@@ -119,56 +180,9 @@ data_condition = [
         ]
     },
     {
-        title: "Vergiftet",
-        icon: "deathcab",
-        subtitle: "Du bist vergiftet",
-        description: "Du bist vergiftet",
-        reference: "PHB, Seite 292.",
-        bullets: [
-            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil.",
-        ]
-    },
-    {
-        title: "Liegend",
-        icon: "crawl",
-        subtitle: "Du liegst",
-        description: "Du liegst",
-        reference: "PHB, Seite 291.",
-        bullets: [
-            "Deine einzige Bewegungsoption ist <i>Kriechen</i>, wenn du nicht aufstehst.",
-			"Du bist bei Angriffen im Nachteil.",
-			"Angriffe gegen dich sind im Vorteil, wenn der Angreifer innerhalb von 5 Fuß von dir ist, anderenfalls sind sie im Nachteil."
-        ]
-    },
-    {
-        title: "Festgesetzt",
-        icon: "imprisoned",
-        subtitle: "Du bist festgesetzt",
-        description: "Du bist festgesetzt",
-        reference: "PHB, Seite 290.",
-        bullets: [
-            "Deine Geschwindigkeit ist 0 und du kannst nicht von Bonus auf deine Geschwindigkeit profitieren.",
-            "Du bist bei Angriffen im Nachteil.",
-            "Angriffe gegen dich sind im Vorteil.",
-            "Du bist bei Rettungswürfen auf Geschicklichkeit im Nachteil."
-        ]
-    },
-    {
-        title: "Betäubt",
-        icon: "internal-injury",
-        subtitle: "Du bist betäubt",
-        description: "Du bist betäubt",
-        reference: "PHB, Seite 290.",
-        bullets: [
-            "Du bist <i>kampfunfähig</i>, kannst dich nicht bewegen und nur stammelnd reden.",
-			"Angriffe gegen dich sind im Vorteil.",
-            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
-        ]
-    },
-    {
-        title: "Bewusstlos",
-        icon: "coma",
-        subtitle: "Du bist bewusstlos",
+        title: "Konzentration (WIP)",
+        icon: "concentration-orb",
+        subtitle: "Blaaaa",
         description: "Du bist bewusstlos",
         reference: "PHB, Seite 290.",
         bullets: [
@@ -180,7 +194,7 @@ data_condition = [
         ]
     },
     {
-        title: "Konzentration",
+        title: "Stabilisiert (WIP)",
         icon: "concentration-orb",
         subtitle: "Blaaaa",
         description: "Du bist bewusstlos",
