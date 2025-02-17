@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>D&D 5e quick reference</title>
+    <title>D3: D&D 5e Schnellreferenz</title>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/quickref.css">
     <link rel="stylesheet" type="text/css" href="css/icons.css">
@@ -12,18 +12,47 @@
     <link href='https://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
     <!-- Javascript -->
     <script type="text/javascript" src="js/jquery/jquery.min.js" charset="utf-8"></script>
+	<style>
+		footer {
+			text-align:center;
+			font-family:'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+			background-image:url(https://www.dnddeutsch.de/wp-content/uploads/2018/05/d3_full_transparent_small.png);background-repeat:no-repeat; 
+			background-position:right; 
+			height:110px; 
+			padding-top:40px
+		}
+		footer a {
+			color:black;
+		}
+		@media only screen and (max-width: 600px) {
+			footer {
+				background-position:center top;
+				margin-top:20px;
+				padding-top:140px;
+			}
+		}
+		@media print {
+			footer {
+				background-position:center top;
+				margin-top:40px;
+				padding-top:140px;
+			}
+			.noprint {
+			    display:none;
+			}
+		}
+	</style>
 </head>
 <body class="page-background">
     <div class="page fontsize" data-size="fullscreen">
-
         <!-- Movement section -->
         <div id="section-movement" class="section-container">
             <div class="section-title">
-                Movement <span class="float-right">limited by movement speed</span>
+                Bewegung <span class="float-right">limitiert durch Bewegungsrate</span>
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    You can move at any time during your turn (before, after, or during actions).
+                    Du kannst dich w&auml;hrend deines Zugs jederzeit bewegen (d.h. vor, nach oder w&auml;hrend anderer Aktionen).
                 </div>
                 <div class="section-row" id="basic-movement">
                 </div>
@@ -33,12 +62,11 @@
         <!-- Action section -->
         <div id="section-action" class="section-container">
             <div class="section-title">
-                Action <span class="float-right">1/turn</span>
+                Aktion <span class="float-right">1/Zug</span>
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    You can also interact with one object or feature of the
-                    environment for free.
+                    Neben deiner Aktion kannst du kostenlos mit einem Objekt oder der Umgebung interagieren.
                 </div>
                 <div class="section-row" id="basic-actions"></div>
             </div>
@@ -47,12 +75,11 @@
         <!-- Bonus action section -->
         <div id="section-bonus-action" class="section-container">
             <div class="section-title">
-                Bonus action <span class="float-right">max. 1/turn</span>
+                Bonusaktion <span class="float-right">max. 1/Zug</span>
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    You can take a bonus action only when a special ability, spell, or feature
-                    states that you can do something as a bonus action.
+                    Eine Bonusaktion kannst du nur dann ausf&uuml;hren, wenn eine F&auml;higkeit, ein Zauber oder Merkmal angibt, dass du etwas als Bonusaktion tun kannst.
                 </div>
                 <div class="section-row" id="basic-bonus-actions"></div>
             </div>
@@ -61,12 +88,11 @@
         <!-- Reaction section -->
         <div id="section-reaction" class="section-container">
             <div class="section-title">
-                Reaction <span class="float-right">max. 1/round</span>
+                Reaktion <span class="float-right">max. 1/Runde</span>
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    A reaction is an instant response to a trigger of some kind, which
-                    can occur on your turn or on someone else's.
+                    Eine Reaktion ist eine sofortige Erwiderung auf einen Auslöser, der in deinem Zug oder im Zug einer anderen Kreatur passiert.
                 </div>
                 <div class="section-row" id="basic-reactions"></div>
             </div>
@@ -75,11 +101,11 @@
         <!-- Condition section -->
         <div id="section-condition" class="section-container">
             <div class="section-title">
-                Condition
+                Zust&auml;nde
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect.
+                    Zust&auml;nde ver&auml;ndern deine F&auml;higkeiten auf verschiedene Weisen und k&ouml;nnen das Ergebnis eines Zaubers, Merkmals, des Angriffs eines Monsters oder eines anderen Effektes sein.
                 </div>
                 <div class="section-row" id="basic-conditions"></div>
             </div>
@@ -88,28 +114,32 @@
         <!-- Environmental section -->
         <div id="section-environment" class="section-container">
             <div class="section-title">
-                Environmental Effects
+                Umgebungseffekte
             </div>
             <div class="section-content">
                 <div class="section-row section-subtitle text fontsize">
-                    Effects that obscure vision can prove a significant hindrance to most adventuring tasks.
+                    Effekte, die die Sicht beeintr&auml;chtigen, k&ouml;nnen sich als erhebliche Hindernisse f&uuml;r viele Aufgaben heraus stellen.
                 </div>
                 <div class="section-row" id="environment-obscurance"></div>
                 <div class="section-row section-subtitle text fontsize">
-                    The presence or absence of light in an environment creates three categories of illumination.
+                    Das Vorhandensein oder Fehlen von Licht in der Umgebung führt zu drei Kategorien von Beleuchtung.
                 </div>
                 <div class="section-row" id="environment-light"></div>
                 <div class="section-row section-subtitle text fontsize">
-                    Some creatures have extraordinary senses that allow them to perceive their environment.
+                    Manche Kreaturen haben au&szlig;ergew&ouml;hnliche Sinne mit denen sie ihre Umgebung wahrnehmen.
                 </div>
                 <div class="section-row" id="environment-vision"></div>
                 <div class="section-row section-subtitle text fontsize">
-                    Obstacles can provide cover during combat, making a target more difficult to harm.
+                    Hindernisse k&ouml;nnen im Kampf Deckung geben, da sie es schwieriger machen ein Ziel zu treffen.
                 </div>
                 <div class="section-row" id="environment-cover"></div>
             </div>
         </div>
-
+		<footer>
+			D&D 5e Schnellreferenz von <a href="https://www.dnddeutsch.de">D3: Dungeons & Dragons auf Deutsch</a><br>
+			basiert auf <a href="https://crobi.github.io/dnd5e-quickref/">D&D 5e quick reference</a> von <a href="https://github.com/crobi">crobi</a><br>
+			<span class="noprint"><a href="https://pifco.org/quickref.html">Deutsch & Englisch kombiniert bei Kanzeley PIF & Co</a></span>
+		</footer>
     </div>
 
     <!-- Modal -->
