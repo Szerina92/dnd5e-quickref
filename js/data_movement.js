@@ -2,8 +2,8 @@ data_movement = [
     {
         title: "Bewegen",
         icon: "run",
-        subtitle: "Kosten: 5ft pro 5ft",
-        description: "Bewegungskosten: 5ft Bewegung pro 5ft Strecke",
+        subtitle: "Kosten: 1,5m pro 1,5m",
+        description: "Bewegungskosten: 1,5m Bewegung pro 1,5m Strecke",
         reference: "PHB, Seite 190.",
         bullets: [
             "Wenn du mehr als eine Bewegungsrate hast, so wie deine herkömmliche und eine Flugbewegungsrate, kannst du während deiner Bewegung zwischen ihnen hin und her wechseln. Wann immer du wechselst, zieh die Gesamtdistanz, die du dich bisher bewegt hast, von der aktiven Bewegungsrate ab",
@@ -16,8 +16,8 @@ data_movement = [
     {
         title: "Klettern",
         icon: "crags",
-        subtitle: "Kosten: 10ft pro 5ft",
-        description: "Bewegungskosten: 10ft Bewegung pro 5ft Strecke",
+        subtitle: "Kosten: 3m pro 1,5m",
+        description: "Bewegungskosten: 3m Bewegung pro 1,5m Strecke",
         reference: "PHB, Seite 182.",
         bullets: [
             "Kann eine Probe auf Stärke (Athletik) beinhalten, wenn die Strecke schwierig zu klettern ist"
@@ -26,8 +26,8 @@ data_movement = [
     {
         title: "Schwimmen",
         icon: "at-sea",
-        subtitle: "Kosten: 10ft pro 5ft",
-        description: "Bewegungskosten: 10ft Bewegung pro 5ft Strecke",
+        subtitle: "Kosten: 3m pro 1,5m",
+        description: "Bewegungskosten: 3m Bewegung pro 1,5m Strecke",
         reference: "PHB, Seite 182.",
         bullets: [
             "Kann eine Probe auf Stärke (Athletik) beinhalten, wenn die Strecke schwierig zu schwimmen ist"
@@ -37,7 +37,7 @@ data_movement = [
         title: "Fallen",
         icon: "falling",
         subtitle: "Kostenlos",
-        description: "Bewegungskosten: 0ft (kostenlos)",
+        description: "Bewegungskosten: 0m (kostenlos)",
         reference: "PHB, Seiten 190-191,291.",
         bullets: [
             "Du kannst fallen oder dich absichtlich zu Boden werfen ohne deine Bewegungsrate aufzubrauchen",
@@ -48,8 +48,8 @@ data_movement = [
     {
         title: "Kriechen",
         icon: "crawl",
-        subtitle: "Kosten: 10ft pro 5ft",
-        description: "Bewegungskosten: 10ft Bewegung pro 5ft Strecke",
+        subtitle: "Kosten: 3m pro 1,5m",
+        description: "Bewegungskosten: 3m Bewegung pro 1,5m Strecke",
         reference: "PHB, Seite 182.",
         bullets: [
 
@@ -68,12 +68,12 @@ data_movement = [
     {
         title: "Hochsprung",
         icon: "wingfoot",
-        subtitle: "Höhe: (3 + STR) ft",
-        description: "Bewegungskosten: 5ft Bewegung pro 5ft Strecke",
+        subtitle: "Höhe: (3 + STR) * 0,30m",
+        description: "Bewegungskosten: 1,5m Bewegung pro 1,5m Strecke",
         
         reference: "PHB, Seite 182.",
         bullets: [
-            "Du springst eine Distanz in die Höhe, die <b>(3 + deinen Stärkemodifikator)</b> in Fuß entspricht, wenn du dich direkt vor dem Sprung mindestens 10 Fuß bewegt hast.",
+            "Du springst eine Distanz in die Höhe, die <b>(3 + deinen Stärkemodifikator) * 0,30</b> in Meter entspricht, wenn du dich direkt vor dem Sprung mindestens 3m bewegt hast.",
 			"Ohne Anlauf springst du halb so hoch",
             "Während dem Sprung kannst du deine Arme um die Hälfte deiner Körpergröße ausstrecken",
             "Unter Umständen erlaubt dein DM eine Probe auf Stärke (Athletik) um höher zu springen, als es normalerweise möglich wäre."
@@ -82,14 +82,14 @@ data_movement = [
     {
         title: "Weitsprung",
         icon: "wingfoot",
-        subtitle: "Weite: Stärke ft",
-        description: "Bewegungskosten: 5ft Bewegung pro 5ft Strecke",
+        subtitle: "Weite: Stärke * 0,30m",
+        description: "Bewegungskosten: 1,5m Bewegung pro 1,5m Strecke",
         reference: "PHB, Seite 182.",
         bullets: [
-            "Du springst eine Distanz weit, die deinem <b>(Stärkewert)</b> in Fuß entspricht, wenn du dich direkt vor dem Sprung mindestens 10 Fuß bewegt hast.",
+            "Du springst eine Distanz weit, die deinem <b>(Stärkewert) * 0,30</b> in Meter entspricht, wenn du dich direkt vor dem Sprung mindestens 3 Meter bewegt hast.",
 			"Ohne Anlauf springst du halb so weit",
-			"Kann eine Probe auf Stärke (Athletik) gegen HG 10 beinhalten, um ein niederes Hindernis (nicht höher als ein Viertel der Sprungdistanz) zu überspringen. Du triffst das Hindernis bei einer fehlgeschlagenen Probe.",
-            "Kann eine Probe auf Geschicklichkeit (Akrobatik) gegen HG 10 beinhalten, um in schwierigem Gelände auf den Füßen zu landen. Du erhältst den Zustand <i>Liegend</i> bei einer fehlgeschlagenen Probe.",
+			"Kann eine Probe auf Stärke (Athletik) gegen SG 10 beinhalten, um ein niederes Hindernis (nicht höher als ein Viertel der Sprungdistanz) zu überspringen. Du triffst das Hindernis bei einer fehlgeschlagenen Probe.",
+            "Kann eine Probe auf Geschicklichkeit (Akrobatik) gegen SG 10 beinhalten, um in schwierigem Gelände auf den Füßen zu landen. Du erhältst den Zustand <i>Liegend</i> bei einer fehlgeschlagenen Probe.",
         ]
     },
     {
@@ -104,11 +104,11 @@ data_movement = [
     {
         title: "Schwieriges Gelände",
         icon: "stone-pile",
-        subtitle: "Kosten: +5ft pro 5ft",
+        subtitle: "Kosten: 3m pro 1,5m",
         reference: "PHB, Seite 182.",
-        description: "Bewegungskosten: Zusätzlich +5ft Bewegung pro 5ft Strecke",
+        description: "Bewegungskosten: Zusätzlich 1,5 Bewegung pro 1,5m Strecke",
         bullets: [
-			"Bewegung in schwierigem Gelände kostet zusätzlich 5ft Bewegung pro 5ft zurück gelegter Strecke",
+			"Bewegung in schwierigem Gelände kostet zusätzlich 1,5m Bewegung pro 1,5m zurück gelegter Strecke",
 			"Das gilt unabhängig von anderen Änderungen der Bewegungskosten",
         ]
     },
