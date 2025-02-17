@@ -54,12 +54,9 @@ data_action = [
         description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Aktion oder länger",
         reference: "PHB, Seiten 193,202.",
         bullets: [
-            "Du kannst mit deiner Aktion keinen Zauberspruch wirken, während du gleichzeitig einen anderen Zauberspruch mit deiner Bonusaktion wirkst, es sei denn, die Aktion wird für einen Zaubertrick verwendet.",
-			"Das Ziel eines Zauberspruchs muss innerhalb der Reichweite des Zauberspruchs sein. Um zu zielen muss der Pfad zwischen dir und dem Ziel frei sein, d.h. das Ziel darf nicht hinter voller Deckung sein.",
-			"Zaubersprüche mit Material-Komponenten verbrauchen das Material nicht, sofern dies nicht explizit angegeben ist. Wenn keine Kosten für das Material angegeben sind, kannst du annehmen, dass die Kosten vernachlässigbar sind und dass das Material in deiner Komponententasche verfügbar ist.",
-            "Manche Zaubersprüche erfordern, dass du Konzentration aufrecht erhältst um ihre Magie aktiv zu halten. Wenn du die Konzentration verlierst, endet ein solcher Zauberspruch. Du verlierst die Konzentration, wenn du einen anderen Spruch wirkst, der ebenfalls Konzentration erfordert, oder wenn du kampfunfähig bist. Jedes Mal, wenn du Schaden nimmst, musst du eine Probe auf Konstitution werfen. Der Herausforderungsgrad entspricht 10 oder der Hälfte des Schadens, den du nimmst, je nachdem was höher ist.",
-			"Zaubersprüche mit einer Zauberzeit von mehr als 1 Aktion müssen über mehrere Runden gezaubert werden, bis die Zauberzeit erreicht ist. Dazu wendest du in jeder Runde deine Aktion auf. Während dieser Zeit musst du Konzentration aufrecht erhalten. Schaffst du es nicht die Konzentration zu halten, bricht der Zauber ab, aber es wird kein Zauberplatz verbraucht."
-        ]
+            "When you take the Magic action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated.",
+	    "<em><strong>One Spell with a Spell Slot per Turn.</em></strong> On a turn, you can expend only one spell slot to cast a spell. This rule means you can’t, for example, cast a spell with a spell slot using the Magic action and another one using a Bonus Action on the same turn.",
+	    "<em><strong>Longer Casting Times.</em></strong> Certain spells—including a spell cast as a Ritual—require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or more, you must take the Magic action on each of your turns, and you must maintain Concentration (Siehe Konzentration) while you do so. If your Concentration is broken, the spell fails, but you don’t expend a spell slot. To cast the spell again, you must start over.",
     },
     {
         title: "Spurt",
@@ -117,7 +114,7 @@ data_action = [
         ]
     },
     {
-        title: "Verstecken",
+        title: "Verstecken (WIP)",
         icon: "hood",
         subtitle: "Heimlichkeit vs. Wahrnehmung",
         description: "Versuche dich zu verstecken",
@@ -142,7 +139,7 @@ data_action = [
         ]
     },
     {
-        title: "Vorbereiten",
+        title: "Vorbereiten (WIP)",
         icon: "stopwatch",
         subtitle: "Wähle Auslöser und Aktion",
         description: "Wähle einen Auslöser und deine darauf folgende Aktion",
@@ -180,7 +177,7 @@ data_action = [
         icon: "juggler",
         subtitle: "Jede andere Aktion",
         description: "Vollführe jede Aktion, die du dir vorstellen kannst",
-        reference: "PHB, Seite 193.",
+        reference: "",
         bullets: [
             "Wenn du eine Aktion beschreibst, die nicht in den Regeln beschrieben wird, teilt der DM dir mit ob sie möglich ist und was du gegebenenfalls dafür würfeln musst um heraus zu finden ob du erfolgreich bist."
         ]
