@@ -178,8 +178,8 @@ data_environment_hazards = [
     {
         title: "Mangelernährung",
         icon: "mangelernaehrung",
-        subtitle: "Die meisten Kreaturen brauchen Nahrung",
-        description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
+        subtitle: "Fehlende Nahrung",
+        description: "Die meisten Kreaturen brauchen Nahrung",
         reference: "PHB 2024",
         bullets: [
             "A creature needs an amount of food per day based on its size, as shown in the Food Needs per Day table. A creature that eats but consumes less than half the required food for a day must succeed on a DC 10 Constitution saving throw or gain 1 Exhaustion level at the day’s end. A creature that eats nothing for 5 days automatically gains 1 Exhaustion level at the end of the fifth day as well as an additional level at the end of each subsequent day without food.",
