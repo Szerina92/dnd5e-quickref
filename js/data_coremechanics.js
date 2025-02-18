@@ -1,5 +1,18 @@
 data_coremechanics = [
    {
+        title: "Würfel",
+        icon: "dice",
+        subtitle: "Würfel und ihre Werte",
+        description: "Jeder Würfelt spielt eine bestimmte Rolle",
+        reference: "PHB 2024",
+        bullets: [
+            "<strong>W20: Würfeln für Angriffe, Rettungswürfe und Attributswürfe.</strong>",
+	    "Der 20-seitige Würfel (W20) ist der wichtigste Würfel, den du im Spiel verwenden wirst. Er ist von zentraler Bedeutung für die Kernmechanik – die sogenannten W20-Prüfungen –, mit der das Spiel bestimmt, ob Kreaturen bei den Dingen, die sie während des Spiels versuchen, Erfolg haben oder scheitern. Du würfelst einen W20, wenn dein Charakter versucht, etwas zu tun, bei dem der Spielleiter entscheidet, dass es sowohl Erfolg als auch Misserfolg haben kann. Je höher dein Wurf, desto wahrscheinlicher ist es, dass du Erfolg hast.",
+	    "<strong>W4, W6, W8, W10, W12: Benutzt für Waffenschaden, Heilung und andere Effekte.</strong>",
+	    "Wenn du einen erfolgreichen Angriffswurf machst, würfelst du Schaden, um zu sehen, wie effektiv der Angriff ist. Wenn du einen Zauber wirkst, kannst du auch Schaden würfeln. Verschiedene Waffen und Zauber verwenden unterschiedliche Würfel für den Schaden."	
+        ]
+    },	
+   {
         title: "Deckung",
         icon: "shield",
         subtitle: "Mauern, Bäume und Kreaturen",
