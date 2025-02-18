@@ -19,7 +19,7 @@ data_bonusaction = [
         description: "Wirke einen Zauber mit einer Zauberzeit von 1 Bonusaktion",
         reference: "PHB 2024",
         bullets: [
-            "Some spells that have a casting time of a Bonus Action are also cast in response to a trigger defindet in the spell",
+            "Einige Zauber, die eine Zauberzeit von 1 Bonusaktion haben, werden als Antwort auf einen Auslöser gewirkt, der im Zauberspruch definiert ist.",
             "Für Details siehe die <i>Magie</i> Aktion."
         ]
     },
@@ -30,7 +30,7 @@ data_bonusaction = [
         description: "Tränke sind Verbrauchsgegenstände",
         reference: "PHB 2024",
         bullets: [
-		"Drinking a potion or administering it to another creature requires a Bonus Action. Applying an oil might take longer as specified in its description. Once used, a potion takes effect immediately, and its used up."
+		"Das Trinken eines Tranks oder das Verabreichen an eine andere Kreatur erfordert eine Bonusaktion. Das Auftragen eines Öls kann länger dauern, wie in der Beschreibung angegeben. Sobald ein Trank verwendet wurde, wirkt er sofort und ist verbraucht."
         ]
     },	
     {
