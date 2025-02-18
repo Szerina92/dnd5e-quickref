@@ -13,16 +13,6 @@ data_reaction = [
         ]
     },
     {
-        title: "Vorbereitete Aktion",
-        icon: "stopwatch",
-        subtitle: "Löse Aktion aus",
-        description: "Führe die Aktion aus, die du in deiner Vorbereiten-Aktion festgelegt hast",
-        reference: "PHB, Seiten 192-193.",
-        bullets: [
-            "Auslöser: in deiner <i>Vorbereiten</i>-Aktion festgelegt"
-        ]
-    },
-    {
         title: "Magie",
         icon: "magic-swirl",
         subtitle: "Zauberzeit: 1 Reaktion",
@@ -34,9 +24,19 @@ data_reaction = [
         ]
     },
     {
+        title: "Vorbereitete Aktion",
+        icon: "stopwatch",
+        subtitle: "Löse Aktion aus",
+        description: "Führe die Aktion aus, die du in deiner Vorbereiten Aktion festgelegt hast",
+        reference: "PHB",
+        bullets: [
+            "Auslöser: in deiner <i>Vorbereiten</i> Aktion festgelegt"
+        ]
+    },
+    {
         title: "Nutze ein Merkmal",
         icon: "embrassed-energy",
-        subtitle: "Speies-/Klassenmerkmal",
+        subtitle: "Spezies-/Klassenmerkmal",
         description: "Nutze ein Spezies- oder Klassenmerkmal, das eine Reaktion verbraucht",
         reference: "Siehe die Beschreibung des Merkmals",
         bullets: [
