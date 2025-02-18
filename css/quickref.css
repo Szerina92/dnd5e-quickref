@@ -166,6 +166,13 @@
     color: ForestGreen;
 }
 
+#section-coremechanics, #section-coremechanics .item-icon {
+    background-color: Chocolate;
+    border-color: Chocolate;
+}
+#section-environment .text {
+    color: Chocolate;
+}
 
 /* ------------------------------------------------------------------------- */
 /* Page container */
