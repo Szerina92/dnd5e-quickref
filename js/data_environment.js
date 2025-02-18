@@ -142,6 +142,6 @@ data_environment_cover = [
     }
 ]
 
-data_environment_cover = [
+data_environment_hazards = [
 
 ]
