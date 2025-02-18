@@ -182,6 +182,16 @@ data_condition = [
         ]
     },
     {
+        title: "Blutig",
+        icon: "blutig",
+        subtitle: "Du bist verwundet",
+        description: "Wunden zieren deinen Körper und du blutest",
+        reference: "PHB 2024",
+        bullets: [
+            "Eine Kreatur ist blutig, wenn sie noch die Hälfte ihrer Trefferpunkte oder weniger übrig hat.",
+        ]
+    },
+    {
         title: "Konzentration",
         icon: "konzentration",
         subtitle: "Du konzentrierst dich",
@@ -191,7 +201,7 @@ data_condition = [
             "Einige Zauber und andere Effekte erfordern Konzentration, um aktiv zu bleiben, wie in ihren Beschreibungen angegeben. Wenn der Zaubernde des Effekts die Konzentration verliert, endet der Effekt. Wenn der Effekt eine maximale Dauer hat, gibt die Beschreibung des Effekts an, wie lange sich der Zaubernde darauf konzentrieren kann: bis zu 1 Minute, 1 Stunde oder eine andere Dauer. Der Zaubernde kann die Konzentration jederzeit beenden (keine Aktion erforderlich). Die Konzentration wird durch die folgenden Faktoren unterbrochen.",
             "<em><strong>Ein anderer Konzentrationseffekt.</em></strong> Du verlierst die Konzentration auf einen Effekt in dem Moment, in dem du einen Zauber wirkst, der Konzentration erfordert, oder einen anderen Effekt aktivierst, der Konzentration erfordert.",
             "<em><strong>Schaden.</em></strong> Wenn du Schaden nimmst, musst du einen Konstitutionsrettungswurf bestehen, um die Konzentration aufrechtzuerhalten. Der SG entspricht 10 oder der Hälfte des erlittenen Schadens (abgerundet), je nachdem, welche Zahl höher ist, bis zu einem maximalen SG von 30.",
-	    "<em><strong>Kampfunfähig oder Tot.</em></strong> Deine Konzentration endet, wenn du den Zustand <i>Kampfunfähig</i> erhältst oder stirbst.",
+	    "<em><strong>Kampfunfähig oder Tot.</em></strong> Deine Konzentration endet, wenn du den Zustand <i>Kampfunfähig</i> erhältst oder stirbst."
         ]
     },
     {
