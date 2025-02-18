@@ -172,7 +172,7 @@ data_action = [
     },
     {
         title: "Beeinflussen",
-        icon: "talk",
+        icon: "beeinflussen",
         subtitle: "Fordere jemanden auf",
         description: "Fordere ein Monster auf, etwas zu tun.",
         reference: "PHB 2024",
@@ -186,7 +186,7 @@ data_action = [
     },
     {
         title: "Studieren",
-        icon: "book",
+        icon: "studieren",
         subtitle: "Führe Intelligenzwürfe durch",
         description: "Greife auf Informationen zurück",
         reference: "PHB 2024",
@@ -198,7 +198,7 @@ data_action = [
     },
     {
         title: "Nutzen",
-        icon: "object",
+        icon: "nutzen",
         subtitle: "Interagiere mit Objekten",
         description: "Verwende einen nicht magischen Gegenstand.",
         reference: "PHB 2024",
