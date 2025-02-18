@@ -143,5 +143,64 @@ data_environment_cover = [
 ]
 
 data_environment_hazards = [
-
+  {
+        title: "Burning",
+        icon: "flame",
+        subtitle: " ",
+        description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
+        reference: "PHB, Seiten 195-196.",
+        bullets: [
+            "Das Hindernis kann zB eine niedrige Mauer, ein großes Möbelstück, ein schmaler Baumstamm oder eine Kreatur (unabhängig ob sie freundlich oder feindlich ist) sein.",
+			"Ein Ziel mit Teildeckung erhält einen <b>+2 Bonus auf die Rüstungsklasse und Proben auf Geschicklichkeit</b>.",
+            "Wenn ein Ziel sich hinter mehreren Quellen von Deckung befindet, wird nur die größte Deckung angewandt"
+        ]
+    },
+    {
+        title: "Dehydration",
+        icon: "drop",
+        subtitle: " ",
+        description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
+        reference: "PHB, Seiten 195-196.",
+        bullets: [
+            "Das Hindernis kann zB eine niedrige Mauer, ein großes Möbelstück, ein schmaler Baumstamm oder eine Kreatur (unabhängig ob sie freundlich oder feindlich ist) sein.",
+			"Ein Ziel mit Teildeckung erhält einen <b>+2 Bonus auf die Rüstungsklasse und Proben auf Geschicklichkeit</b>.",
+            "Wenn ein Ziel sich hinter mehreren Quellen von Deckung befindet, wird nur die größte Deckung angewandt"
+        ]
+    },
+    {
+        title: "Falling",
+        icon: "fall",
+        subtitle: " ",
+        description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
+        reference: "PHB, Seiten 195-196.",
+        bullets: [
+            "Das Hindernis kann zB eine niedrige Mauer, ein großes Möbelstück, ein schmaler Baumstamm oder eine Kreatur (unabhängig ob sie freundlich oder feindlich ist) sein.",
+			"Ein Ziel mit Teildeckung erhält einen <b>+2 Bonus auf die Rüstungsklasse und Proben auf Geschicklichkeit</b>.",
+            "Wenn ein Ziel sich hinter mehreren Quellen von Deckung befindet, wird nur die größte Deckung angewandt"
+        ]
+    },
+    {
+        title: "Malnutrition",
+        icon: "food",
+        subtitle: " ",
+        description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
+        reference: "PHB, Seiten 195-196.",
+        bullets: [
+            "Das Hindernis kann zB eine niedrige Mauer, ein großes Möbelstück, ein schmaler Baumstamm oder eine Kreatur (unabhängig ob sie freundlich oder feindlich ist) sein.",
+			"Ein Ziel mit Teildeckung erhält einen <b>+2 Bonus auf die Rüstungsklasse und Proben auf Geschicklichkeit</b>.",
+            "Wenn ein Ziel sich hinter mehreren Quellen von Deckung befindet, wird nur die größte Deckung angewandt"
+        ]
+    },
+    {
+        title: "Suffocation",
+        icon: "wind",
+        subtitle: " ",
+        description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
+        reference: "PHB, Seiten 195-196.",
+        bullets: [
+            "Das Hindernis kann zB eine niedrige Mauer, ein großes Möbelstück, ein schmaler Baumstamm oder eine Kreatur (unabhängig ob sie freundlich oder feindlich ist) sein.",
+			"Ein Ziel mit Teildeckung erhält einen <b>+2 Bonus auf die Rüstungsklasse und Proben auf Geschicklichkeit</b>.",
+            "Wenn ein Ziel sich hinter mehreren Quellen von Deckung befindet, wird nur die größte Deckung angewandt"
+        ]
+    }
 ]
