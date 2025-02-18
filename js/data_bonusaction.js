@@ -24,8 +24,8 @@ data_bonusaction = [
         ]
     },
     {
-        title: "Tränke",
-        icon: "potion",
+        title: "Trank",
+        icon: "drink-me",
         subtitle: "Trinke einen Trank",
         description: "Tränke sind Verbrauchsgegenstände",
         reference: "PHB 2024",
