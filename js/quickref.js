@@ -62,7 +62,7 @@ function init() {
     fill_section(data_bonusaction, "basic-bonus-actions", "Bonusaktion");
     fill_section(data_reaction, "basic-reactions", "Reaktion");
     fill_section(data_condition, "basic-conditions", "Zustand");
-    fill_section(data_condition, "basic-coremechanics", "Mechanik");
+    fill_section(data_coremechanics, "basic-coremechanics", "Mechanik");
     fill_section(data_environment_obscurance, "environment-obscurance", "Erkundung");
     fill_section(data_environment_light, "environment-light", "Licht");
     fill_section(data_environment_vision, "environment-vision", "Sicht");
