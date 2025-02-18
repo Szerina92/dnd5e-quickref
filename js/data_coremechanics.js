@@ -19,7 +19,7 @@ data_coremechanics = [
         description: "Wenn das Ergebnis einer Aktion ungewiss ist, wird ein W20-Wurf verwendet, um Erfolg oder Misserfolg zu bestimmen.",
         reference: "PHB 2024",
         bullets: [
-            "<em><strong>Attributswurf.</em></strong> Ein Attributswurf ist ein W20-Wurf, bei dem eine der sechs Attribute – oder eine bestimmte Fertigkeit, die mit einer der Attribute verbunden ist – eingesetzt wird, um eine Herausforderung zu meistern.",
+            "<em><strong>Attributswurf.</em></strong> Ein Attributswurf ist ein W20-Wurf, bei dem eine der sechs Attribute – oder eine bestimmte Fertigkeit, die mit einem der Attribute verbunden ist – eingesetzt wird, um eine Herausforderung zu meistern.",
 	    "<em><strong>Rettungswurf.</em></strong> Ein Rettungswurf stellt den Versuch dar, einer Bedrohung auszuweichen oder ihr zu widerstehen. Normalerweise führst du einen Rettungswurf nur dann aus, wenn eine Regel dies erfordert, aber du kannst dich auch dafür entscheiden, den Rettungswurf fehlschlagen zu lassen, ohne zu würfeln. Das Ergebnis eines Rettungswurfs ist in dem Effekt aufgeführt, der ihn gefordert hat. Wenn ein Ziel gezwungen ist, einen Rettungswurf durchzuführen, und ihm der dafür verwendete Attributswert fehlt, misslingt der Rettungswurf automatisch.",
 	    "<em><strong>Angriffswurf.</em></strong> Ein Angriffswurf ist ein W20-Wurf, der einen Angriff mit einer Waffe, einen waffenlosen Angriff oder einen Zauber darstellt.",
 	    "<em><strong>Vorteil.</em></strong> Wenn du einen Vorteil bei einem W20-Wurf hast, wirf zwei W20 und verwende den höheren Wurf. Ein Wurf kann nicht durch mehr als einen Vorteil beeinflusst werden, und Vorteil und Nachteil beim gleichen Wurf heben sich gegenseitig auf.",
