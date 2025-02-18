@@ -2,14 +2,14 @@ data_reaction = [
     {
         title: "Gelegenheitsangriff",
         icon: "crossed-swords",
-        subtitle: "Feind verlässt deinen Bereich",
+        subtitle: "Feind verlässt deine Reichweite",
         description: "Man kommt selten einfach so an seinen Feinden vorbei ohne sich in Gefahr zu bringen",
-        reference: "PHB, Seite 195.",
+        reference: "PHB 2024",
         bullets: [
-            "Auslöser: Eine feindliche Kreatur, die du sehen kannst, verlässt den Bereich deiner Nahkampfreichweite",
-            "Führe einen Nahkampfangriff gegen die provozierende Kreatur aus.",
-			"Der Angriff unterbricht die Bewegung der provozierenden Kreatur in dem Moment, wo sie den Bereich deiner Nahkampfreichweite verlässt.",
-            "Kreaturen provozieren keinen Gelegenheitsangriff, wenn sie teleportieren oder wenn jemand oder etwas sie bewegt ohne ihre Bewegung, Aktion oder Reaktion zu nutzen."
+            "You can make an Opprtunity Attack when a creature that you can see leaves your reach using its Action, its Bonus Action, its Reaction, or one of its speeds",
+            "To make the Opportunity Attack, take the Reaction to make one melee attack with a weapon or an Unarmed Strike against the provoking creature.",
+			"The attack occurs right before the creature leaves your reach.",
+		"You can avoid provoking an Opportunity Attack by taking the Disengage action. You also don't provoke an Opportunity Attack when you Teleport or when you are moved without using your movement, Action, Bonus Action, or Reaction."
         ]
     },
     {
@@ -23,24 +23,24 @@ data_reaction = [
         ]
     },
     {
-        title: "Zauberwirken",
+        title: "Magie",
         icon: "magic-swirl",
         subtitle: "Zauberzeit: 1 Reaktion",
-        description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Reaktion",
-        reference: "PHB, Seite 193.",
+        description: "Wirke einen Zauber mit einer Zauberzeit von 1 Reaktion",
+        reference: "PHB 2024",
         bullets: [
-            "Auslöser: vom Zauberspruch festgelegt",
-            "Für Details siehe die <i>Zauberwirken</i> Aktion."
+            "A spell that has a casting time of a Reaction is cast in response to a trigger that is defined in the spell's casting time entry.",
+            "Für mehr Details siehe die <i>Magie</i> Aktion."
         ]
     },
     {
         title: "Nutze ein Merkmal",
         icon: "embrassed-energy",
-        subtitle: "Volks-/Klassenmerkmal",
-        description: "Nutze ein Volks- oder Klassenmerkmal, das eine Reaktion verbraucht",
+        subtitle: "Speies-/Klassenmerkmal",
+        description: "Nutze ein Spezies- oder Klassenmerkmal, das eine Reaktion verbraucht",
         reference: "Siehe die Beschreibung des Merkmals",
         bullets: [
-			"Auslöser: vom Merkmal festgelegt",
+			"Auslöser: vom Merkmal festgelegt.",
         ]
     }
 ]
