@@ -39,7 +39,7 @@ data_action = [
     },
     {
         title: "Stoßen",
-        icon: "grab",
+        icon: "hand",
         subtitle: "Athletik vs. Akrobatik/Athletik",
         description: "Versuche eine Kreatur von dir weg oder zu Boden zu Stoßen",
         reference: "PHB 2024",
@@ -48,15 +48,15 @@ data_action = [
         ]
     },
     {
-        title: "Magie (WIP)",
+        title: "Magie",
         icon: "magic-swirl",
         subtitle: "Zauberzeit: 1 Aktion/länger",
-        description: "Wirke einen Zauberspruch mit einer Zauberzeit von 1 Aktion oder länger",
+        description: "Wirke einen Zauber mit einer Zauberzeit von 1 Aktion oder länger",
         reference: "PHB 2024",
         bullets: [
-            "When you take the Magic action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated.",
-	    "<em><strong>One Spell with a Spell Slot per Turn.</em></strong> On a turn, you can expend only one spell slot to cast a spell. This rule means you can’t, for example, cast a spell with a spell slot using the Magic action and another one using a Bonus Action on the same turn.",
-	    "<em><strong>Longer Casting Times.</em></strong> Certain spells—including a spell cast as a Ritual—require more time to cast: minutes or even hours. While you cast a spell with a casting time of 1 minute or more, you must take the Magic action on each of your turns, and you must maintain Concentration (Siehe Konzentration) while you do so. If your Concentration is broken, the spell fails, but you don’t expend a spell slot. To cast the spell again, you must start over."
+            "Wenn du die Magie Aktion ausführst, wirkst du einen Zauber mit einer Zauberzeit von einer Aktion, verwendest ein Merkmal oder ein Magisches Item, das eine Magie Aktion zur Aktivierung erfordert.",
+	    "<em><strong>Ein Zauber mit einem Zauberplatz pro Zug.</em></strong> In einem Zug kannst du nur einen Zauberplatz aufwenden, um einen Zauber zu wirken. Diese Regel bedeutet, dass du beispielsweise nicht einen Zauber mit einem Zauberplatz mit der Magie Aktion und einen anderen mit einer Bonusaktion im selben Zug wirken kannst.",
+	    "<em><strong>Longer Casting Times.</em></strong> Bestimmte Zauber – einschließlich eines Zaubers, der als Ritual gewirkt wird – benötigen mehr Zeit zum Wirken: Minuten oder sogar Stunden. Während du einen Zauber mit einer Zauberzeit von 1 Minute oder mehr wirkst, musst du in jedem deiner Züge die Magie Aktion ausführen und dabei die Konzentration (Siehe <i>Konzentration</i>) aufrechterhalten. Wenn deine Konzentration unterbrochen wird, schlägt der Zauber fehl, aber du verbrauchst keinen Zauberplatz. Um den Zauber erneut zu wirken, musst du von vorne beginnen."
        ]
     },
     {
@@ -109,24 +109,20 @@ data_action = [
         description: "Wenn du die Helfen Aktion ausführst, führst du eine der folgenden Aktionen aus.",
         reference: "PHB 2024",
         bullets: [
-            "Das Ziel erhält Vorteil auf die nächste Fähigkeitenprobe, die es macht um die Aufgabe zu erfüllen, bei der du ihr hilfst.",
-			"Alternativ erhält das Ziel Vorteil auf den nächsten Angriff gegen ein bestimmtes Ziel innerhalb von 5 Fuß neben dir.",
-            "Der Vorteil ist einmalig bis zum Beginn deines nächsten Zuges nutzbar."
+            "<em><strong>Hilf bei einer Attributsprüfung.</em></strong> Wähle eine deiner Übungen in Fertigkeiten oder Werkzeuge und einen Verbündeten, der nahe genug ist, um bei einer Attributsprüfung verbal oder physisch zu helfen. Dieser Verbündete hat einen Vorteil bei der nächsten Attributsprüfung, die er mit der gewählten Fertigkeit oder dem gewählten Werkzeug durchführt. Dieser Vorteil verfällt, wenn der Verbündete ihn nicht vor Beginn deines nächsten Zuges nutzt. Der SL hat das letzte Wort, ob deine Hilfe möglich ist.",
+	    "<em><strong>Unterstütze bei einem Angriff.</em></strong> Du lenkst einen Feind in einem Umkreis von 1,5 Meter um dich herum kurz ab und verschaffst einem deiner Verbündeten einen Vorteil für den nächsten Angriffswurf gegen diesen Feind. Dieser Vorteil verfällt zu Beginn deines nächsten Zuges."
         ]
     },
     {
-        title: "Verstecken (WIP)",
+        title: "Verstecken",
         icon: "hood",
         subtitle: "Heimlichkeit vs. Wahrnehmung",
         description: "Versuche dich zu verstecken",
-        reference: "PHB, Seite 192.",
+        reference: "PHB 2024",
         bullets: [
-            "Du kannst dich nicht vor einer Kreatur verstecken, die dich sehen kann. Du musst volle Deckung haben, in einem komplett verschleierten Bereich sein, unsichtbar sein oder anderweitig die Sicht des Feindes blockieren.",
-            "Wirf eine Probe auf Geschicklichkeit (Heimlichkeit), wenn du versuchst dich zu verstecken und notiere das Ergebnis. Bis du entdeckt wirst, oder aufhörst dich zu verstecken wird dieses Ergebnis von Proben auf Weisheit (Wahrnehmung) von Kreaturen, die aktiv nach dir oder nach Zeichen deiner Anwesenheit suchen, gekontert.",
-            "Eine Kreatur bemerkt dich auch ohne zu suchen, wenn das Ergebnis deiner Heimlichkeits-Probe kleiner oder gleich seiner passiven Wahrnehmung ist.",
-			"Wenn du Geräusche machst (zum Beispiel eine Warnung rufen, oder eine Vase umstoßen), verrätst du deine Position und wirst entdeckt.",
-			"Ob du aus deinem Versteck heraustreten und trotzdem noch für den Rest deines Zuges als versteckt gelten kannst, entscheidet der DM.",
-            "Außerhalb des Kampfes kannst du außerdem Proben auf Geschicklichkeit (Heimlichkeit) ablegen um dich vor Feinden zu tarnen, an Wachen vorbei zu schleichen, entkommen ohne bemerkt zu werden oder an jemanden heran zu schleichen ohne gesehen oder gehört zu werden."
+            "Mit der Verstecken Aktion versuchst du, dich zu verbergen. Dazu musst du einen SG-15-Geschicklichkeitswurf (Heimlichkeit) bestehen, während du komplett verschleiert oder hinter Dreiviertel- oder vollständiger Deckung bist, und du darfst nicht in der Sichtlinie eines Feindes sein; wenn du eine Kreatur sehen kannst, kannst du erkennen, ob sie dich sehen kann.",
+            "Bei einem erfolgreichen Wurf hast du den <i>Unsichtbar</i> Zustand. Notiere dir die Summe deines Wurfes, welcher der SG für eine Kreatur ist, die dich mit einem Weisheitswurf (Wahrnehmung) finden kann.",
+	    "Der Zustand endet sofort, nachdem eines der folgenden Ereignisse eintritt: Du machst ein Geräusch, das lauter als ein Flüstern ist, ein Feind findet dich, du machst einen Angriffswurf oder du sprichst einen Zauber mit einer verbalen Komponente."	
         ]
     },
     {
@@ -134,22 +130,23 @@ data_action = [
         icon: "magnifying-glass",
         subtitle: "Wahrnehmung, Nachforschen",
         description: "Widme deine Aufmerksamkeit ganz der Suche nach etwas",
-        reference: "PHB, Seite 192.",
+        reference: "PHB 2024",
         bullets: [
-            "Abhängig davon wonach und wie du suchst, kann der DM eine Probe auf Weisheit (Wahrnehmung) oder auf Intelligenz (Nachforschen) verlangen."
+            "Wenn du die Suchen Aktion ausführst, führst du einen Weisheitswurf durch, um etwas zu erkennen, das nicht offensichtlich ist. Die Suchtabelle gibt an, welche Fertigkeiten bei dieser Aktion anwendbar sind, je nachdem, was du zu entdecken versuchst.",
+	    "<table><caption>Suchen</caption><thead><tr><th><p>Fertigkeit</p></th><th><p>Zu Entdeckendes</p></th></tr></thead><tbody><tr><td><p>Motiv Erkennen</p></td><td><p>Gemütszustand einer Kreatur</p></td></tr><tr><td><p>Medizin</p></td><td><p>Krankheit oder Todesursache einer Kreatur</p></td></tr><tr><td><p>Wahrnehmung</p></td><td><p>Versteckte Kreatur oder Gegenstand</p></td></tr><tr><td><p>Überleben</p></td><td><p>Spuren oder Nahrung</p></td></tr></tbody></table>"
         ]
     },
     {
-        title: "Vorbereiten (WIP)",
+        title: "Vorbereiten",
         icon: "stopwatch",
         subtitle: "Wähle Auslöser und Aktion",
         description: "Wähle einen Auslöser und deine darauf folgende Aktion",
-        reference: "PHB, Seiten 192-193.",
+        reference: "PHB 2024",
         bullets: [
-            "Zunächst legst du fest, welcher wahrnehmbare Umstand der Auslöser deiner Reaktion ist.",
-	    "Dann wählst du eine Aktion, die du daraufhin ausführen wirst, oder ob du dich daraufhin bewegen möchtest.",
-            "Wenn der Auslöser eintritt kannst du entweder sofort folgend deine Reaktion ausführen oder den Auslöser ignorieren.",
-            "Wenn du einen Zauberspruch vorbereitest wirkst du ihn ganz normal, aber hältst seine Energie, die du mit deiner Reaktion entfesselst, wenn der Auslöser eintritt. Dazu muss ein Zauberspruch eine Zauberzeit von 1 Aktion haben. Die Energie zu halten erfordert Konzentration."
+            "Du nutzt die Vorbereiten Aktion, um auf einen bestimmten Umstand zu warten, bevor du handelst. Dazu führst du diese Aktion in deinem Zug aus, wodurch du eine Reaktion vor Beginn deines nächsten Zuges ausführen kannst.",
+	    "Zuerst entscheidest du, welcher wahrnehmbare Umstand deine Reaktion auslösen wird. Dann wählst du die Aktion, die du als Reaktion auf diesen Auslöser ausführen wirst, oder du entscheidest dich dafür, als Reaktion darauf deine Geschwindigkeit zu erhöhen.",
+            "Wenn der Auslöser eintritt, kannst du entweder deine Reaktion direkt nach Beendigung des Auslösers ausführen oder den Auslöser ignorieren.",
+            "Wenn du einen Zauber Vorbereitest, wirkst du ihn wie gewohnt (wobei du alle Ressourcen verbrauchst, die für den Zauber benötigt werden), aber du hältst seine Energie zurück, die du mit deiner Reaktion freisetzt, wenn der Auslöser eintritt. Um Vorbereitet werden zu können, muss ein Zauber eine Wirkzeit von einer Aktion haben, und das Zurückhalten der Magie des Zaubers erfordert <i>Konzentration</i>, die du bis zum Beginn deines nächsten Zuges aufrechterhalten musst. Wenn deine Konzentration unterbrochen wird, löst sich der Zauber auf, ohne Wirkung zu zeigen."
         ]
     },
     {
@@ -174,44 +171,34 @@ data_action = [
         ]
     },
     {
-        title: "Improvisiere",
-        icon: "juggler",
-        subtitle: "Jede andere Aktion",
-        description: "Vollführe jede Aktion, die du dir vorstellen kannst",
-        reference: " ",
+        title: "Beeinflussen",
+        icon: "talk",
+        subtitle: "Fordere jemanden auf",
+        description: "Fordere ein Monster auf, etwas zu tun.",
+        reference: "PHB 2024",
         bullets: [
-            "Wenn du eine Aktion beschreibst, die nicht in den Regeln beschrieben wird, teilt der DM dir mit ob sie möglich ist und was du gegebenenfalls dafür würfeln musst um heraus zu finden ob du erfolgreich bist."
+            "Bei der Beinflussen Aktion forderst du ein Monster auf, etwas zu tun. Beschreibe oder spiele im Rollenspiel, wie du mit dem Monster kommunizierst. Versuchst du, es zu täuschen, einzuschüchtern, zu amüsieren oder sanft zu überreden? Der Spielleiter bestimmt dann, ob sich das Monster aufgrund deiner Interaktion <i>Bereitwillig</i>, <i>Unwillig</i> oder <i>Zögerlich</i> verhält; diese Entscheidung legt fest, ob ein Attributswurf erforderlich ist.",
+	    "<em><strong>Bereitwillig.</em></strong> Wenn dein Drängen mit den Wünschen des Monsters übereinstimmt, ist kein Attributswurf erforderlich; das Monster erfüllt deine Bitte auf eine Weise, die ihm zusagt.",
+	    "<em><strong>Unwillig.</em></strong> Wenn dein Drängen dem Monster zuwiderläuft oder seiner Ausrichtung widerspricht, ist kein Attributswurf erforderlich; es gehorcht nicht.",
+	    "<em><strong>Zögerlich.</em></strong> Wenn du das Monster zu etwas drängst, das es nur zögerlich tut, musst du einen Attributswurf machen, welcher von der Einstellung des Monsters beeinflusst wird: <i>Gleichgültig</i>, <i>Freundlich</i> oder <i>Feindselig</i>. Die Einflussprüfungen Tabelle gibt an, welchen Attributswurf du durchführen musst, je nachdem, wie du mit dem Monster interagierst. Der Spielleiter wählt die Prüfung aus, die einen Standard-SG von 15 oder den Attributswert des Monsters für Intelligenz hat, je nachdem, welcher Wert höher ist. Bei einem Erfolg tut das Monster, was du ihm aufträgst. Bei einer fehlschlag musst du 24 Stunden (oder eine vom Spielleiter festgelegte Dauer) warten, bevor du es erneut auf die gleiche Weise aufforderst.",
+	    "</p><table><caption>Einflussprüfungen</caption><thead><tr><th><p>Attributswurf</p></th><th><p>Interaktion</p></th></tr></thead><tbody><tr><td><p>Charisma (Täuschen)</p></td><td><p>Ein Monster täuschen, das dich versteht</p></td></tr><tr><td><p>Charisma (Einschüchtern)</p></td><td><p>Ein Monster einschüchtern</p></td></tr><tr><td><p>Charisma (Auftreten)</p></td><td><p>Ein Monster unterhalten</p></td></tr><tr><td><p>Charisma (Überzeugen)</p></td><td><p>Ein Monster überzeugen, das dich versteht</p></td></tr><tr><td><p>Charisma (Mit Tieren umgehen)</p></td><td><p>Ein Tier oder eine Monstrosität sanft überreden</p></td></tr></tbody></table>"
         ]
     },
     {
-        title: "Beeinflussen (WIP)",
-        icon: "juggler",
-        subtitle: "Jede andere Aktion",
-        description: "Vollführe jede Aktion, die du dir vorstellen kannst",
-        reference: "PHB, Seite 193.",
+        title: "Studieren",
+        icon: "book",
+        subtitle: "Führe Intelligenzwürfe durch",
+        description: "Greife auf Informationen zurück",
+        reference: "PHB 2024",
         bullets: [
-            "With the Influence action, you urge a monster to do something. Describe or roleplay how you’re communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The DM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.",
-	    "Willing. If your urging aligns with the monster’s desires, no ability check is necessary; the monster fulfills your request in a way it prefers.",
-	    "Unwilling. If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn’t comply.",
-	    "Hesitant. If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster’s attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you’re interacting with the monster. The DM chooses the check, which has a default DC equal to 15 or the monster’s Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the DM) before urging it in the same way again.",
-	    "<p>With the Influence action, you urge a monster to do something. Describe or roleplay how you’re communicating with the monster. Are you trying to deceive, intimidate, amuse, or gently persuade? The DM then determines whether the monster feels willing, unwilling, or hesitant due to your interaction; this determination establishes whether an ability check is necessary, as explained below.</p><p><em><strong>Willing.</strong></em> If your urging aligns with the monster’s desires, no ability check is necessary; the monster fulfills your request in a way it prefers.</p><p><em><strong>Unwilling.</strong></em> If your urging is repugnant to the monster or counter to its alignment, no ability check is necessary; it doesn’t comply.</p><p><em><strong>Hesitant.</strong></em> If you urge the monster to do something that it is hesitant to do, you must make an ability check, which is affected by the monster’s attitude: Indifferent, Friendly, or Hostile, each of which is defined in this glossary. The Influence Checks table suggests which ability check to make based on how you’re interacting with the monster. The DM chooses the check, which has a default DC equal to 15 or the monster’s Intelligence score, whichever is higher. On a successful check, the monster does as urged. On a failed check, you must wait 24 hours (or a duration set by the DM) before urging it in the same way again.</p><table><caption>Influence Checks</caption><thead><tr><th><p>Ability Check</p></th><th><p>Interaction</p></th></tr></thead><tbody><tr><td><p>Charisma (Täuschen)</p></td><td><p>Deceiving a monster that understands you</p></td></tr><tr><td><p>Charisma (Einschüchtern)</p></td><td><p>Intimidating a monster</p></td></tr><tr><td><p>Charisma (Auftreten)</p></td><td><p>Amusing a monster</p></td></tr><tr><td><p>Charisma (Überzeugen)</p></td><td><p>Persuading a monster that understands you</p></td></tr><tr><td><p>Charisma (Mit Tieren umgehen)</p></td><td><p>Gently coaxing a Beast or Monstrosity</p></td></tr></tbody></table>"
+            "Wenn du die Studieren Aktion nutzt, führst du einen Intelligenzwurf durch, um dein Gedächtnis, ein Buch, einen Hinweis oder eine andere Wissensquelle zu studieren und dir eine wichtige Information darüber ins Gedächtnis zu rufen.",
+	    "Die Wissensgebiete Tabelle gibt an, welche Fertigkeiten auf verschiedene Wissensgebiete anwendbar sind.",
+	    "<table><caption>Wissensgebiete</caption><thead><tr><th><p>Fertigkeit</p></th><th><p>Bereich</p></th></tr></thead><tbody><tr><td><p>Arkane Kunde</p></td><td><p>Zauber, Magische Gegenstände, unheimliche Symbole, magische Traditionen, Existenzebenen und bestimmte Kreaturen (Aberationen, Konstrukte, Elementare, Feen und Monstrositäten)</p></td></tr><tr><td><p>Geschichte</p></td><td><p>Historische Ereignisse und Personen, alte Zivilisationen, Kriege und bestimmte Kreaturen (Riesen und Humanoide)</p></td></tr><tr><td><p>Nachforschungen</p></td><td><p>Fallen, Chiffren, Rätsel und Spielereien</p></td></tr><tr><td><p>Naturkunde</p></td><td><p>Gelände, Flora, Wetter und bestimmte Kreaturen (Tiere, Drachen, Schleim und Pflanzen)</p></td></tr><tr><td><p>Religion</p></td><td><p>Gottheiten, religiöse Hierarchien und Riten, heilige Symbole, Kulte und bestimmte Kreaturen (Celestische, Unholde und Untote)</p></td></tr></tbody></table>"
         ]
     },
     {
-        title: "Studieren (WIP)",
-        icon: "juggler",
-        subtitle: "Jede andere Aktion",
-        description: "Vollführe jede Aktion, die du dir vorstellen kannst",
-        reference: "PHB, Seite 193.",
-        bullets: [
-            "When you take the Study action, you make an Intelligence check to study your memory, a book, a clue, or another source of knowledge and call to mind an important piece of information about it.",
-	    "The Areas of Knowledge table suggests which skills are applicable to various areas of knowledge.",
-	    "<table><caption>Areas of Knowledge</caption><thead><tr><th><p>Skill</p></th><th><p>Areas</p></th></tr></thead><tbody><tr><td><p>Arcana</p></td><td><p>Spells, magic items, eldritch symbols, magical traditions, planes of existence, and certain creatures (Aberrations, Constructs, Elementals, Fey, and Monstrosities)</p></td></tr><tr><td><p>History</p></td><td><p>Historic events and people, ancient civilizations, wars, and certain creatures (Giants and Humanoids)</p></td></tr><tr><td><p>Investigation</p></td><td><p>Traps, ciphers, riddles, and gadgetry</p></td></tr><tr><td><p>Nature</p></td><td><p>Terrain, flora, weather, and certain creatures (Beasts, Dragons, Oozes, and Plants)</p></td></tr><tr><td><p>Religion</p></td><td><p>Deities, religious hierarchies and rites, holy symbols, cults, and certain creatures (Celestials, Fiends, and Undead)</p></td></tr></tbody></table>"
-        ]
-    },
-    {
-        title: "Nutzen (WIP)",
-        icon: "juggler",
+        title: "Nutzen",
+        icon: "object",
         subtitle: "Interagiere mit Objekten",
         description: "Verwende einen nicht magischen Gegenstand.",
         reference: "PHB 2024",
