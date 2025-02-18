@@ -1,7 +1,7 @@
 data_coremechanics = [
    {
         title: "Würfel",
-        icon: "w20",
+        icon: "w20-1",
         subtitle: "Würfel und ihre Werte",
         description: "Jeder Würfelt spielt eine bestimmte Rolle",
         reference: "PHB 2024",
@@ -12,6 +12,20 @@ data_coremechanics = [
 	    "Wenn du einen erfolgreichen Angriffswurf machst, würfelst du Schaden, um zu sehen, wie effektiv der Angriff ist. Wenn du einen Zauber wirkst, kannst du auch Schaden würfeln. Verschiedene Waffen und Zauber verwenden unterschiedliche Würfel für den Schaden."	
         ]
     },	
+    {
+        title: "W20-Wurf",
+        icon: "w20",
+        subtitle: "Erfolg oder Fehlschlag",
+        description: "Wenn das Ergebnis einer Aktion ungewiss ist, wird ein W20-Wurf verwendet, um Erfolg oder Misserfolg zu bestimmen.",
+        reference: "PHB 2024",
+        bullets: [
+            "<em><strong>Attributswurf.</em></strong> Ein Attributswurf ist ein W20-Wurf, bei dem eine der sechs Attribute – oder eine bestimmte Fertigkeit, die mit einer der Attribute verbunden ist – eingesetzt wird, um eine Herausforderung zu meistern.",
+	    "<em><strong>Rettungswurf.</em></strong> Ein Rettungswurf stellt den Versuch dar, einer Bedrohung auszuweichen oder ihr zu widerstehen. Normalerweise führst du einen Rettungswurf nur dann aus, wenn eine Regel dies erfordert, aber du kannst dich auch dafür entscheiden, den Rettungswurf fehlschlagen zu lassen, ohne zu würfeln. Das Ergebnis eines Rettungswurfs ist in dem Effekt aufgeführt, der ihn gefordert hat. Wenn ein Ziel gezwungen ist, einen Rettungswurf durchzuführen, und ihm der dafür verwendete Attributswert fehlt, misslingt der Rettungswurf automatisch.",
+	    "<em><strong>Angriffswurf.</em></strong> Ein Angriffswurf ist ein W20-Wurf, der einen Angriff mit einer Waffe, einen waffenlosen Angriff oder einen Zauber darstellt.",
+	    "<em><strong>Vorteil.</em></strong> Wenn du einen Vorteil bei einem W20-Wurf hast, wirf zwei W20 und verwende den höheren Wurf. Ein Wurf kann nicht durch mehr als einen Vorteil beeinflusst werden, und Vorteil und Nachteil beim gleichen Wurf heben sich gegenseitig auf.",
+	    "<em><strong>Nachteil.</em></strong> Wenn du bei einem W20-Wurf einen Nachteil hast, wirf zwei W20 und verwende den niedrigeren Wurf. Ein Wurf kann nicht durch mehr als einen Nachteil beeinflusst werden, und Vorteil und Nachteil beim gleichen Wurf heben sich gegenseitig auf."
+        ]
+    },	
    {
         title: "Deckung",
         icon: "shield",
@@ -19,51 +33,51 @@ data_coremechanics = [
         description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
         reference: "PHB 2024",
         bullets: [
-            "Walls, trees, creatures, and other obstacles can provide cover, making a target more difficult to harm. As detailed in the Cover table, there are three degrees of cover, each of which gives a different benefit to a target.",
-			"A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren’t added together. For example, if a target is behind a creature that gives Half Cover and a tree trunk that gives Three-Quarters Cover, the target has Three-Quarters Cover.",
-            "<table><caption>Cover</caption><thead><tr><th><p>Degree</p></th><th><p>Benefit to Target</p></th><th><p>Offered By &hellip;</p></th></tr></thead><tbody><tr><td><p>Half</p></td><td><p>+2 bonus to AC and Dexterity saving throws</p></td><td><p>Another creature or an object that covers at least half of the target</p></td></tr><tr><td><p>Three-<br>Quarters</p></td><td><p>+5 bonus to AC and Dexterity saving throws</p></td><td><p>An object that covers at least three-quarters of the target</p></td></tr><tr><td><p>Total</p></td><td><p>Can&rsquo;t be targeted directly</p></td><td><p>An object that covers the whole target</p></td></tr></tbody></table>"
+            "Mauern, Bäume, Kreaturen und andere Hindernisse können Deckung bieten und es erschweren, einem Ziel Schaden zuzufügen. Wie in der Deckung Tabelle aufgeführt, gibt es drei Grade der Deckung, von denen jeder einen anderen Nutzen für ein Ziel hat.",
+	    "Ein Ziel kann nur dann von Deckung profitieren, wenn ein Angriff oder ein anderer Effekt von der gegenüberliegenden Seite der Deckung ausgeht. Wenn sich ein Ziel hinter mehreren Deckungsquellen befindet, gilt nur der schützendste Deckungsgrad; die Grade werden nicht addiert.",
+            "<table><caption>Deckung</caption><thead><tr><th><p>Grad</p></th><th><p>Nutzen für das Ziel</p></th><th><p>Erhalten durch ...</p></th></tr></thead><tbody><tr><td><p>Teil</p></td><td><p>+2 auf RK und Geschicklichkeitsrettungswürfe</p></td><td><p>Eine andere Kreatur oder ein Objekt, das mindestens die Hälfte des Ziels bedeckt</p></td></tr><tr><td><p>Drei-<br>viertel</p></td><td><p>+5 auf RK und Geschicklichkeitsrettungswürfe</p></td><td><p>Ein Objekt, das mindestens drei Viertel des Ziels abdeckt</p></td></tr><tr><td><p>Vollständig</p></td><td><p>Kann nicht direkt angegriffen werden</p></td><td><p>Ein Objekt, das das gesamte Ziel abdeckt</p></td></tr></tbody></table>"
         ]
     },
   {
         title: "Temporäre Trefferpunkte",
         icon: "temptp",
         subtitle: "Schütze deine Trefferpunkte",
-        description: "Some spells and other effects confer Temporary Hit Points, which are a buffer against losing actual Hit Points",
+        description: "Einige Zauber und andere Effekte verleihen temporäre Trefferpunkte, die einen Puffer gegen den Verlust tatsächlicher Trefferpunkte darstellen",
         reference: "PHB 2024",
         bullets: [
-          "Lose Temporary Hit Points. If you have Temporary Hit Points and take damage, those points are lost first, and any leftover damage carries over to your Hit Points. For example, if you have 5 Temporary Hit Points and take 7 damage, you lose those points and then lose 2 Hit Points.",
-	"Duration. Temporary Hit Points last until they’re depleted or you finish a Long Rest.",
-	"Temporary Hit Points Don't Stack. Temporary Hit Points can’t be added together. If you have Temporary Hit Points and receive more of them, you decide whether to keep the ones you have or to gain the new ones.",
-		"They’re Not Hit Points or Healing. If you have 0 Hit Points, receiving Temporary Hit Points doesn’t restore you to consciousness. Only true healing can save you."
+          "<em><strong>Temporäre Trefferpunkte Verlieren.</em></strong> Wenn du temporäre Trefferpunkte hast und Schaden erleidest, gehen diese Punkte zuerst verloren und der verbleibende Schaden wird auf deine Trefferpunkte übertragen. Wenn du beispielsweise 5 temporäre Trefferpunkte hast und 7 Schaden erleidest, verlierst du diese Punkte und dann 2 Trefferpunkte.",
+	"<em><strong>Dauer.</em></strong> Temporäre Trefferpunkte halten an, bis sie aufgebraucht sind oder du eine Lange Rast beendest.",
+	"<em><strong>Temporäre Trefferpunkte sind nicht stapelbar.</em></strong> Temporäre Trefferpunkte können nicht addiert werden. Wenn du temporäre Trefferpunkte hast und weitere erhältst, kannst du entscheiden, ob du die bisherigen behalten oder die neuen nehmen möchtest.",
+	"<em><strong>Sie sind keine Trefferpunkte oder Heilung.</em></strong> Wenn du 0 Trefferpunkte hast, bringt es dich nicht wieder zu Bewusstsein, wenn du temporäre Trefferpunkte erhältst. Nur echte Heilung kann dich retten."
         ]
     },
     {
         title: "Heroische Inspiration",
         icon: "inspiration",
         subtitle: "Heldenhafte Taten ausführen",
-        description: " ",
+        description: "Heldenhafte Taten",
         reference: "PHB 2024",
         bullets: [
-          "Sometimes the DM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.",
-		"Only One at a Time. You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give it to a player character in your group who lacks it.",
-		"Gaining Heroic Inspiration. Your DM can give you Heroic Inspiration for a variety of reasons. Typically, DMs award it when you do something particularly heroic, in character, or entertaining. It’s a reward for making the game more fun for everyone playing."
+          "Manchmal erhältst du durch die SL oder eine Regel eine Heroische Inspiration. Wenn du eine Heroische Inspiration hast, kannst du sie einsetzen, um einen beliebigen Würfel sofort nach dem Wurf erneut zu würfeln, und du musst den neuen Wurf verwenden.",
+		"Nur eine auf einmal. Du kannst nie mehr als eine Instanz von Heroischer Inspiration haben. Wenn etwas dir Heroische Inspiration gibt und du sie bereits hast, kannst du sie einem Spielercharakter in deiner Gruppe geben, dem sie fehlt.",
+		"Heroische Inspiration erhalten. Deine SL kann dir aus verschiedenen Gründen Heroische Inspiration geben. Normalerweise vergeben sie SL, wenn du etwas besonders Heldenhaftes, Charakteristisches oder Unterhaltsames tust. Es ist eine Belohnung dafür, dass du das Spiel für alle Spieler unterhaltsamer machst."
         ]
     },
     {
         title: "Kurze Rast",
         icon: "rast",
         subtitle: "Schnelle Erholung",
-        description: "Adventurers can’t spend every hour adventuring. They need rest",
+        description: "Abenteurer können nicht jede Stunde auf Abenteuer sein. Sie brauchen auch mal Rast.",
         reference: "PHB 2024",
         bullets: [
-	"<p>A Long Rest is a period of extended downtime&mdash;at least 8 hours&mdash;available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.</p><p>During sleep, you have the &amp;Reference[Unconscious] condition. After you finish a Long Rest, you must wait at least 16 hours before starting another one.</p><p><em><strong>Benefits of the Rest.</strong></em> To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:</p><p><strong>Regain All HP.</strong> You regain all lost Hit Points and all spent Hit Point Dice. If your Hit Point maximum was reduced, it returns to normal.</p><p><strong>Ability Scores Restored.</strong> If any of your ability scores were reduced, they return to normal.</p><p><strong>Exhaustion Reduced.</strong> If you have the Exhaustion condition, its level decreases by 1.</p><p><strong>Special Feature.</strong> Some features are recharged by a Long Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Long Rest is stopped by the following interruptions:</p><ul><li>Initiative</li><li>Casting a spell other than a cantrip</li><li>Taking any damage</li><li>1 hour of walking or other physical exertion</li></ul><p>If you rested at least 1 hour before the interruption, you gain the benefits of a Short Rest.</p><p>You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour per interruption to finish.</p>"
+	"<p>A Long Rest is a period of extended downtime&mdash;at least 8 hours&mdash;available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.</p><p>During sleep, you have the Unconscious condition. After you finish a Long Rest, you must wait at least 16 hours before starting another one.</p><p><em><strong>Benefits of the Rest.</strong></em> To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:</p><p><strong>Regain All HP.</strong> You regain all lost Hit Points and all spent Hit Point Dice. If your Hit Point maximum was reduced, it returns to normal.</p><p><strong>Ability Scores Restored.</strong> If any of your ability scores were reduced, they return to normal.</p><p><strong>Exhaustion Reduced.</strong> If you have the Exhaustion condition, its level decreases by 1.</p><p><strong>Special Feature.</strong> Some features are recharged by a Long Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Long Rest is stopped by the following interruptions:</p><ul><li>Initiative</li><li>Casting a spell other than a cantrip</li><li>Taking any damage</li><li>1 hour of walking or other physical exertion</li></ul><p>If you rested at least 1 hour before the interruption, you gain the benefits of a Short Rest.</p><p>You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour per interruption to finish.</p>"
       ]
     },
     {
         title: "Lange Rasten",
         icon: "rast",
         subtitle: "Rasten und Erholen",
-        description: "Adventurers can’t spend every hour adventuring. They need rest",
+        description: "Abenteurer können nicht jede Stunde auf Abenteuer sein. Sie brauchen auch mal Rast.",
         reference: "PHB 2024",
         bullets: [
 		"<p>A Short Rest is a 1-hour period of downtime, during which a creature does nothing more strenuous than reading, talking, eating, or standing watch. To start a Short Rest, you must have at least 1 Hit Point.</p><p><em><strong>Benefits of the Rest.</strong></em> When you finish the rest, you gain the following benefits:</p><p><strong>Spend Hit Point Dice.</strong> You can spend one or more of your Hit Point Dice to regain Hit Points. For each Hit Point Die you spend in this way, roll the die and add your Constitution modifier to it. You regain Hit Points equal to the total (minimum of 1 Hit Point). You can decide to spend an additional Hit Point Die after each roll.</p><p><strong>Special Feature.</strong> Some features are recharged by a Short Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Short Rest is stopped by the following interruptions:</p><ul><li>Rolling Initiative</li><li>Casting a spell other than a cantrip</li><li>Taking any damage</li></ul><p>An interrupted Short Rest confers no benefits.</p>"
