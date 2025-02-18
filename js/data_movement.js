@@ -66,30 +66,14 @@ data_movement = [
         ]
     },
     {
-        title: "Hochsprung",
+        title: "Springen",
         icon: "wingfoot",
-        subtitle: "Höhe: (3 + STR) * 0,30m",
+        subtitle: "Hoch oder Weit",
         description: "Bewegungskosten: 1,5m Bewegung pro 1,5m Strecke",
-        
-        reference: "PHB, Seite 182.",
+        reference: "PHB 2024",
         bullets: [
-            "Du springst eine Distanz in die Höhe, die <b>(3 + deinen Stärkemodifikator) * 0,30</b> in Meter entspricht, wenn du dich direkt vor dem Sprung mindestens 3m bewegt hast.",
-			"Ohne Anlauf springst du halb so hoch",
-            "Während dem Sprung kannst du deine Arme um die Hälfte deiner Körpergröße ausstrecken",
-            "Unter Umständen erlaubt dein DM eine Probe auf Stärke (Athletik) um höher zu springen, als es normalerweise möglich wäre."
-        ]
-    },
-    {
-        title: "Weitsprung",
-        icon: "wingfoot",
-        subtitle: "Weite: Stärke * 0,30m",
-        description: "Bewegungskosten: 1,5m Bewegung pro 1,5m Strecke",
-        reference: "PHB, Seite 182.",
-        bullets: [
-            "Du springst eine Distanz weit, die deinem <b>(Stärkewert) * 0,30</b> in Meter entspricht, wenn du dich direkt vor dem Sprung mindestens 3 Meter bewegt hast.",
-			"Ohne Anlauf springst du halb so weit",
-			"Kann eine Probe auf Stärke (Athletik) gegen SG 10 beinhalten, um ein niederes Hindernis (nicht höher als ein Viertel der Sprungdistanz) zu überspringen. Du triffst das Hindernis bei einer fehlgeschlagenen Probe.",
-            "Kann eine Probe auf Geschicklichkeit (Akrobatik) gegen SG 10 beinhalten, um in schwierigem Gelände auf den Füßen zu landen. Du erhältst den Zustand <i>Liegend</i> bei einer fehlgeschlagenen Probe.",
+	    "<h2>Hochsprung</h2><p>Wenn du einen Hochsprung machst, springst du eine Anzahl von Metern in die Luft, die 3 plus deinem St&auml;rkemodifikator *0,30 entspricht, wenn du dich unmittelbar vor dem Sprung mindestens 3 Meter zu Fu&szlig; bewegst. Wenn du einen Hochsprung aus dem Stand machst, kannst du nur die halbe Distanz springen. In jedem Fall kostet jeder Meter des Sprungs einen Meter Bewegung.</p><p>Du kannst deine Arme w&auml;hrend des Sprungs bis zur halben H&ouml;he &uuml;ber dir ausstrecken. So kannst du eine Weite erreichen, die der Sprungh&ouml;he plus der H&auml;lfte deiner K&ouml;rpergr&ouml;&szlig;e entspricht.</p>",
+		"<h2>Weitsprung</h2><p>Wenn du einen Weitsprung machst, springst du horizontal eine Anzahl von Meter&nbsp;bis zu deinem St&auml;rkewert *0,30, wenn du dich unmittelbar vor dem Sprung mindestens 3 Meter bewegst. Wenn du einen Weitsprung aus dem Stand machst, kannst du nur die halbe Distanz springen. In jedem Fall kostet jeder gesprungene Meter einen Meter Bewegung.</p><p>Wenn du in schwierigem Gel&auml;nde landest, musst du einen SG-10-Geschicklichkeitswurf (Akrobatik) bestehen oder den Liegend Zustand erhalten.</p><p>Diese Weitsprungregel geht davon aus, dass die H&ouml;he des Sprungs keine Rolle spielt, wie z. B. bei einem Sprung &uuml;ber einen Bach oder eine Schlucht. Nach Wahl deines DM musst du eine SG-10-St&auml;rkewurf (Athletik) bestehen, um ein niedriges Hindernis (nicht h&ouml;her als ein Viertel der Sprungweite), wie z. B. eine Hecke oder eine niedrige Mauer, zu &uuml;berwinden. Andernfalls st&ouml;&szlig;t du gegen das Hindernis.</p>"
         ]
     },
     {
