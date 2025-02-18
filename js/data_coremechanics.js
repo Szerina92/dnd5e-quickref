@@ -1,7 +1,7 @@
 data_coremechanics = [
    {
         title: "Würfel",
-        icon: "dice",
+        icon: "w20",
         subtitle: "Würfel und ihre Werte",
         description: "Jeder Würfelt spielt eine bestimmte Rolle",
         reference: "PHB 2024",
@@ -26,32 +26,38 @@ data_coremechanics = [
     },
   {
         title: "Temporäre Trefferpunkte",
-        icon: "anchor",
-        subtitle: "Text",
-        description: " ",
+        icon: "temptp",
+        subtitle: "Schütze deine Trefferpunkte",
+        description: "Some spells and other effects confer Temporary Hit Points, which are a buffer against losing actual Hit Points",
         reference: "PHB 2024",
         bullets: [
-
+          "Lose Temporary Hit Points. If you have Temporary Hit Points and take damage, those points are lost first, and any leftover damage carries over to your Hit Points. For example, if you have 5 Temporary Hit Points and take 7 damage, you lose those points and then lose 2 Hit Points.",
+	"Duration. Temporary Hit Points last until they’re depleted or you finish a Long Rest.",
+	"Temporary Hit Points Don't Stack. Temporary Hit Points can’t be added together. If you have Temporary Hit Points and receive more of them, you decide whether to keep the ones you have or to gain the new ones.",
+		"They’re Not Hit Points or Healing. If you have 0 Hit Points, receiving Temporary Hit Points doesn’t restore you to consciousness. Only true healing can save you."
         ]
     },
     {
         title: "Heroische Inspiration",
-        icon: "anchor",
-        subtitle: "Text",
+        icon: "inspiration",
+        subtitle: "Heldenhafte Taten ausführen",
         description: " ",
         reference: "PHB 2024",
         bullets: [
-
+          "Sometimes the DM or a rule gives you Heroic Inspiration. If you have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.",
+		"Only One at a Time. You can never have more than one instance of Heroic Inspiration. If something gives you Heroic Inspiration and you already have it, you can give it to a player character in your group who lacks it.",
+		"Gaining Heroic Inspiration. Your DM can give you Heroic Inspiration for a variety of reasons. Typically, DMs award it when you do something particularly heroic, in character, or entertaining. It’s a reward for making the game more fun for everyone playing."
         ]
     },
     {
         title: "Rasten",
-        icon: "anchor",
+        icon: "rast",
         subtitle: "Text",
         description: " ",
         reference: "PHB 2024",
         bullets: [
-
+"<h2>Long Rest</h2>",
+	"A Long Rest is a period of extended downtime—at least 8 hours—available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch."	
       ]
     }
   ]
