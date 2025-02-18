@@ -65,118 +65,120 @@ data_condition = [
         title: "Festgesetzt",
         icon: "festgesetzt",
         subtitle: "Du bist festgesetzt",
-        description: "Du bist festgesetzt",
-        reference: "PHB, Seite 290.",
+        description: "Während du Festgesetzt bist, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Deine Geschwindigkeit ist 0 und du kannst nicht von Bonus auf deine Geschwindigkeit profitieren.",
-            "Du bist bei Angriffen im Nachteil.",
-            "Angriffe gegen dich sind im Vorteil.",
-            "Du bist bei Rettungswürfen auf Geschicklichkeit im Nachteil."
+            "<em><strong>Geschwindigkeit 0.</em></strong> Deine Geschwindigkeit ist 0 und kann nicht erhöht werden.",
+            "<em><strong>Angriffe Betroffen.</strong></em> Angriffswürfe gegen dich haben einen Vorteil, und deine Angriffswürfe haben einen Nachteil.",
+            "<em><strong>Rettungswürfe Betroffen.</strong></em> Du hast Nachteil auf Geschicklichkeitsrettungswürfe."
         ]
     },
     {
         title: "Gelähmt",
         icon: "gelaehmt",
         subtitle: "Du bist gelähmt",
-        description: "Du kannst nichts tun",
-		reference: "PHB, Seite 291.",
+        description: "Während du Gelähmt bist, treten folgende Effekte auf",
+		reference: "PHB 2024",
         bullets: [
-            "Du bist <i>kampfunfähig</i> und kannst dich weder bewegen noch sprechen.",
-			"Angriffswürfe gegen dich sind im Vorteil.",
-            "Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer innerhalb von 5 Fuß von dir ist.",
-            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "<em><strong>Kampfunfähig.</em></strong> Du hat den <i>Kampfunfähig</i> Zustand.",
+	    "<em><strong>Geschwindigkeit 0.</em></strong> Deine Geschwindigkeit ist 0 und kann nicht erhöht werden.",
+            "<em><strong>Rettungswürfe Betroffen.</strong></em> Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "<em><strong>Automatische Kritische Treffer.</strong></em> Jeder Angriffswurf der dich Trifft ist ein <i>Kritischer Treffer</i>, wenn der Angreifer sich innerhalb von 1,5 Metern von dir befindet."
         ]
     },
     {
         title: "Gepackt",
         icon: "gepackt",
-        subtitle: "Geschwindigkeit: 0",
-        description: "Du bist im Haltegriff",
-        reference: "PHB, Seite 291.",
+        subtitle: "Geschwindigkeit 0",
+        description: "Während du Gepackt bist, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Deine Geschwindigkeit ist 0 und du kannst nicht von Bonus auf deine Geschwindigkeit profitieren.",
-			"Der Zustand endet, wenn der Haltende kampfunfähig wird.",
-            "Der Zustand endet außerdem, wenn du aus der Reichweite des Haltenden entfernt wirst."
+            "<em><strong>Geschwindigkeit 0.</em></strong> Deine Geschwindigkeit ist 0 und kann nicht erhöht werden.",
+	    "<em><strong>Angriffe Betroffen.</strong></em> Du hast Nachteil auf Angriffswürfe gegen andere Ziele als den Greifenden",
+            "<em><strong>Beweglich.</em></strong> Der Greifende kann dich ziehen oder tragen, wenn er sich bewegt, aber jeder Meter Bewegung kostet ihn einen zusätzlichen Meter, es sei denn, du bist winzig oder zwei oder mehr Größen kleiner als er."
         ]
     },
     {
         title: "Kampfunfähig",
         icon: "kampfunfaehig",
         subtitle: "Weder Aktion noch Reaktion",
-        description: "Du kannst weder Aktionen noch Reaktionen ausführen",
-        reference: "PHB, Seite 291.",
+        description: "Während du Kampfunfähig bist, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
+		"<em><strong>Inaktiv.</em></strong> Du kannst keine Aktion, Bonusaktion oder Reaktion ausführen.",
+		"<em><strong>Keine Konzentration.</em></strong> Deine Konzentration ist gebrochen.",
+		"<em><strong>Sprachlos.</em></strong> Du kannst nicht sprechen.",
+		"<em><strong>Überrascht.</em></strong> Wenn du beim Würfeln für Initiative Kampfunfähig bist, hast du einen Nachteil auf den Wurf."
         ]
     },
     {
         title: "Liegend",
         icon: "liegend",
         subtitle: "Du liegst",
-        description: "Du liegst",
-        reference: "PHB, Seite 291.",
+        description: "Während du Liegst, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Deine einzige Bewegungsoption ist <i>Kriechen</i>, wenn du nicht aufstehst.",
-			"Du bist bei Angriffen im Nachteil.",
-			"Angriffe gegen dich sind im Vorteil, wenn der Angreifer innerhalb von 5 Fuß von dir ist, anderenfalls sind sie im Nachteil."
+            "<em><strong>Eingeschränkte Bewegung.</em></strong> Du kannst dich nur kriechend fortbewegen oder die Hälfte deiner Geschwindigkeit (abgerundet) ausgeben, um aufzustehen und dadurch den Zustand zu beenden. Wenn deine Geschwindigkeit 0 beträgt, kannst du nicht aufstehen.",
+	    "<em><strong>Angriffe betroffen.</em></strong> Du hast einen Nachteil bei Angriffswürfen. Ein Angriffswurf gegen dich hat einen Vorteil, wenn der Angreifer sich innerhalb von 1,5 Metern um dich befindet. Andernfalls hat dieser Angriffswurf einen Nachteil."
         ]
     },
     {
         title: "Taub",
         icon: "taub",
         subtitle: "Du kannst nicht hören",
-        description: "Du kannst nicht hören",
-        reference: "PHB, Seite 292.",
+        description: "Während du Taub bist, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Du verlierst Fähigkeitenproben die Hören benötigen automatisch.",
+            "<em><strong>Kann nicht hören.</em></strong> Du kannst nicht hören und Attributswürfe die das Hören erfordern, schlagen automatisch fehl."
         ]
     },
     {
         title: "Unsichtbar",
         icon: "invisible",
         subtitle: "Du wirst nicht gesehen",
-        description: "Ohne die Hilfe von Magie oder speziellen Sinnen kannst du nicht gesehen werden",
-        reference: "PHB, Seite 292.",
+        description: "Während du Unsichtbar bist, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Du giltst als komplett verschleiert, wenn du versuchst dich zu verstecken.",
-			"Du kannst immer noch durch Geräusche oder von dir hinterlassene Spuren entdeckt werden.",
-            "Du hast Vorteil auf Angriffswürfe.",
-            "Angriffswürfe gegen dich sind im Nachteil.",
+            "<em><strong>Überraschung.</em></strong> Wenn du beim Würfeln der Initiative unsichtbar bist, hast du einen Vorteil beim Wurf.",
+	    "<em><strong>Verborgen.</em></strong> Du bist von keinem Effekt betroffen, bei dem das Ziel gesehen werden muss, es sei denn, der Erschaffer des Effekts kann dich irgendwie sehen. Jegliche Ausrüstung, die du trägst oder bei dir hast, ist ebenfalls verborgen.",
+            "<em><strong>Angriffe betroffen.</em></strong> Angriffswürfe gegen dich haben einen Nachteil und deine Angriffswürfe haben einen Vorteil. Wenn eine Kreatur dich irgendwie sehen kann, erhältst du diesen Vorteil nicht gegen diese Kreatur."
         ]
     },
     {
         title: "Verängstigt",
         icon: "veraengstigt",
         subtitle: "Du hast Angst",
-        description: "Du hast Angst",
-        reference: "PHB, Seite 292.",
+        description: "Während du Verängstigt bist, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil, solange die Quelle deiner Angst für dich sichtbar ist.",
-			"Du kannst dich nicht willentlich der Quelle deiner Angst nähern.",
+            "<em><strong>Attributswürfe und Angriffe Betroffen.</em></strong> Du hast einen Nachteil bei Attributs- und Angriffswürfen, solange sich die Quelle der Angst in deiner Sichtlinie befindet.",
+	    "<em><strong>Kann nicht näher kommen.</em></strong> Du kannst dich nicht bereitwillig näher an die Quelle der Angst heranwagen.",
         ]
     },
     {
         title: "Vergiftet",
         icon: "vergiftet",
         subtitle: "Du bist vergiftet",
-        description: "Du bist vergiftet",
-        reference: "PHB, Seite 292.",
+        description: "Während du Vergiftet bist, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Du bist bei Fähigkeitenproben und Angriffen im Nachteil.",
+            "<em><strong>Attributswürfe und Angriffe Betroffen.</em></strong> Du hast einen Nachteil bei Attributs- und Angriffswürfen",
         ]
     },
     {
         title: "Versteinert",
         icon: "versteinert",
         subtitle: "Du wirst zu Stein",
-        description: "Du bist, zusammen mit allen nicht-magischen Objekten die du trägst oder mitführst, in eine feste, unbewegliche Substanz (meistens Stein) verwandelt worden",
-        reference: "PHB, Seite 292.",
+        description: "Während du Versteinert bist, treten folgende Effekte auf",
+        reference: "PHB 2024",
         bullets: [
-            "Dein Gewicht verzehnfacht sich und du hörst auf zu altern.",
-			"Du bist <i>kampfunfähig</i>, kannst dich weder bewegen noch sprechen und nimmst deine Umgebung nicht mehr wahr.",
-            "Angriffswürfe gegen dich sind im Vorteil.",
-            "Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
-            "Du bist gegen jeden Schaden resistent",
-            "Du bist immun gegen Gifte und Krankheit, allerdings ist ein Gift, von dem du bereits betroffen bist, nur ruhend und nicht neutralisiert."
+            "<em><strong>Verwandlung in eine leblose Substanz.</em></strong> Du verwandelst dich, zusammen mit allen nichtmagischen Gegenständen, die du trägst und bei dir hast, in eine feste, leblose Substanz (normalerweise Stein). Dein Gewicht erhöht sich um das Zehnfache und du hörst auf zu altern.",
+	    "<em><strong>Kampfunfähig.</em></strong> Du hast den <i>Kampfunfähig</i> Zustand.",
+            "<em><strong>Geschwindigkeit 0.</em></strong> Deine Geschwindigkeit ist 0 und kann nicht erhöht werden.",
+            "<em><strong>Angriffe Betroffen.</strong></em> Angriffswürfe gegen dich haben einen Vorteil.",
+            "<em><strong>Rettungswürfe Betroffen.</strong></em> Rettungswürfe auf Stärke oder Geschicklichkeit schlagen automatisch fehl.",
+            "<em><strong>Widersteht Schaden.</em></strong> Du hast Resistenz gegen jeglichen Schaden.",
+	    "<em><strong>Immunität gegen Gift.</em></strong> Du bist immun gegen den Vergiftet Zustand."
         ]
     },
     {
@@ -203,7 +205,7 @@ data_condition = [
         ]
     },
     {
-        title: "0 Trefferpunkte",
+        title: "0 Trefferpunkt",
         icon: "tod",
         subtitle: "Du stirbst",
         description: "Du stirbst",
