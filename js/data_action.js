@@ -105,12 +105,13 @@ data_action = [
     {
         title: "Helfen",
         icon: "telepathy",
-        subtitle: "Gewähre Vorteil",
+        subtitle: "Unterstütze Verbündete",
         description: "Wenn du die Helfen Aktion ausführst, führst du eine der folgenden Aktionen aus.",
         reference: "PHB 2024",
         bullets: [
             "<em><strong>Hilf bei einer Attributsprüfung.</em></strong> Wähle eine deiner Übungen in Fertigkeiten oder Werkzeuge und einen Verbündeten, der nahe genug ist, um bei einer Attributsprüfung verbal oder physisch zu helfen. Dieser Verbündete hat einen Vorteil bei der nächsten Attributsprüfung, die er mit der gewählten Fertigkeit oder dem gewählten Werkzeug durchführt. Dieser Vorteil verfällt, wenn der Verbündete ihn nicht vor Beginn deines nächsten Zuges nutzt. Der SL hat das letzte Wort, ob deine Hilfe möglich ist.",
-	    "<em><strong>Unterstütze bei einem Angriff.</em></strong> Du lenkst einen Feind in einem Umkreis von 1,5 Meter um dich herum kurz ab und verschaffst einem deiner Verbündeten einen Vorteil für den nächsten Angriffswurf gegen diesen Feind. Dieser Vorteil verfällt zu Beginn deines nächsten Zuges."
+	    "<em><strong>Unterstütze bei einem Angriff.</em></strong> Du lenkst einen Feind in einem Umkreis von 1,5 Meter um dich herum kurz ab und verschaffst einem deiner Verbündeten einen Vorteil für den nächsten Angriffswurf gegen diesen Feind. Dieser Vorteil verfällt zu Beginn deines nächsten Zuges.",
+	    "<em><strong>Stabilisieren.</em></strong> Du kannst versuchen, eine Kreatur mit 0 Trefferpunkten zu stabilisieren, was einen erfolgreichen SG 10-Weisheitswurf (Heilkunde) benötigt."
         ]
     },
     {
@@ -157,17 +158,6 @@ data_action = [
         reference: "Siehe die Beschreibung des Merkmals",
         bullets: [
 
-        ]
-    },
-    {
-        title: "Erste Hilfe",
-        icon: "medical-pack",
-        subtitle: "Medizin",
-        description: "Stabilisiere eine Kreatur und verhindere, dass sie stirbt",
-        reference: "PHB, Seite 197.",
-        bullets: [
-            "Du kannst versuchen einer Kreatur mit 0 Trefferpunkten Erste Hilfe zu leisten, indem du einen Probe auf Weisheit (Medizin) gegen HG 10 ausführst. Bei einem Erfolg ist die Kreatur stabil, hat weiterhin 0 Trefferpunkte und ist <i>bewusstlos</i>, sie muss aber keine Todesrettungswürfe mehr machen.",
-			"Eine stabile Kreatur, die nicht geheilt wird, kommt nach 1d4 Stunden zu Bewusstsein und erhält einen Trefferpunkt zurück"
         ]
     },
     {
