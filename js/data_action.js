@@ -13,13 +13,13 @@ data_action = [
     {
         title: "Waffenlos",
         icon: "fist",
-        subtitle: "Nah- oder Fernkampfangriff",
-        description: "Vollführe einen Nah- oder Fernkampfangriff mit deiner Waffe",
+        subtitle: "Nahkampfangriff",
+        description: "Vollführe einen Schlag, Tritt oder ähnliches",
         reference: "PHB 2024",
         bullets: [
-            "Anstatt eine Waffe für einen Nahkampfangriff zu verwenden, kannst du einen Faustschlag, Tritt, Kopfstoß oder einen ähnlichen kräftigen Schlag einsetzen. Im Spiel ist dies ein Waffenloser Schlag – ein Nahkampfangriff, bei dem du deinen Körper einsetzt, um einem Ziel in einem Umkreis von 1,5 Metern Schaden zuzufügen, es zu packen oder zu Stoßen. <br>Wann immer du deinen Waffenlosen Schlag einsetzt, wähle eine der folgenden Optionen für seine Wirkung.",
+            "Anstatt eine Waffe für einen Nahkampfangriff zu verwenden, kannst du einen Faustschlag, Tritt, Kopfstoß oder einen ähnlichen kräftigen Schlag einsetzen. Im Spiel ist dies ein Waffenloser Schlag – ein Nahkampfangriff, bei dem du deinen Körper einsetzt, um einem Ziel in einem Umkreis von 1,5 Metern Schaden zuzufügen, es zu Packen oder zu Stoßen. <br>Wann immer du deinen Waffenlosen Schlag einsetzt, wähle eine der folgenden Optionen für seine Wirkung.",
 	    "<em><strong>Schaden.</em></strong> Du führst einen Angriffswurf gegen das Ziel durch. Dein Bonus auf den Wurf entspricht deinem Stärkemodifikator plus deinem Übungsbonus. Bei einem Treffer erleidet das Ziel einen Wuchtschaden in Höhe von 1 plus deinem Stärkemodifikator.",
-            "<em><strong>Packen.</em></strong> Das Ziel muss einen Stärke- oder Geschicklichkeitsrettungswurf (es entscheidet sich für einen) bestehen, sonst erleidet es den Zustand <i>Gepackt</i>. Der SG für den Rettungswurf und alle Entkommen versuche beträgt 8 plus deinen Stärkemodifikator und Übungsbonus. DPacken ist nur möglich, wenn das Ziel nicht mehr als eine Größe größer ist als du und du eine Hand frei hast, um es zu ergreifen.",
+            "<em><strong>Packen.</em></strong> Das Ziel muss einen Stärke- oder Geschicklichkeitsrettungswurf (es entscheidet sich für einen) bestehen, sonst erleidet es den Zustand <i>Gepackt</i>. Der SG für den Rettungswurf und alle Versuche zu Entkomme beträgt 8 plus deinen Stärkemodifikator und Übungsbonus. DPacken ist nur möglich, wenn das Ziel nicht mehr als eine Größe größer ist als du und du eine Hand frei hast, um es zu ergreifen.",
             "<em><strong>Stoßen.</em></strong> Das Ziel muss einen Stärke- oder Geschicklichkeitsrettungswurf (es entscheidet sich für einen) bestehen, oder du stößt es entweder 1,5 Meter weit weg oder versetzt es in den <i>Liegend</i> Zustand. Der SG für den Rettungswurf beträgt 8 plus deinen Stärkemodifikator und Übungsbonus. Dieses Stoßen ist nur möglich, wenn das Ziel nicht mehr als eine Größe größer ist als du.",
             "Siehe auch <i>Gepackt</i> Zustand" 
         ]
@@ -27,7 +27,7 @@ data_action = [
     {
         title: "Packen",
         icon: "grab",
-        subtitle: "Athletik vs. Akrobatik/Athletik",
+        subtitle: "Stärke- oder Geschicklichkeitsrettungswürfe",
         description: "Versuche eine Kreatur zu packen oder ringe mit ihr",
         reference: "PHB 2024",
         bullets: [
@@ -40,7 +40,7 @@ data_action = [
     {
         title: "Stoßen",
         icon: "hand",
-        subtitle: "Athletik vs. Akrobatik/Athletik",
+        subtitle: "Stärke- oder Geschicklichkeitsrettungswürfe",
         description: "Versuche eine Kreatur von dir weg oder zu Boden zu Stoßen",
         reference: "PHB 2024",
         bullets: [
@@ -115,7 +115,7 @@ data_action = [
     },
     {
         title: "Verstecken",
-        icon: "hood",
+        icon: "versteckt",
         subtitle: "Heimlichkeit vs. Wahrnehmung",
         description: "Versuche dich zu verstecken",
         reference: "PHB 2024",
@@ -128,7 +128,7 @@ data_action = [
     {
         title: "Suchen",
         icon: "magnifying-glass",
-        subtitle: "Wahrnehmung, Nachforschen",
+        subtitle: "Führe Weisheitswürfe durch",
         description: "Widme deine Aufmerksamkeit ganz der Suche nach etwas",
         reference: "PHB 2024",
         bullets: [
