@@ -1,37 +1,44 @@
 data_coremechanics = [
-  {
-        title: "Teildeckung",
-        icon: "broken-shield",
-        subtitle: "Niedr. Mauer, Möbel, Kreatur",
-        description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
-        reference: "PHB, Seiten 195-196.",
-        bullets: [
-            "Das Hindernis kann zB eine niedrige Mauer, ein großes Möbelstück, ein schmaler Baumstamm oder eine Kreatur (unabhängig ob sie freundlich oder feindlich ist) sein.",
-			"Ein Ziel mit Teildeckung erhält einen <b>+2 Bonus auf die Rüstungsklasse und Proben auf Geschicklichkeit</b>.",
-            "Wenn ein Ziel sich hinter mehreren Quellen von Deckung befindet, wird nur die größte Deckung angewandt"
-        ]
-    },
-    {
-        title: "Dreivierteldeckung",
-        icon: "cracked-shield",
-        subtitle: "Fallgatter, Pfeilschlitze",
-        description: "Ein Ziel hat Dreivierteldeckung wenn ein Hindernis ungefähr drei Viertel seines Körpers verdeckt",
-        reference: "PHB, Seiten 195-196.",
-        bullets: [
-            "Das Hindernis kann zB ein Fallgatter, ein Pfeilschlitz oder ein dicker Baumstamm sein.",
-			"Ein Ziel mit Dreivierteldeckung erhält einen <b>+5 Bonus auf die Rüstungsklasse und Proben auf Geschicklichkeit</b>.",
-            "Wenn ein Ziel sich hinter mehreren Quellen von Deckung befindet, wird nur die größte Deckung angewandt"
-        ]
-    },
-    {
-        title: "Volle Deckung",
+   {
+        title: "Deckung",
         icon: "shield",
-        subtitle: "Komplett verdeckt",
-        description: "Ein Ziel hat Volle Deckung wenn es durch ein Hindernis vollständig verdeckt wird",
-        reference: "PHB, Seiten 195-196.",
+        subtitle: "Mauern, Bäume und Kreaturen",
+        description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
+        reference: "PHB 2024",
         bullets: [
-            "Ein Ziel hinter voller Deckung <b>kann nicht direkt als Ziel für einen Angriff oder Zauberspruch gewählt werden</b>, wobei manche Zauber ein solches Ziel innerhalb eines Effektbereichs treffen können.",
-            "Wenn ein Ziel sich hinter mehreren Quellen von Deckung befindet, wird nur die größte Deckung angewandt"
+            "Walls, trees, creatures, and other obstacles can provide cover, making a target more difficult to harm. As detailed in the Cover table, there are three degrees of cover, each of which gives a different benefit to a target.",
+			"A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren’t added together. For example, if a target is behind a creature that gives Half Cover and a tree trunk that gives Three-Quarters Cover, the target has Three-Quarters Cover.",
+            "<table><caption>Cover</caption><thead><tr><th><p>Degree</p></th><th><p>Benefit to Target</p></th><th><p>Offered By &hellip;</p></th></tr></thead><tbody><tr><td><p>Half</p></td><td><p>+2 bonus to AC and Dexterity saving throws</p></td><td><p>Another creature or an object that covers at least half of the target</p></td></tr><tr><td><p>Three-<br>Quarters</p></td><td><p>+5 bonus to AC and Dexterity saving throws</p></td><td><p>An object that covers at least three-quarters of the target</p></td></tr><tr><td><p>Total</p></td><td><p>Can&rsquo;t be targeted directly</p></td><td><p>An object that covers the whole target</p></td></tr></tbody></table>"
         ]
+    },
+  {
+        title: "Temporäre Trefferpunkte",
+        icon: "anchor",
+        subtitle: "Text",
+        description: " ",
+        reference: "PHB 2024",
+        bullets: [
+
+        ]
+    },
+    {
+        title: "Heroische Inspiration",
+        icon: "anchor",
+        subtitle: "Text",
+        description: " ",
+        reference: "PHB 2024",
+        bullets: [
+
+        ]
+    },
+    {
+        title: "Rasten",
+        icon: "anchor",
+        subtitle: "Text",
+        description: " ",
+        reference: "PHB 2024",
+        bullets: [
+
+      ]
     }
   ]
