@@ -211,7 +211,7 @@ data_condition = [
         description: " ",
         reference: "PHB 2024",
         bullets: [
-            "Eine Kreatur ist stabil wenn sie 0 Trefferpunkte hat, aber keine Todesrettungswürfe werfen muss.",
+            "Eine stabile Kreatur führt keine Todesrettungswürfe durch, obwohl sie 0 Trefferpunkte hat, aber immer noch Kampfunfähig ist. Wenn die Kreatur Schaden erleidet, ist sie nicht mehr stabil und führt wieder Todesrettungswürfe durch. Eine stabile Kreatur, die nicht geheilt wird, erhält nach 1W4 Stunden 1 Trefferpunkt zurück.",
         ]
     },
     {
