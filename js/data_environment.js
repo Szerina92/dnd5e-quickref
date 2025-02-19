@@ -12,7 +12,7 @@ data_environment_obscurance = [
     },
     {
         title: "Licht",
-        icon: "lamp",
+        icon: "candlebright",
         subtitle: "Beeinflusst Sicht",
         description: "Das Vorhandensein oder Fehlen von Licht bestimmt die Beleuchtungskategorie in einem Bereich, wie unten definiert.",
         reference: "PHB 2024",
