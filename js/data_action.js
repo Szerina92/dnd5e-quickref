@@ -27,7 +27,7 @@ data_action = [
     {
         title: "Packen",
         icon: "grab",
-        subtitle: "Stärke- oder Geschicklichkeitsrettungswürfe",
+        subtitle: "Stärke- oder Geschicklichkeits-RW",
         description: "Versuche eine Kreatur zu packen oder ringe mit ihr",
         reference: "PHB 2024",
         bullets: [
@@ -40,7 +40,7 @@ data_action = [
     {
         title: "Stoßen",
         icon: "hand",
-        subtitle: "Stärke- oder Geschicklichkeitsrettungswürfe",
+        subtitle: "Stärke- oder Geschicklichkeits-RW",
         description: "Versuche eine Kreatur von dir weg oder zu Boden zu Stoßen",
         reference: "PHB 2024",
         bullets: [
