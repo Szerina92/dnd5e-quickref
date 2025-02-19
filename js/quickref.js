@@ -63,9 +63,8 @@ function init() {
     fill_section(data_reaction, "basic-reactions", "Reaktion");
     fill_section(data_condition, "basic-conditions", "Zustand");
     fill_section(data_coremechanics, "basic-coremechanics", "Mechanik");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Erkundung");
-    fill_section(data_environment_light, "environment-light", "Licht");
-    fill_section(data_environment_vision, "environment-vision", "Sicht");
+    fill_section(data_environment_obscurance, "environment-obscurance", "Sicht und Licht");
+    fill_section(data_environment_vision, "environment-vision", "Sinne");
     fill_section(data_environment_hazards, "environment-hazards", "Gefahr");
 
     var modal = document.getElementById("modal");
