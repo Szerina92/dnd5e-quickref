@@ -9,7 +9,8 @@ data_coremechanics = [
             "<strong>W20: Würfeln für Angriffe, Rettungswürfe und Attributswürfe.</strong>",
 	    "Der 20-seitige Würfel (W20) ist der wichtigste Würfel, den du im Spiel verwenden wirst. Er ist von zentraler Bedeutung für die Kernmechanik – die sogenannten W20-Prüfungen –, mit der das Spiel bestimmt, ob Kreaturen bei den Dingen, die sie während des Spiels versuchen, Erfolg haben oder scheitern. Du würfelst einen W20, wenn dein Charakter versucht, etwas zu tun, bei dem der Spielleiter entscheidet, dass es sowohl Erfolg als auch Misserfolg haben kann. Je höher dein Wurf, desto wahrscheinlicher ist es, dass du Erfolg hast.",
 	    "<strong>W4, W6, W8, W10, W12: Benutzt für Waffenschaden, Heilung und andere Effekte.</strong>",
-	    "Wenn du einen erfolgreichen Angriffswurf machst, würfelst du Schaden, um zu sehen, wie effektiv der Angriff ist. Wenn du einen Zauber wirkst, kannst du auch Schaden würfeln. Verschiedene Waffen und Zauber verwenden unterschiedliche Würfel für den Schaden."	
+	    "Wenn du einen erfolgreichen Angriffswurf machst, würfelst du Schaden, um zu sehen, wie effektiv der Angriff ist. Wenn du einen Zauber wirkst, kannst du auch Schaden würfeln. Verschiedene Waffen und Zauber verwenden unterschiedliche Würfel für den Schaden.",
+		"<em><strong>Abrunden.</strong></em> Wenn du im Spiel eine Zahl teilst oder multiplizierst und einen Bruch erhältst, dann runde immer ab, auch wenn der Bruch größer oder gleich der Hälfte ist. Bei einigen Regeln gilt jedoch die Ausnahme, dass du aufrunden sollst."
         ]
     },	
     {
@@ -26,7 +27,20 @@ data_coremechanics = [
 	    "<em><strong>Nachteil.</em></strong> Wenn du bei einem W20-Wurf einen Nachteil hast, wirf zwei W20 und verwende den niedrigeren Wurf. Ein Wurf kann nicht durch mehr als einen Nachteil beeinflusst werden, und Vorteil und Nachteil beim gleichen Wurf heben sich gegenseitig auf."
         ]
     },	
-   {
+    {
+        title: "Initiative",
+        icon: "arrow",
+        subtitle: "Kampfreihenfolge",
+        description: "In jedem Kampf muss die Reihenfolge der Teilnehmer festgelegt werden",
+        reference: "PHB 2024",
+        bullets: [
+          "Die Initiative bestimmt die Reihenfolge der Züge während des Kampfes. Wenn der Kampf beginnt, würfelt jeder Teilnehmer Initiative; sie machen einen Geschicklichkeitswurf, die ihren Platz in der Initiative-Reihenfolge bestimmt. Die SL würfelt für Monster. Bei einer Gruppe identischer Kreaturen führt die SL einen einzigen Wurf durch, sodass jedes Mitglied der Gruppe die gleiche Initiative hat.",
+		"<em><strong>Überraschung.</em></strong> Wenn ein Teilnehmer vom Beginn eines Kampfes überrascht wird, hat dieser Kämpfer einen Nachteil bei seinem Initiativwurf. Wenn beispielsweise ein Hinterhalt einen Kampf beginnt, während er vor einem Gegner verborgen ist, der nicht weiß, dass ein Kampf beginnt, ist dieser Gegner überrascht.",
+		"<em><strong>Initiativreihenfolge.</em></strong> Die Summe des Wurfes eines Kämpfers wird als seine Initiative bezeichnet. Die SL ordnet die Teilnehmer nach der Höhe ihrer Initiative. In dieser Reihenfolge handeln sie in jeder Runde. Die Initiativreihenfolge bleibt von Runde zu Runde gleich.",
+		"<em><strong>Gleichstand.</em></strong> Bei einem Gleichstand entscheidet die SL über die Reihenfolge der Monster mit Gleichstand und die Spieler entscheiden über die Reihenfolge der Charaktere mit Gleichstand. Die SL entscheidet über die Reihenfolge, wenn der Gleichstand zwischen einem Monster und einem Spielercharakter besteht."
+        ]
+    },		
+    {
         title: "Deckung",
         icon: "shield",
         subtitle: "Mauern, Bäume und Kreaturen",
@@ -70,7 +84,7 @@ data_coremechanics = [
         description: "Abenteurer können nicht jede Stunde auf Abenteuer sein. Sie brauchen auch mal Rast.",
         reference: "PHB 2024",
         bullets: [
-	"<p>A Long Rest is a period of extended downtime&mdash;at least 8 hours&mdash;available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.</p><p>During sleep, you have the Unconscious condition. After you finish a Long Rest, you must wait at least 16 hours before starting another one.</p><p><em><strong>Benefits of the Rest.</strong></em> To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:</p><p><strong>Regain All HP.</strong> You regain all lost Hit Points and all spent Hit Point Dice. If your Hit Point maximum was reduced, it returns to normal.</p><p><strong>Ability Scores Restored.</strong> If any of your ability scores were reduced, they return to normal.</p><p><strong>Exhaustion Reduced.</strong> If you have the Exhaustion condition, its level decreases by 1.</p><p><strong>Special Feature.</strong> Some features are recharged by a Long Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Long Rest is stopped by the following interruptions:</p><ul><li>Initiative</li><li>Casting a spell other than a cantrip</li><li>Taking any damage</li><li>1 hour of walking or other physical exertion</li></ul><p>If you rested at least 1 hour before the interruption, you gain the benefits of a Short Rest.</p><p>You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour per interruption to finish.</p>"
+	"<p>A Short Rest is a 1-hour period of downtime, during which a creature does nothing more strenuous than reading, talking, eating, or standing watch. To start a Short Rest, you must have at least 1 Hit Point.</p><p><em><strong>Benefits of the Rest.</strong></em> When you finish the rest, you gain the following benefits:</p><p><strong>Spend Hit Point Dice.</strong> You can spend one or more of your Hit Point Dice to regain Hit Points. For each Hit Point Die you spend in this way, roll the die and add your Constitution modifier to it. You regain Hit Points equal to the total (minimum of 1 Hit Point). You can decide to spend an additional Hit Point Die after each roll.</p><p><strong>Special Feature.</strong> Some features are recharged by a Short Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Short Rest is stopped by the following interruptions:</p><ul><li>Rolling Initiative</li><li>Casting a spell other than a cantrip</li><li>Taking any damage</li></ul><p>An interrupted Short Rest confers no benefits.</p>"
       ]
     },
     {
@@ -80,7 +94,7 @@ data_coremechanics = [
         description: "Abenteurer können nicht jede Stunde auf Abenteuer sein. Sie brauchen auch mal Rast.",
         reference: "PHB 2024",
         bullets: [
-		"<p>A Short Rest is a 1-hour period of downtime, during which a creature does nothing more strenuous than reading, talking, eating, or standing watch. To start a Short Rest, you must have at least 1 Hit Point.</p><p><em><strong>Benefits of the Rest.</strong></em> When you finish the rest, you gain the following benefits:</p><p><strong>Spend Hit Point Dice.</strong> You can spend one or more of your Hit Point Dice to regain Hit Points. For each Hit Point Die you spend in this way, roll the die and add your Constitution modifier to it. You regain Hit Points equal to the total (minimum of 1 Hit Point). You can decide to spend an additional Hit Point Die after each roll.</p><p><strong>Special Feature.</strong> Some features are recharged by a Short Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Short Rest is stopped by the following interruptions:</p><ul><li>Rolling Initiative</li><li>Casting a spell other than a cantrip</li><li>Taking any damage</li></ul><p>An interrupted Short Rest confers no benefits.</p>"
+		"<p>A Long Rest is a period of extended downtime&mdash;at least 8 hours&mdash;available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.</p><p>During sleep, you have the Unconscious condition. After you finish a Long Rest, you must wait at least 16 hours before starting another one.</p><p><em><strong>Benefits of the Rest.</strong></em> To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:</p><p><strong>Regain All HP.</strong> You regain all lost Hit Points and all spent Hit Point Dice. If your Hit Point maximum was reduced, it returns to normal.</p><p><strong>Ability Scores Restored.</strong> If any of your ability scores were reduced, they return to normal.</p><p><strong>Exhaustion Reduced.</strong> If you have the Exhaustion condition, its level decreases by 1.</p><p><strong>Special Feature.</strong> Some features are recharged by a Long Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Long Rest is stopped by the following interruptions:</p><ul><li>Initiative</li><li>Casting a spell other than a cantrip</li><li>Taking any damage</li><li>1 hour of walking or other physical exertion</li></ul><p>If you rested at least 1 hour before the interruption, you gain the benefits of a Short Rest.</p><p>You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour per interruption to finish.</p>"
       ]
     }	
   ]
