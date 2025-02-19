@@ -1,58 +1,25 @@
 data_environment_obscurance = [
     {
-        title: "Leicht verschleiert",
+        title: "Verdeckte Bereiche",
         icon: "bleeding-eye",
-        subtitle: "Nachteil auf Wahrnehmung",
-        description: "Dämmriges Licht, ungleichmäßiger Nebel, mäßiges Blattwerk",
-        reference: "PHB, Seite 183.",
+        subtitle: "Sicht Eingeschränkt",
+        description: "Ein Bereich kann leicht oder stark verschleiert sein",
+        reference: "PHB 2024",
         bullets: [
-            "Kreaturen haben <b>Nachteil auf Weisheit (Wahrnehmung)</b>-Proben, die Sicht benötigen"
+            "<em><strong>Leicht Verschleiert.</em></strong> In einem leicht verschleierten Gebiet – wie einem Gebiet mit dämmrigem Licht, Nebel oder mäßigem Blattwerk – hast du einen Nachteil bei Weisheitswürfen (Wahrnehmung), die auf Sicht angewiesen sind.",
+		"<em><strong>Stark Verschleiert.</em></strong> Ein stark verschleiertes Gebiet – wie ein Gebiet mit Dunkelheit, dichtem Nebel oder dichtem Blattwerk – ist undurchsichtig. Wenn du versuchst, dort etwas zu sehen, hast du den <i>Blind</i> Zustand."
         ]
     },
     {
-        title: "Komplett verschleiert",
-        icon: "lightning-tear",
-        subtitle: "Effektiv Blind",
-        description: "Dunkelheit, dichter Nebel, dichtes Blattwerk",
-        reference: "PHB, Seite 183.",
+        title: "Licht",
+        icon: "lamp",
+        subtitle: "Beeinflusst Sicht",
+        description: "Das Vorhandensein oder Fehlen von Licht bestimmt die Beleuchtungskategorie in einem Bereich, wie unten definiert.",
+        reference: "PHB 2024",
         bullets: [
-            "Eine Kreatur in einem komplett verschleierten Bereich ist effektiv vom Zustand <b>Blind</b> betroffen."
-        ]
-    }
-]
-
-data_environment_light = [
-    {
-        title: "Helles Licht",
-        icon: "star-pupil",
-        subtitle: "Normales Sehen",
-        description: "Helles Licht lässt die meisten Kreaturen normal sehen",
-        reference: "PHB, Seite 183.",
-        bullets: [
-			"Auch bewölkte Tage bieten helles Licht, genau wie Fackeln, Laternen, Feuer und andere Lichtquellen in einem bestimmten Radius."
-        ]
-    },
-    {
-        title: "Dämmriges Licht",
-        icon: "semi-closed-eye",
-        subtitle: "Leicht verschleiert",
-        description: "Dämmriges Licht, bzw. Schatten",
-        reference: "PHB, Seite 183.",
-        bullets: [
-            "Erzeugt einen <b>leicht verschleierten</b> Bereich.",
-            "Ein Bereich mit dämmrigem Licht ist für gewöhnlich der Grenzbereich einer Quelle hellen Lichts, wie einer Fackel, die von Dunkelheit umgeben ist.",
-            "Das schwache Licht von Dämmerung und Sonnenaufgang ist dämmriges Licht. Ein besonders heller Vollmond kann das Land ebenfalls in dämmrigem Licht baden."
-        ]
-    },
-    {
-        title: "Dunkelheit",
-        icon: "worried-eyes",
-        subtitle: "Komplett verschleiert",
-        description: "Dunkelheit erzeigt einen komplett verschleierten Bereich",
-        reference: "PHB, Seite 183.",
-        bullets: [
-            "Erzeugt einen <b>komplett verschleierten</b> Bereich.",
-            "Charaktere treffen nachts draußen auf Dunkelheit (auch in den meisten mondhellen Nächten), in einem unbeleuchteten Verlies, einem unterirdischen Gewölbe oder einem Bereich magischer Dunkelheit."
+            "<em><strong>Helles Licht.</em></strong> Helles Licht ermöglicht den meisten Kreaturen ein normales Sehen. Selbst an trüben Tagen gibt es helles Licht, ebenso wie Fackeln, Laternen, Feuer und andere Lichtquellen in einem bestimmten Radius.",
+		"<em><strong>Dämmriges Licht.</em></strong> Dämmriges Licht, auch Schatten genannt, erzeugt einen <i>Leicht Verschleierten</i> Bereich. Ein Bereich mit dämmrigem Licht ist normalerweise eine Grenze zwischen hellem Licht und umgebender Dunkelheit. Das sanfte Licht der Dämmerung zählt ebenfalls als dämmriges Licht. Ein Vollmond kann das Land in dämmriges Licht tauchen.",
+		"<em><strong>Dunkelheit.</em></strong> Dunkelheit erzeugt einen <i>Stark Verschleierten</i> Bereich. Charaktere sind der Dunkelheit nachts im Freien (selbst in den meisten mondhellen Nächten), innerhalb der Grenzen eines unbeleuchteten Verlieses oder in einem Bereich magischer Dunkelheit ausgesetzt."
         ]
     }
 ]
@@ -63,9 +30,9 @@ data_environment_vision = [
         icon: "one-eyed",
         subtitle: "Wahrnehmen ohne zu sehen",
         description: "Nimm deine Umgebung in einem bestimmten Radius war, ohne dich auf dein Augenlicht zu verlassen",
-        reference: "PHB, Seite 183.",
+        reference: "PHB 2024",
         bullets: [
-            "Kreaturen ohne Augen, wie zum Beispiel Schlicke, und Kreaturen mit Echolot oder verstärkten Sinnen, so wie Fledermäuse und echte Drachen, haben oft diesen Sinn."
+            "Wenn du über Blindsicht verfügst, kannst du innerhalb einer bestimmten Reichweite sehen, ohne auf das physische Sehvermögen angewiesen zu sein. Innerhalb dieser Reichweite kannst du alles sehen, was sich nicht hinter Vollständiger Deckung befindet, selbst wenn du den <i>Blind</i> hast oder dich in Dunkelheit befindest. Darüber hinaus kannst du in dieser Reichweite etwas sehen, das sich im <i>Unsichtbar</i> Zustand befindet."
         ]
     },
     {
@@ -73,11 +40,9 @@ data_environment_vision = [
         icon: "semi-closed-eye",
         subtitle: "Begrenzte Sicht in Dunkelheit",
         description: "Eine Kreatur mit Dunkelsicht kann innerhalb eines bestimmten Radius in der Dunkelheit und bei wenig Licht besser sehen",
-        reference: "PHB, Seite 183.",
+        reference: "PHB 2024",
         bullets: [
-            "Innerhalb eines bestimmten Bereichs kann eine Kreatur mit Dunkelsicht <b>in Dunkelheit sehen, als sei es dämmriges Licht</b>, was bedeutet, dass Bereiche in Dunkelheit für die Kreatur wie dämmriges Licht behandelt werden.",
-			"Allerdings kann die Kreatur in der Dunkelheit keine Farben differenzieren und sieht statt dessen Schattierungen von Grau.",
-            "Viele Kreaturen in den Welten von D&D haben Dunkelsicht, insbesondere die, die im Unterreich leben."
+            "Wenn du über Dunkelsicht verfügst, kannst du in einem bestimmten Bereich bei Dämmrigem Licht so sehen, als wäre es Helles Licht, und in diesem Bereich bei Dunkelheit so, als wäre es Dämmriges Licht. In Dunkelheit kannst du Farben nur als Grautöne wahrnehmen."
         ]
     },
     {
@@ -95,11 +60,14 @@ data_environment_vision = [
         title: "Wahrer Blick",
         icon: "eye-shield",
         subtitle: "Alles sehen",
-        description: "Eine Kreatur mit Wahrem Blick kann unabhängig von der Umgebung alles in seiner wahren Form sehen",
-        reference: "PHB, Seite 185.",
+        description: "Wenn du Wahrsicht hast, wird deine Sicht innerhalb eines bestimmten Bereichs verbessert",
+        reference: "PHB 2024",
         bullets: [
-            "Eine Kreatur mit dem Wahren Blick kann bis zu einer bestimmten Reichweite, auch in normaler sowie magischer Dunkelheit sehen, unsichtbare Kreaturen und Objekte wahrnehmen, automatisch visuelle Illusionen entdecken und Proben gegen diese gewinnen, und nimmt die wahre Form eines Gestaltwandlers oder einer Kreatur, die durch Magie verwandelt wurde, wahr.",
-			"Darüber hinaus kann die Kreatur in die Ätherebene sehen."
+            "<em><strong>Dunkelheit.</em></strong> Du kannst in normaler und magischer Dunkelheit sehen.",
+	 "<em><strong>Unsichtbarkeit.</em></strong> Du siehst Kreaturen und Objekte, die den <i>Unsichtbar</i> Zustand haben.",
+		"<em><strong>Visuelle Täuschungen.</em></strong> Visuelle Täuschungen erscheinen dir transparent und du hast automatisch Erfolg bei Rettungswürfen gegen sie.",
+		"<em><strong>Verwandlungen.</em></strong> Du erkennst die wahre Form jeder Kreatur oder jedes Objekts, das du siehst und das durch Magie verwandelt wurde.",
+		"<em><strong>Ätherische Ebene.</em></strong> Du siehst in die Ätherische Ebene."
         ]
     }
 ]
@@ -112,7 +80,7 @@ data_environment_hazards = [
         description: "Eine Kreatur oder ein Objekt brennt",
         reference: "PHB 2024",
         bullets: [
-            "A burning creature or object takes 1d4 Fire damage at the start of each of its turns. As an action, you can extinguish fire on yourself by giving yourself the Prone condition and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated."
+            "Eine brennende Kreatur oder ein brennendes Objekt erleidet zu Beginn jedes seiner Züge 1W4 Feuerschaden. Als Aktion kannst du das Feuer an dir selbst löschen, indem du dich in den Liegend Zustand versetzt und dich auf dem Boden wälzt. Das Feuer erlischt auch, wenn es gelöscht, untergetaucht oder erstickt wird."
         ]
     },
     {
