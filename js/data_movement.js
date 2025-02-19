@@ -4,13 +4,13 @@ data_movement = [
         icon: "run",
         subtitle: "Kosten: 1,5m pro 1,5m",
         description: "Bewegungskosten: 1,5m Bewegung pro 1,5m Strecke",
-        reference: "PHB, Seite 190.",
+        reference: "PHB 2024",
         bullets: [
-            "Wenn du mehr als eine Bewegungsrate hast, so wie deine herkömmliche und eine Flugbewegungsrate, kannst du während deiner Bewegung zwischen ihnen hin und her wechseln. Wann immer du wechselst, zieh die Gesamtdistanz, die du dich bisher bewegt hast, von der aktiven Bewegungsrate ab",
-			"Du kannst dich durch den Bereich einer nicht-feindlichen Kreatur bewegen",
-			"Du kannst dich nur dann durch den Bereich einer feindlichen Kreatur bewegen, wenn sie mindestens zwei Größenkategorien größer oder kleiner als du ist",
-			"Der Bereich einer anderen Kreatur ist für dich <i>Schwieriges Gelände</i>",
-            "Du kannst deinen Zug nicht willentlich im Bereich einer Kreatur beenden, egal ob sie Freund oder Feind ist."
+            "<p>Wenn du am Zug bist, kannst du dich eine Strecke bewegen, die deiner Geschwindigkeit entspricht oder k&uuml;rzer. Du kannst dich aber auch entscheiden, dich nicht zu bewegen.</p><p>Du kannst dich kletternd, kriechend, springend oder schwimmend fortbewegen. Diese verschiedenen Fortbewegungsarten k&ouml;nnen mit deiner normalen Bewegung kombiniert werden oder deine gesamte Bewegung ausmachen.</p><p>Wie auch immer du dich mit deiner Geschwindigkeit bewegst, ziehst du die Entfernung jeder deiner Geschwindigkeiten ab, bis sie aufgebraucht ist oder bis du mit der Bewegung fertig bist, je nachdem, was zuerst eintritt.</p>",
+			"Du kannst deine Bewegung aufteilen, indem du einen Teil der Bewegung vor und nach einer Aktion, Bonusaktion oder Reaktion verwendest, die du im selben Zug ausführst. Wenn du beispielsweise eine Geschwindigkeit von 9 Metern hast, könntest du 3 Meter gehen, eine Aktion ausführen und dann 6 Meter gehen.",
+            "Während deines Zuges kannst du durch den Raum eines Verbündeten, einer Kreatur, die sich im <i>Kampfunfähig</i> Zustand befindet, einer winzigen Kreatur oder einer Kreatur, die zwei Größen größer oder kleiner ist als du, hindurchziehen.",
+		"Der Raum einer anderen Kreatur ist für dich <i>Schwieriges Gelände</i>, es sei denn, diese Kreatur ist winzig oder dein Verbündeter.",
+		"Du kannst einen Zug nicht bereitwillig in einem Feld beenden, das von einer anderen Kreatur besetzt ist. Wenn du irgendwie deinen Zug auf einem Feld mit einer anderen Kreatur beendest, erhältst du den <i>Liegend</i> Zustand, es sei denn, du bist winzig oder größer als die andere Kreatur."
         ]
     },
     {
@@ -18,9 +18,10 @@ data_movement = [
         icon: "crags",
         subtitle: "Kosten: 3m pro 1,5m",
         description: "Bewegungskosten: 3m Bewegung pro 1,5m Strecke",
-        reference: "PHB, Seite 182.",
+        reference: "PHB 2024",
         bullets: [
-            "Kann eine Probe auf Stärke (Athletik) beinhalten, wenn die Strecke schwierig zu klettern ist"
+            "Du ignorierst die zusätzlichen Kosten, wenn du eine Klettergeschwindigkeit hast und sie zum Klettern verwendest.",
+	    "Nach Ermessen der SL kann das Klettern auf einer rutschigen Oberfläche oder einer Oberfläche mit wenigen Griffen eine erfolgreiche SG 15-Stärkewurf (Athletik) erfordern."
         ]
     },
     {
@@ -28,9 +29,10 @@ data_movement = [
         icon: "at-sea",
         subtitle: "Kosten: 3m pro 1,5m",
         description: "Bewegungskosten: 3m Bewegung pro 1,5m Strecke",
-        reference: "PHB, Seite 182.",
+        reference: "PHB 2024",
         bullets: [
-            "Kann eine Probe auf Stärke (Athletik) beinhalten, wenn die Strecke schwierig zu schwimmen ist"
+            "Du ignorierst die zusätzlichen Kosten, wenn du eine Schwimmgeschwindigkeit hast und damit schwimmst.",
+		"Nach Ermessen der SL kann das Bewegen einer beliebigen Strecke in rauem Wasser einen erfolgreichen SG 15-Stärkewurf (Athletik) erfordern."
         ]
     },
     {
@@ -38,11 +40,9 @@ data_movement = [
         icon: "falling",
         subtitle: "Kostenlos",
         description: "Bewegungskosten: 0m (kostenlos)",
-        reference: "PHB, Seiten 190-191,291.",
+        reference: "PHB 2024",
         bullets: [
-            "Du kannst fallen oder dich absichtlich zu Boden werfen ohne deine Bewegungsrate aufzubrauchen",
-			"Du erhältst den Zustand <i>Liegend</i> (Nahkampfangriffe gegen dich haben Vorteil, Fernkampfangriffe haben Nachteil, deine eigenen Angriffe haben Nachteil)",
-			"Um sich liegend zu bewegen, musst du kriechen oder Magie (wie Teleportation) nutzen",
+            "Wenn du am Zug bist, kannst du dich selbst in den <i>Liegend</i> Zustand versetzen, ohne eine Aktion oder Geschwindigkeit zu verwenden. Dies ist jedoch nicht möglich, wenn deine Geschwindigkeit 0 beträgt."
         ]
     },
     {
@@ -50,7 +50,7 @@ data_movement = [
         icon: "crawl",
         subtitle: "Kosten: 3m pro 1,5m",
         description: "Bewegungskosten: 3m Bewegung pro 1,5m Strecke",
-        reference: "PHB, Seite 182.",
+        reference: "PHB 2024",
         bullets: [
 
         ]
@@ -60,7 +60,7 @@ data_movement = [
         icon: "strong",
         subtitle: "Kosten: halbe Bewegungsrate",
         description: "Bewegungskosten: Hälfte deiner vollen Bewegungsrate",
-        reference: "PHB, Seite 190-191.",
+        reference: "PHB 2024",
         bullets: [
             "Wenn deine Geschwindigkeit 0 ist, oder du nicht mehr genügend Bewegungsrate übrig hast, kannst du nicht aufstehen"
         ]
@@ -77,19 +77,10 @@ data_movement = [
         ]
     },
     {
-        title: "Improvisiere",
-        icon: "juggler",
-        subtitle: "Irgendein Kunststück",
-        description: "Führe jede Bewegung und jedes Kunststück aus, das du dir vorstellen kannst",
-        bullets: [
-            "Wenn du eine Bewegung beschreibst, die nicht in den Regeln beschrieben wird, teilt der DM dir mit ob sie möglich ist und was du gegebenenfalls dafür würfeln musst um heraus zu finden ob du erfolgreich bist."
-        ]
-    },
-    {
         title: "Schwieriges Gelände",
         icon: "stone-pile",
         subtitle: "Kosten: 3m pro 1,5m",
-        reference: "PHB, Seite 182.",
+        reference: "PHB 2024",
         description: "Bewegungskosten: Zusätzlich 1,5 Bewegung pro 1,5m Strecke",
         bullets: [
 			"Bewegung in schwierigem Gelände kostet zusätzlich 1,5m Bewegung pro 1,5m zurück gelegter Strecke",
@@ -101,7 +92,7 @@ data_movement = [
         icon: "grab",
         subtitle: "Geschwindigkeit halbiert",
         description: "Ziehe oder trage eine gepackte Kreatur mit dir",
-        reference: "PHB, Seite 195.",
+        reference: "PHB 2024",
         bullets: [
             "Wenn du dich bewegst während du eine Kreatur im Haltegriff hast, ist deine Geschwindigkeit halbiert, es sei denn, die Kreatur ist zwei oder mehr Größenkategorien kleiner als du",
         ]
