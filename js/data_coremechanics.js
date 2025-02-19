@@ -29,7 +29,7 @@ data_coremechanics = [
     },	
     {
         title: "Initiative",
-        icon: "arrow",
+        icon: "rapidshare-arrow",
         subtitle: "Kampfreihenfolge",
         description: "In jedem Kampf muss die Reihenfolge der Teilnehmer festgelegt werden",
         reference: "PHB 2024",
