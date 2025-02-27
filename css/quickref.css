@@ -127,11 +127,11 @@
 }
 
 #section-action, #section-action .item-icon {
-    background-color: black;
-    border-color: black;
+    background-color: Navy;
+    border-color: Navy;
 }
 #section-action .text {
-    color: black;
+    color: Navy;
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
