@@ -127,11 +127,11 @@
 }
 
 #section-action, #section-action .item-icon {
-    background-color: Navy;
-    border-color: Navy;
+    background-color: MidnightBlue;
+    border-color: MidnightBlue;
 }
 #section-action .text {
-    color: Navy;
+    color: MidnightBlue;
 }
 
 #section-bonus-action, #section-bonus-action .item-icon {
@@ -143,11 +143,11 @@
 }
 
 #section-reaction, #section-reaction .item-icon {
-    background-color: DarkOliveGreen ;
-    border-color: DarkOliveGreen ;
+    background-color: DarkGreen;
+    border-color: DarkGreen;
 }
 #section-reaction .text {
-    color: DarkOliveGreen ;
+    color: DarkGreen;
 }
 
 #section-condition, #section-condition .item-icon {
@@ -159,11 +159,11 @@
 }
 
 #section-environment, #section-environment .item-icon {
-    background-color: ForestGreen;
-    border-color: ForestGreen;
+    background-color: Gold;
+    border-color: Gold;
 }
 #section-environment .text {
-    color: ForestGreen;
+    color: Gold;
 }
 
 #section-coremechanics, #section-coremechanics .item-icon {
