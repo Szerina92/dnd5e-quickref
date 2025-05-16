@@ -2,14 +2,13 @@ data_bonusaction = [
     {
         title: "Angriff mit Zweitwaffe",
         icon: "crossed-swords",
-        subtitle: "Nur mit Angriffsaktion",
+        subtitle: "Teil der Angriffsaktion",
         description: "Greife mit deiner zweiten Waffe an",
-        reference: "PHB 2024",
+        reference: "SHB 2024 S. 213",
         bullets: [
-            "Nur nutzbar, wenn du die <i>Angriff</i> Aktion mit einer leichten Nahkampfwaffe durchführst.",
-	    "Führe einen einzelnen Angriff mit einer anderen leichten Nahkampfwaffe, die du in der anderen Hand hältst, aus.",
-            "Du addierst deinen Attributsmodifikator nicht auf den Schaden des Angriffs mit der Zweitwaffe, es sei denn, der Modifikator ist negativ.",
-            "Wenn eine der Waffen die geworfen Eigenschaft hat, kannst du die Waffe werfen anstatt einen Nahkampfangriff zu machen."
+            "Wenn du in deinem Zug die Angriffsaktion ausführst und mit einer leichten Waffe angreifst, kannst du später im selben Zug als Bonusaktion einen zusätzlichen Angriff ausführen.",
+	    "Dieser zusätzliche ngriff muss mit einer anderen leichten Waffe ausgef+hrt werden.",
+            "Du kannst dem Schaden des zusätzlichen Angriffs nicht deinen Attributsmodifikator hinzufügen, sofern dieser Modifikator nicht negativ ist."
         ]
     },
     {

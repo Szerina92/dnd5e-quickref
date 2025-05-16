@@ -1,6 +1,6 @@
 data_coremechanics = [
    {
-        title: "Würfel",
+        title: "Würfelnotation",
         icon: "w20-1",
         subtitle: "Würfel und ihre Werte",
         description: "Jeder Würfelt spielt eine bestimmte Rolle",
@@ -8,23 +8,23 @@ data_coremechanics = [
         bullets: [
             "<strong>W20: Würfeln für Angriffe, Rettungswürfe und Attributswürfe.</strong>",
 	    "Der 20-seitige Würfel (W20) ist der wichtigste Würfel, den du im Spiel verwenden wirst. Er ist von zentraler Bedeutung für die Kernmechanik – die sogenannten W20-Prüfungen –, mit der das Spiel bestimmt, ob Kreaturen bei den Dingen, die sie während des Spiels versuchen, Erfolg haben oder scheitern. Du würfelst einen W20, wenn dein Charakter versucht, etwas zu tun, bei dem der Spielleiter entscheidet, dass es sowohl Erfolg als auch Misserfolg haben kann. Je höher dein Wurf, desto wahrscheinlicher ist es, dass du Erfolg hast.",
-	    "<strong>W4, W6, W8, W10, W12: Benutzt für Waffenschaden, Heilung und andere Effekte.</strong>",
-	    "Wenn du einen erfolgreichen Angriffswurf machst, würfelst du Schaden, um zu sehen, wie effektiv der Angriff ist. Wenn du einen Zauber wirkst, kannst du auch Schaden würfeln. Verschiedene Waffen und Zauber verwenden unterschiedliche Würfel für den Schaden.",
-		"<em><strong>Abrunden.</strong></em> Wenn du im Spiel eine Zahl teilst oder multiplizierst und einen Bruch erhältst, dann runde immer ab, auch wenn der Bruch größer oder gleich der Hälfte ist. Bei einigen Regeln gilt jedoch die Ausnahme, dass du aufrunden sollst."
+	    "W4, W6, W8, W10, W12 - werden hauptsächlich verwendet um gewirkten Schaden oder Heilung zu bestimmen: Nach einem erfolgreichen Angriffswurf wird der Schaden ausgewürfelt, um zu ermitteln, wie effektiv der Angriff ist. Auch wenn du einen Zauber wirkst, könntest du den Schaden auswürfeln. Bei verschiedenen Waffen und Zaubern kommen unterschiedliche Würfel zum Einsatz, um den Schaden zu ermitteln.",
+		"<em><strong>Abgerundet.</strong></em> Wenn eine Zahl im Spiel multipliziert oder geteilt wird, rundest du das Ergebnis gegebenenfalls ab. Selbst bei Dezimalstellen größer als fünf wird abgerundet. Manche Regeln machen eine Ausnahme und besagen, dass du aufrunden sollst."
         ]
     },	
     {
-        title: "W20-Wurf",
+        title: "W20-Prüfungen",
         icon: "w20",
-        subtitle: "Erfolg oder Fehlschlag",
-        description: "Wenn das Ergebnis einer Aktion ungewiss ist, wird ein W20-Wurf verwendet, um Erfolg oder Misserfolg zu bestimmen.",
+        subtitle: "Erfolg oder Misserfolg",
+        description: "Ist das Ergebnis einer Aktion ungewiss, so wird mit einem W20 über Erfolg und Misserfolg entscheiden",
         reference: "PHB 2024",
         bullets: [
-            "<em><strong>Attributswurf.</em></strong> Ein Attributswurf ist ein W20-Wurf, bei dem eine der sechs Attribute – oder eine bestimmte Fertigkeit, die mit einem der Attribute verbunden ist – eingesetzt wird, um eine Herausforderung zu meistern.",
-	    "<em><strong>Rettungswurf.</em></strong> Ein Rettungswurf stellt den Versuch dar, einer Bedrohung auszuweichen oder ihr zu widerstehen. Normalerweise führst du einen Rettungswurf nur dann aus, wenn eine Regel dies erfordert, aber du kannst dich auch dafür entscheiden, den Rettungswurf fehlschlagen zu lassen, ohne zu würfeln. Das Ergebnis eines Rettungswurfs ist in dem Effekt aufgeführt, der ihn gefordert hat. Wenn ein Ziel gezwungen ist, einen Rettungswurf durchzuführen, und ihm der dafür verwendete Attributswert fehlt, misslingt der Rettungswurf automatisch.",
-	    "<em><strong>Angriffswurf.</em></strong> Ein Angriffswurf ist ein W20-Wurf, der einen Angriff mit einer Waffe, einen waffenlosen Angriff oder einen Zauber darstellt.",
-	    "<em><strong>Vorteil.</em></strong> Wenn du einen Vorteil bei einem W20-Wurf hast, wirf zwei W20 und verwende den höheren Wurf. Ein Wurf kann nicht durch mehr als einen Vorteil beeinflusst werden, und Vorteil und Nachteil beim gleichen Wurf heben sich gegenseitig auf.",
-	    "<em><strong>Nachteil.</em></strong> Wenn du bei einem W20-Wurf einen Nachteil hast, wirf zwei W20 und verwende den niedrigeren Wurf. Ein Wurf kann nicht durch mehr als einen Nachteil beeinflusst werden, und Vorteil und Nachteil beim gleichen Wurf heben sich gegenseitig auf."
+            "W20-Prüfungen umfassen die drei wichtigsten W20-Würfe des Spiels: Attributswürfe, Angriffswürfe und Rettungswürfe. Wenn etwas im Spiel W20-Prüfungen beeinflusst, so gilt dies für alle drei Arten. Der SL bestimmt, ob eine W20-Prüfung unter den gegebenen Umständen angebracht ist.",
+	    "<em><strong>Attributswurf.</em></strong> Ein Attributswurf ist eine W20-Prüfung, die den Einsatz von einem der sechs Attribute repräsentiert (oder einer bestimmten Fertigkeit, die mit einem Attribut assoziiert ist), um eine Herausforderung zu überwinden.",
+	    "<em><strong>Rettungswurf.</em></strong> Rettungswürfe (RW) repräsentieren den Versuch, Gefahren zu entgehen oder zu widerstehen. Normalerweise führst du nur dann einen Rettungswurf aus, wenn eine Regel dies erfordert. Du kannst beschließen, den Rettungswurf scheitern zu lassen, ohne zu würfeln. Das Ergebnis eines Rettungswurfs ist im Effekt beschrieben, der ihn stattfinden lässt. Wenn ein Ziel zu einem Rettungswurf gezwungen wird, den entsprechenden Attributswert jedoch nicht hat, scheitert der Rettungswurf automatisch.",
+	    "<em><strong>Angriffswurf.</em></strong> Ein Angriffswurf ist eine W20-Prüfung, die einen Angriff mit einer Waffe, einen waffenlosen Angriff oder einen Zauberangriff repräsentiert.",
+		"<em><strong>Vorteil.</em></strong> Wenn du bei einer W20-Prüfung im Vorteil bist, würfle mit zwei W20 und verwende das höhere Ergebnis. Für einen Würfelwurf kann nur jeweils ein Vorteil gelten. Vorteil und Nachteil, die für denselben Wurf gelten, heben einander auf.",
+		"<em><strong>Nachteil. Wenn du bei einer W20-Prüfung im Nachteil bist, würfle mit zwei W20 und verwende das niedrigere Ergebnis. Für einen Würfelwurf kann nur jeweils ein Nachteil gelten. Vorteil und Nachteil, die für denselben Wurf gelten, heben einander auf.</em></strong>"
         ]
     },	
     {
@@ -34,10 +34,10 @@ data_coremechanics = [
         description: "In jedem Kampf muss die Reihenfolge der Teilnehmer festgelegt werden",
         reference: "PHB 2024",
         bullets: [
-          "Die Initiative bestimmt die Reihenfolge der Züge während des Kampfes. Wenn der Kampf beginnt, würfelt jeder Teilnehmer Initiative; sie machen einen Geschicklichkeitswurf, die ihren Platz in der Initiative-Reihenfolge bestimmt. Die SL würfelt für Monster. Bei einer Gruppe identischer Kreaturen führt die SL einen einzigen Wurf durch, sodass jedes Mitglied der Gruppe die gleiche Initiative hat.",
-		"<em><strong>Überraschung.</em></strong> Wenn ein Teilnehmer vom Beginn eines Kampfes überrascht wird, hat dieser Kämpfer einen Nachteil bei seinem Initiativwurf. Wenn beispielsweise ein Hinterhalt einen Kampf beginnt, während er vor einem Gegner verborgen ist, der nicht weiß, dass ein Kampf beginnt, ist dieser Gegner überrascht.",
-		"<em><strong>Initiativreihenfolge.</em></strong> Die Summe des Wurfes eines Kämpfers wird als seine Initiative bezeichnet. Die SL ordnet die Teilnehmer nach der Höhe ihrer Initiative. In dieser Reihenfolge handeln sie in jeder Runde. Die Initiativreihenfolge bleibt von Runde zu Runde gleich.",
-		"<em><strong>Gleichstand.</em></strong> Bei einem Gleichstand entscheidet die SL über die Reihenfolge der Monster mit Gleichstand und die Spieler entscheiden über die Reihenfolge der Charaktere mit Gleichstand. Die SL entscheidet über die Reihenfolge, wenn der Gleichstand zwischen einem Monster und einem Spielercharakter besteht."
+          "Die Initiative bestimmt die Reihenfolge der Züge während eines Kampfs. Zu Kampfbeginn würfeln die Kampfteilnehmer die Initiative aus. Dazu führt jeder Teilnehmer einen Geschicklichkeitswurf aus, der seine Position in der Initiativereihenfolge bestimmt. Der SL würfelt für Monster. Bei einer Gruppe gleicher Kreaturen führt der SL einen einzigen Wurf aus, sodass jedes Gruppenmitglied die gleiche Initiative hat.",
+		"<em><strong>Überraschung:</strong></em> Wenn ein Kampfteilnehmer vom Kampfbeginn überrascht wird, ist er bei seinem Initiativewurf im Nachteil. Beispiel: Wenn eine Kreatur den Kampf beginnt, während er seinem Gegner verborgen ist und dieser nicht weiß, dass es nun zum Kampf kommt, so wird der Gegner überrascht.",
+		"<em><strong>Initiativereihenfolge:</strong></em> Das Würfelergebnis eines Kampfteilnehmers wird Initiativewert oder kurz Initiative genannt. Der SL sortiert die Kampfteilnehmer vom höchsten zum niedrigsten Initiativewert. Dies ist die Reihenfolge, in der sie während jeder Runde handeln. Die Initiativereihenfolge bleibt von Runde zu Runde gleich.",
+		"<em><strong>Unentschieden:</strong></em> Bei einem Unentschieden unter Monstern entscheidet der SL über die Reihenfolge, bei einem Unentschieden unter Spielercharakteren entscheiden die Spieler. Bei einem Unentschieden zwischen einem Monster und einem Spielercharakter entscheidet der SL."
         ]
     },		
     {
@@ -45,36 +45,36 @@ data_coremechanics = [
         icon: "shield",
         subtitle: "Mauern, Bäume und Kreaturen",
         description: "Ein Ziel hat Teildeckung wenn ein Hindernis mindestens die Hälfte seines Körpers verdeckt",
-        reference: "PHB 2024",
+        reference: "PHB 2024, Seite 26",
         bullets: [
-            "Mauern, Bäume, Kreaturen und andere Hindernisse können Deckung bieten und es erschweren, einem Ziel Schaden zuzufügen. Wie in der Deckung Tabelle aufgeführt, gibt es drei Grade der Deckung, von denen jeder einen anderen Nutzen für ein Ziel hat.",
-	    "Ein Ziel kann nur dann von Deckung profitieren, wenn ein Angriff oder ein anderer Effekt von der gegenüberliegenden Seite der Deckung ausgeht. Wenn sich ein Ziel hinter mehreren Deckungsquellen befindet, gilt nur der schützendste Deckungsgrad; die Grade werden nicht addiert.",
-            "<table><caption>Deckung</caption><thead><tr><th><p>Grad</p></th><th><p>Nutzen für das Ziel</p></th><th><p>Erhalten durch ...</p></th></tr></thead><tbody><tr><td><p>Teil</p></td><td><p>+2 auf RK und Geschicklichkeitsrettungswürfe</p></td><td><p>Eine andere Kreatur oder ein Objekt, das mindestens die Hälfte des Ziels bedeckt</p></td></tr><tr><td><p>Drei-<br>viertel</p></td><td><p>+5 auf RK und Geschicklichkeitsrettungswürfe</p></td><td><p>Ein Objekt, das mindestens drei Viertel des Ziels abdeckt</p></td></tr><tr><td><p>Vollständig</p></td><td><p>Kann nicht direkt angegriffen werden</p></td><td><p>Ein Objekt, das das gesamte Ziel abdeckt</p></td></tr></tbody></table>"
+            "Wände, Bäume, Kreaturen und andere Hindernisse können Deckung bieten und es damit schwieriger machen, ein Ziel zu treffen. Wie in der Tabelle „Deckung“ beschrieben, gibt es drei Deckungsgrade, von denen jeder dem Ziel einen anderen Vorzug verschafft.",
+	    "Eine Deckung ist nur wirksam, wenn der Angriff oder Effekt von der gegenüberliegenden Seite der Deckung kommt. Befindet sich das Ziel hinter mehreren Deckungen, zählt nur die wirksamste Deckung. Die Deckungen addieren sich nicht.",
+            "<table><caption>Deckung</caption><thead><tr><th><p>Grad</p></th><th><p>Vorzug für das Ziel</p></th><th><p>Erhalten durch ...</p></th></tr></thead><tbody><tr><td><p>Teil</p></td><td><p>Bonus von +2 auf RK und Geschicklichkeitsrettungswürfe</p></td><td><p>Andere Kreatur oder Gegenstand, mindestens die Hälfte des Ziels ist verdeckt</p></td></tr><tr><td><p>Drei-<br>viertel</p></td><td><p>Bonus von +5 auf RK und Geschicklichkeitsrettungswürfe</p></td><td><p>Gegenstand, mindestens drei Viertel des Ziels sind verdeckt</p></td></tr><tr><td><p>Vollständig</p></td><td><p>Kann nicht zum direkten Ziel werden</p></td><td><p>Gegenstand, das gesamte Ziel ist verdeckt</p></td></tr></tbody></table>"
         ]
     },
   {
         title: "Temporäre Trefferpunkte",
         icon: "temptp",
         subtitle: "Schütze deine Trefferpunkte",
-        description: "Einige Zauber und andere Effekte verleihen temporäre Trefferpunkte, die einen Puffer gegen den Verlust tatsächlicher Trefferpunkte darstellen",
+        description: "Manche Zauber und andere Effekte verleihen temporäre Trefferpunkte, die als Puffer dienen, um keine regulären Trefferpunkte zu verlieren",
         reference: "PHB 2024",
         bullets: [
-          "<em><strong>Temporäre Trefferpunkte Verlieren.</em></strong> Wenn du temporäre Trefferpunkte hast und Schaden erleidest, gehen diese Punkte zuerst verloren und der verbleibende Schaden wird auf deine Trefferpunkte übertragen. Wenn du beispielsweise 5 temporäre Trefferpunkte hast und 7 Schaden erleidest, verlierst du diese Punkte und dann 2 Trefferpunkte.",
-	"<em><strong>Dauer.</em></strong> Temporäre Trefferpunkte halten an, bis sie aufgebraucht sind oder du eine Lange Rast beendest.",
-	"<em><strong>Temporäre Trefferpunkte sind nicht stapelbar.</em></strong> Temporäre Trefferpunkte können nicht addiert werden. Wenn du temporäre Trefferpunkte hast und weitere erhältst, kannst du entscheiden, ob du die bisherigen behalten oder die neuen nehmen möchtest.",
-	"<em><strong>Sie sind keine Trefferpunkte oder Heilung.</em></strong> Wenn du 0 Trefferpunkte hast, bringt es dich nicht wieder zu Bewusstsein, wenn du temporäre Trefferpunkte erhältst. Nur echte Heilung kann dich retten."
+          "<h3>Temporäre Trefferpunkte gehen zuerst verloren</h3><p>Wenn du über temporäre Trefferpunkte verfügst und Schaden erleidest, verlierst du zuerst die temporären Trefferpunkte. Überschüssiger Schaden wird von deinen regulären Trefferpunkten abgezogen. Beispiel: Du verfügst über 5 temporäre Trefferpunkte und erleidest 7 Schaden. Du verlierst die temporären Trefferpunkte und dann 2 reguläre Trefferpunkte.</p>",
+	      "<h3>Wirkungsdauer</h3><p>Temporäre Trefferpunkte bleiben bestehen, bis sie verbraucht sind oder du eine lange Rast beendest.</p>",
+	      "<h3>Nicht Stapelbar</h3><p>Temporäre Trefferpunkte können nicht addiert werden. Wenn du temporäre Trefferpunkte besitzt und weitere erhältst, entscheidest du, ob du die vorhandenen behältst oder die neuen bekommst. Beispiel: Wenn dir ein Zauber 12 temporäre Trefferpunkte verleiht, du aber bereits über 10 verfügst, kannst du 12 oder 10 haben, nicht 22.</p>",
+	      "<h3>Keine Trefferpunkte und keine Heilung</h3><p>Temporäre Trefferpunkte können weder deinen Trefferpunkten hinzugefügt noch wiederhergestellt werden, und der Erhalt temporärer Trefferpunkte zählt nicht als Heilung. Da temporäre Trefferpunkte keine Trefferpunkte sind, können auch Kreaturen mit vollen Trefferpunkten temporäre Trefferpunkte erhalten.</p><p>Wenn du keine Trefferpunkte hast und temporäre Trefferpunkte erhältst, erlangst du dadurch nicht das Bewusstsein wieder. Nur eine reguläre Heilung kann dich retten.<br></p>"
         ]
     },
     {
-        title: "Heroische Inspiration",
+        title: "Heldische Inspiration",
         icon: "inspiration",
         subtitle: "Heldenhafte Taten ausführen",
         description: "Heldenhafte Taten",
         reference: "PHB 2024",
         bullets: [
-          "Manchmal erhältst du durch die SL oder eine Regel eine Heroische Inspiration. Wenn du eine Heroische Inspiration hast, kannst du sie einsetzen, um einen beliebigen Würfel sofort nach dem Wurf erneut zu würfeln, und du musst den neuen Wurf verwenden.",
-		"Nur eine auf einmal. Du kannst nie mehr als eine Instanz von Heroischer Inspiration haben. Wenn etwas dir Heroische Inspiration gibt und du sie bereits hast, kannst du sie einem Spielercharakter in deiner Gruppe geben, dem sie fehlt.",
-		"Heroische Inspiration erhalten. Deine SL kann dir aus verschiedenen Gründen Heroische Inspiration geben. Normalerweise vergeben sie SL, wenn du etwas besonders Heldenhaftes, Charakteristisches oder Unterhaltsames tust. Es ist eine Belohnung dafür, dass du das Spiel für alle Spieler unterhaltsamer machst."
+          "Manchmal gibt der SL oder eine Regel dir Heldische Inspiration. Diese Heldische Inspiration kannst du verbrauchen, um mit einem Würfel sofort nach dem Wurf erneut zu würfeln. In diesem Fall musst du das neue Ergebnis verwenden.",
+		"<em><strong>Jeweils nur eine Instanz:</strong></em> Du kannst nie mehr als eine Instanz von Heldischer Inspiration haben. Wenn du Heldische Inspiration erhältst, jedoch bereits über Heldische Inspiration verfügst, kannst du die neue Instanz an einen Spielercharakter in deiner Gruppe weitergeben, der keine Heldische Inspiration hat.",
+		"<em><strong>Heldische Inspiration erhalten:</strong></em> Dein SL kann dir aus verschiedensten Gründen Heldische Inspiration geben. Üblicherweise wird diese Inspiration vom SL vergeben, wenn ein Charakter etwas besonders Heldenhaftes, Charaktertypisches oder Unterhaltsames tut. Sie dient als Belohnung dafür, das Spiel für alle Beteiligten unterhaltsamer gemacht zu haben. Andere Regeln könnten es deinem Charakter gestatten, unabhängig von der Entscheidung des SL Heldische Inspiration zu erhalten. Beispiel: Menschliche Charaktere beginnen jeden Tag mit Heldischer Inspiration."
         ]
     },
     {
@@ -84,7 +84,7 @@ data_coremechanics = [
         description: "Abenteurer können nicht jede Stunde auf Abenteuer sein. Sie brauchen auch mal Rast.",
         reference: "PHB 2024",
         bullets: [
-	"<p>A Short Rest is a 1-hour period of downtime, during which a creature does nothing more strenuous than reading, talking, eating, or standing watch. To start a Short Rest, you must have at least 1 Hit Point.</p><p><em><strong>Benefits of the Rest.</strong></em> When you finish the rest, you gain the following benefits:</p><p><strong>Spend Hit Point Dice.</strong> You can spend one or more of your Hit Point Dice to regain Hit Points. For each Hit Point Die you spend in this way, roll the die and add your Constitution modifier to it. You regain Hit Points equal to the total (minimum of 1 Hit Point). You can decide to spend an additional Hit Point Die after each roll.</p><p><strong>Special Feature.</strong> Some features are recharged by a Short Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Short Rest is stopped by the following interruptions:</p><ul><li>Rolling Initiative</li><li>Casting a spell other than a cantrip</li><li>Taking any damage</li></ul><p>An interrupted Short Rest confers no benefits.</p>"
+	       "<p>Eine kurze Rast ist eine einstündige Ruhepause, während der eine Kreatur höchstens leichte Aktivitäten wie Lesen, Reden, Essen oder Wache halten ausführt. Du musst mindestens einen Trefferpunkt haben, um eine kurze Rast zu beginnen.</p><p><em><strong>Vorzüge der Rast:</strong></em> Wenn du die Rast beendest, erhältst du folgende Vorzüge:</p><p><strong>Trefferpunktewürfel verbrauchen:</strong> Du kannst mindestens einen deiner Trefferpunktewürfel verbrauchen, um Trefferpunkte zurückzuerhalten. Würfle mit jedem Trefferpunktewürfel, den du auf diese Art verbrauchst, und füge dem Ergebnis deinen Konstitutionsmodifikator hinzu. Du erhältst Trefferpunkte in der Höhe des Gesamtergebnisses zurück (mindestens 1). Du kannst nach jedem Wurf entscheiden, ob du einen weiteren Trefferpunktewürfel verbrauchen willst.</p><p><strong>Besonderes Merkmal:</strong> Manche Merkmale werden durch eine kurze Rast aufgeladen. Wenn du ein solches Merkmal hast, wird es wie in seiner Beschreibung angegeben aufgeladen.</p><p><em><strong>Die Rast unterbrechen:</strong></em> Eine kurze Rast kann auf folgende Arten unterbrochen werden:</p><ul><li>Initiative auswürfeln</li><li>Einen Zauber wirken, der kein Zaubertrick ist</li><li>Schaden erleiden</li></ul><p>Eine unterbrochene kurze Rast gewährt keine Vorzüge.</p>"
       ]
     },
     {
@@ -94,7 +94,7 @@ data_coremechanics = [
         description: "Abenteurer können nicht jede Stunde auf Abenteuer sein. Sie brauchen auch mal Rast.",
         reference: "PHB 2024",
         bullets: [
-		"<p>A Long Rest is a period of extended downtime&mdash;at least 8 hours&mdash;available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.</p><p>During sleep, you have the Unconscious condition. After you finish a Long Rest, you must wait at least 16 hours before starting another one.</p><p><em><strong>Benefits of the Rest.</strong></em> To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:</p><p><strong>Regain All HP.</strong> You regain all lost Hit Points and all spent Hit Point Dice. If your Hit Point maximum was reduced, it returns to normal.</p><p><strong>Ability Scores Restored.</strong> If any of your ability scores were reduced, they return to normal.</p><p><strong>Exhaustion Reduced.</strong> If you have the Exhaustion condition, its level decreases by 1.</p><p><strong>Special Feature.</strong> Some features are recharged by a Long Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Long Rest is stopped by the following interruptions:</p><ul><li>Initiative</li><li>Casting a spell other than a cantrip</li><li>Taking any damage</li><li>1 hour of walking or other physical exertion</li></ul><p>If you rested at least 1 hour before the interruption, you gain the benefits of a Short Rest.</p><p>You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour per interruption to finish.</p>"
+		"<p>Eine lange Rast ist eine ausgedehnte Ruhepause von mindestens acht Stunden, die jeder Kreatur zur Verfügung steht. Während einer langen Rast schläfst du mindestens sechs Stunden lang und führst höchstens zwei Stunden lang leichte Aktivitäten wie Lesen, Reden, Essen oder Wache halten aus.</p><p>Während du schläfst, hast du den Zustand Bewusstlos.</p><p>Hast du eine lange Rast beendet, so musst du mindestens 16 Stunden warten, ehe du die nächste beginnst.</p><p><strong>Vorzüge der Rast:</strong> Du musst mindestens einen Trefferpunkt haben, um eine lange Rast zu beginnen. Wenn du die Rast beendest, erhältst du folgende Vorzüge:</p><p><strong>Alle TP zurückerhalten:</strong> Du erhältst alle verlorenen Trefferpunkte und alle verbrauchten Trefferpunktewürfel zurück. Wenn dein Trefferpunktemaximum verringert wurde, ist es jetzt wieder normal.</p><p><strong>Attributswerte wiederhergestellt:</strong> Wenn deine Attributs-werte verringert waren, sind sie jetzt wieder normal.</p><p><strong>Erschöpfung verringert:</strong> Wenn du Erschöpfungsstufen hattest, werden diese um eine Stufe verringert.</p><p><strong>Besonderes Merkmal:</strong> Manche Merkmale werden durch eine lange Rast aufgeladen. Wenn du ein solches Merkmal hast, wird es wie in seiner Beschreibung angegeben aufgeladen.</p><p><em><strong>Die Rast unterbrechen:</strong></em> Eine lange Rast kann auf folgende Arten unterbrochen werden:</p><ul><li><p>Initiative auswürfeln</p></li><li><p>Einen Zauber wirken, der kein Zaubertrick ist</p></li><li><p>Schaden erleiden</p></li><li><p>Eine Stunde lang gehen oder andere körperliche Anstrengungen unternehmen</p></li></ul><p>Wenn du vor der Unterbrechung mindestens eine Stunde lang gerastet hast, erhältst du die Vorzüge einer Kurzen Rast.</p><p>Du kannst die lange Rast unmittelbar nach der Unterbrechung fortsetzen. In diesem Fall ist pro Unterbrechung eine zusätzliche Stunde Rast erforderlich, um diese zu beenden.</p>"
       ]
     }	
   ]

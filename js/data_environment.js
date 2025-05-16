@@ -1,25 +1,25 @@
 data_environment_obscurance = [
     {
-        title: "Verdeckte Bereiche",
+        title: "Verschleierte Bereiche",
         icon: "bleeding-eye",
-        subtitle: "Sicht Eingeschränkt",
-        description: "Ein Bereich kann leicht oder stark verschleiert sein",
+        subtitle: "Eingeschränkte Sicht",
+        description: "Bereiche können leicht oder komplett verschleiert sein",
         reference: "PHB 2024",
         bullets: [
-            "<em><strong>Leicht Verschleiert.</em></strong> In einem leicht verschleierten Gebiet – wie einem Gebiet mit dämmrigem Licht, Nebel oder mäßigem Blattwerk – hast du einen Nachteil bei Weisheitswürfen (Wahrnehmung), die auf Sicht angewiesen sind.",
-		"<em><strong>Stark Verschleiert.</em></strong> Ein stark verschleiertes Gebiet – wie ein Gebiet mit Dunkelheit, dichtem Nebel oder dichtem Blattwerk – ist undurchsichtig. Wenn du versuchst, dort etwas zu sehen, hast du den <i>Blind</i> Zustand."
+            "<em><strong>Leicht Verschleiert.</em></strong> In leicht verschleierten Bereichen, beispielsweise dämmrigem Licht, leichtem Nebel oder in mäßig dichtem Laub, sind Kreaturen bei Weisheitswürfen (Wahrnehmung), die klare Sicht erfordern, im Nachteil.",
+		"<em><strong>Stark Verschleiert.</em></strong> Komplett verschleierte Bereiche – bei Dunkelheit, dichtem Nebel oder in dichtem Laub – sind völlig undurchsichtig. Wenn du versuchst, dort etwas zu erkennen, hast du den Zustand Blind."
         ]
     },
     {
         title: "Licht",
         icon: "candlebright",
         subtitle: "Beeinflusst Sicht",
-        description: "Das Vorhandensein oder Fehlen von Licht bestimmt die Beleuchtungskategorie in einem Bereich, wie unten definiert.",
+        description: "Durch die An- oder Abwesenheit von Licht wird die Beleuchtungskategorie eines Bereichs bestimmt",
         reference: "PHB 2024",
         bullets: [
-            "<em><strong>Helles Licht.</em></strong> Helles Licht ermöglicht den meisten Kreaturen ein normales Sehen. Selbst an trüben Tagen gibt es helles Licht, ebenso wie Fackeln, Laternen, Feuer und andere Lichtquellen in einem bestimmten Radius.",
-		"<em><strong>Dämmriges Licht.</em></strong> Dämmriges Licht, auch Schatten genannt, erzeugt einen <i>Leicht Verschleierten</i> Bereich. Ein Bereich mit dämmrigem Licht ist normalerweise eine Grenze zwischen hellem Licht und umgebender Dunkelheit. Das sanfte Licht der Dämmerung zählt ebenfalls als dämmriges Licht. Ein Vollmond kann das Land in dämmriges Licht tauchen.",
-		"<em><strong>Dunkelheit.</em></strong> Dunkelheit erzeugt einen <i>Stark Verschleierten</i> Bereich. Charaktere sind der Dunkelheit nachts im Freien (selbst in den meisten mondhellen Nächten), innerhalb der Grenzen eines unbeleuchteten Verlieses oder in einem Bereich magischer Dunkelheit ausgesetzt."
+            "<em><strong>Helles Licht:</em></strong> Bei hellem Licht können die meisten Kreaturen normal sehen. Auch trübe Tage bieten helles Licht, ebenso Fackeln, Laternen, Feuer und ähnliche Lichtquellen (in einer gewissen Reichweite).",
+		"<em><strong>Dämmriges Licht:</em></strong> Dämmriges Licht, auch als Schatten bezeichnet, bedeutet einen leicht verschleierten Bereich. Oft stellen Bereiche mit dämmrigem Licht den Übergang zwischen hell erleuchteten und dunklen Bereich dar. Auch das sanfte Licht der Morgen- oder Abenddämmerung zählt als dämmriges Licht. Ein Vollmond kann die Welt ebenfalls in dämmriges Licht tauchen.",
+		"<em><strong>Dunkelheit:</em></strong> Dunkelheit bedeutet einen komplett verschleierten Bereich. Sie herrscht nachts unter freiem Himmel - auch in den meisten Mondnächten -, in unbeleuchteten Gewölben und in Bereichen magischer Dunkelheit."
         ]
     }
 ]
@@ -32,7 +32,7 @@ data_environment_vision = [
         description: "Nimm deine Umgebung in einem bestimmten Radius war, ohne dich auf dein Augenlicht zu verlassen",
         reference: "PHB 2024",
         bullets: [
-            "Wenn du über Blindsicht verfügst, kannst du innerhalb einer bestimmten Reichweite sehen, ohne auf das physische Sehvermögen angewiesen zu sein. Innerhalb dieser Reichweite kannst du alles sehen, was sich nicht hinter Vollständiger Deckung befindet, selbst wenn du den <i>Blind</i> hast oder dich in Dunkelheit befindest. Darüber hinaus kannst du in dieser Reichweite etwas sehen, das sich im <i>Unsichtbar</i> Zustand befindet."
+            "Blindsicht erlaubt dir, auf eine bestimmte Reichweite zu sehen, ohne physische Sicht zu benötigen. Auf diese Reichweite kannst du auch bei Dunkelheit oder im Zustand Blind alles sehen, was sich nicht in Vollständiger Deckung befindet. Du kannst sogar Kreaturen und Gegenstände mit dem Zustand Unsichtbar sehen."
         ]
     },
     {
@@ -42,7 +42,7 @@ data_environment_vision = [
         description: "Eine Kreatur mit Dunkelsicht kann innerhalb eines bestimmten Radius in der Dunkelheit und bei wenig Licht besser sehen",
         reference: "PHB 2024",
         bullets: [
-            "Wenn du über Dunkelsicht verfügst, kannst du in einem bestimmten Bereich bei Dämmrigem Licht so sehen, als wäre es Helles Licht, und in diesem Bereich bei Dunkelheit so, als wäre es Dämmriges Licht. In Dunkelheit kannst du Farben nur als Grautöne wahrnehmen."
+            "Wenn du Dunkelsicht hast, kannst du auf die angegebene Reichweite bei Dämmrigem Licht sehen wie bei Hellem Licht und bei Dunkelheit wie bei dämmrigem Licht. Farben nimmst du bei Dunkelheit nur als Graustufen wahr. Siehe auch Erkundung."
         ]
     },
     {
@@ -52,35 +52,35 @@ data_environment_vision = [
         description: "Erschütterungssinn nimmt bewegungen auf einer Oberfläche wahr",
         reference: "PHB 2024",
         bullets: [
-            "Eine Kreatur mit Erschütterungssinn kann die Position von Kreaturen und sich bewegenden Objekten innerhalb einer bestimmten Reichweite bestimmen, vorausgesetzt, dass die Kreatur mit Erschütterungssinn und alles, was sie erfasst, mit derselben Oberfläche (z. B. dem Boden, einer Wand oder einer Decke) oder derselben Flüssigkeit in Kontakt sind.",
-	    "Erschütterungssinn kann keine Kreaturen oder Objekte in der Luft erkennen und zählt nicht als eine Form des Sehens."
+            "Eine Kreatur mit Erschütterungssinn kennt den Ort von Kreaturen und bewegten Gegenständen innerhalb einer bestimmten Reichweite, sofern sie und die erkannten Ziele beide in Kontakt mit derselben Oberfläche (dem Boden, einer Wand oder Decke) oder derselben Flüssigkeit sind.",
+	    "Erschütterungssinn kann keine Kreaturen oder Gegenstände in der Luft erspüren und zählt nicht als Form der Sicht."
         ]
     },
     {
         title: "Wahrer Blick",
         icon: "eye-shield",
         subtitle: "Alles sehen",
-        description: "Wenn du Wahrsicht hast, wird deine Sicht innerhalb eines bestimmten Bereichs verbessert",
+        description: "Wenn du über Wahrer Blick verfügst, ist dein Sehvermögen auf eine bestimmte Reichweite verbessert. Auf diese Reichweite durchdringt deine Sicht Folgendes:",
         reference: "PHB 2024",
         bullets: [
-            "<em><strong>Dunkelheit.</em></strong> Du kannst in normaler und magischer Dunkelheit sehen.",
-	 "<em><strong>Unsichtbarkeit.</em></strong> Du siehst Kreaturen und Objekte, die den <i>Unsichtbar</i> Zustand haben.",
-		"<em><strong>Visuelle Täuschungen.</em></strong> Visuelle Täuschungen erscheinen dir transparent und du hast automatisch Erfolg bei Rettungswürfen gegen sie.",
-		"<em><strong>Verwandlungen.</em></strong> Du erkennst die wahre Form jeder Kreatur oder jedes Objekts, das du siehst und das durch Magie verwandelt wurde.",
-		"<em><strong>Ätherische Ebene.</em></strong> Du siehst in die Ätherische Ebene."
+            "<em><strong>Dunkelheit:</strong></em> Du kannst in normaler sowie magischer Dunkelheit sehen.",
+	    "<em><strong>Unsichtbarkeit:</strong></em> Du kannst Kreaturen und Gegenstände sehen, die den Zustand Unsichtbar haben.",
+		"<em><strong>Visuelle Illusionen:</strong></em> Visuelle Illusionen erscheinen dir durchsichtig, und Rettungswürfe gegen sie bestehst du automatisch.",
+		"<em><strong>Verwandlungen:</strong></em> Du erkennst die wahre Gestalt aller Kreaturen und Gegenstände, die du siehst und die durch Magie verwandelt wurden.",
+		"<em><strong>Ätherebene:</strong></em> Du kannst in die Ätherebene blicken."
         ]
     }
 ]
 
 data_environment_hazards = [
   {
-        title: "Brennen",
+        title: "Brand",
         icon: "flame",
         subtitle: "In Brand geraten",
-        description: "Eine Kreatur oder ein Objekt brennt",
+        description: "Eine Kreatur oder ein Gegenstand brennt",
         reference: "PHB 2024",
         bullets: [
-            "Eine brennende Kreatur oder ein brennendes Objekt erleidet zu Beginn jedes seiner Züge 1W4 Feuerschaden. Als Aktion kannst du das Feuer an dir selbst löschen, indem du dich in den Liegend Zustand versetzt und dich auf dem Boden wälzt. Das Feuer erlischt auch, wenn es gelöscht, untergetaucht oder erstickt wird."
+            "Brennende Kreaturen und Gegenstände erleiden zu Beginn jedes ihrer Züge 1W4 Feuerschaden. Du kannst dich als Aktion selbst löschen, indem du dir den Zustand Liegend gibst und dich auf dem Boden rollst. Das Feuer erlischt auch, wenn es erstickt oder durch Wasser gelöscht wird."
         ]
     },
     {
@@ -90,41 +90,41 @@ data_environment_hazards = [
         description: "Die meisten Kreaturen brauchen Wasser",
         reference: "PHB 2024",
         bullets: [
-            "<p>A creature requires an amount of water per day based on its size, as shown in the Water Needs per Day table. A creature that drinks less than half the required water for a day gains 1 Exhaustion level at the day’s end. Exhaustion caused by dehydration can’t be removed until the creature drinks the full amount of water required for a day.",
-	    "</p><table><caption>Water Needs per Day</caption><thead><tr><th><p>Size</p></th><th><p>Water</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>1/4 gallon</p></td></tr><tr><td><p>Small</p></td><td><p>1 gallon</p></td></tr><tr><td><p>Medium</p></td><td><p>1 gallon</p></td></tr><tr><td><p>Large</p></td><td><p>4 gallons</p></td></tr><tr><td><p>Huge</p></td><td><p>16 gallons</p></td></tr><tr><td><p>Gargantuan</p></td><td><p>64 gallons</p></td></tr></tbody></table>"
+            "Eine Kreatur benötigt täglich eine gewisse Menge von Wasser je nach ihrer Größe, wie in der Tabelle „Täglicher Wasserbedarf“ dargestellt. Eine Kreatur, die weniger als die Hälfte der täglich erforderlichen Wassermenge trinkt, erhält am Ende des Tages eine Erschöpfungsstufe. Erschöpfung durch Dehydrierung kann nicht entfernt werden, ehe die Kreatur nicht die vollständige Tagesmenge an Wasser trinkt.",
+	        "<table><caption>Täglicher Wasserbedarf</caption><thead><tr><th><p>Größe</p></th><th><p>Wassermenge</p></th></tr></thead><tbody><tr><td><p>Winzig</p></td><td><p>1 Liter</p></td></tr><tr><td><p>Klein</p></td><td><p>4 Liter</p></td></tr><tr><td><p>Mittel</p></td><td><p>4 Liter</p></td></tr><tr><td><p>Groß</p></td><td><p>16 Liter</p></td></tr><tr><td><p>Riesig</p></td><td><p>64 Liter</p></td></tr><tr><td><p>Gigantisch</p></td><td><p>256 Liter</p></td></tr></tbody></table>"
         ]
     },
     {
-        title: "Fallen",
+        title: "Sturz",
         icon: "falling",
         subtitle: "Ungebremst fallen",
         description: " ",
         reference: "PHB 2024",
         bullets: [
-            "A creature that falls takes 1d6 Bludgeoning damage at the end of the fall for every 10 feet it fell, to a maximum of 20d6. When the creature lands, it has the Prone condition unless it avoids taking any damage from the fall.",
-	    "A creature that falls into water or another liquid can use its Reaction to make a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check to hit the surface head or feet first. On a successful check, any damage resulting from the fall is halved.",
+            "Am Ende eines Sturzes erleidet eine Kreatur 1W6 Wuchtschaden pro drei Meter, die sie gestürzt ist (höchstens 20W6). Nach dem Sturz hat sie den Zustand Liegend, sofern sie den Schaden durch den Sturz nicht vermeiden konnte.",
+	    "Wenn eine Kreatur in Wasser oder eine andere Flüssigkeit stürzt, kann sie ihre Reaktion verwenden und einen SG-15-Geschicklichkeitswurf (Akrobatik) oder SG-15-Stärkewurf (Athletik) ausführen, um mit dem Kopf oder den Füßen voran aufzukommen. Bei einem Erfolg wird der Fallschaden halbiert.",
         ]
     },
     {
-        title: "Mangelernährung",
+        title: "Unterernährung",
         icon: "mangelernaehrung",
         subtitle: "Fehlende Nahrung",
         description: "Die meisten Kreaturen brauchen Nahrung",
         reference: "PHB 2024",
         bullets: [
-            "A creature needs an amount of food per day based on its size, as shown in the Food Needs per Day table. A creature that eats but consumes less than half the required food for a day must succeed on a DC 10 Constitution saving throw or gain 1 Exhaustion level at the day’s end. A creature that eats nothing for 5 days automatically gains 1 Exhaustion level at the end of the fifth day as well as an additional level at the end of each subsequent day without food.",
-	    "Exhaustion caused by malnutrition can’t be removed until the creature eats the full amount of food required for a day. See also “Exhaustion.”",
-            "<table><caption>Food Needs per Day</caption><thead><tr><th><p>Size</p></th><th><p>Food</p></th><th></th><th><p>Size</p></th><th><p>Food</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>1/4 pound</p></td><td></td><td><p>Large</p></td><td><p>4 pounds</p></td></tr><tr><td><p>Small</p></td><td><p>1 pound</p></td><td></td><td><p>Huge</p></td><td><p>16 pounds</p></td></tr><tr><td><p>Medium</p></td><td><p>1 pound</p></td><td></td><td><p>Gargantuan</p></td><td><p>64 pounds</p></td></tr></tbody></table>"
+            "Eine Kreatur benötigt täglich eine gewisse Menge von Nahrung je nach ihrer Größe, wie in der Tabelle „Täglicher Nahrungsbedarf“ dargestellt. Eine Kreatur, die weniger als die Hälfte der täglich erforderlichen Nahrungsmenge zu sich nimmt, muss einen SG-10-Konstitutionsrettungswurf bestehen, oder sie erhält am Ende des Tages eine Erschöpfungsstufe. Eine Kreatur, die fünf Tage lang nichts isst, erhält am Ende des fünften Tages automatisch eine Erschöpfungsstufe sowie am Ende jedes weiteren Tages ohne Nahrung eine zusätzliche Erschöpfungsstufe.",
+	    "Erschöpfung durch Unterernährung kann nicht entfernt werden, ehe die Kreatur nicht die vollständige Tagesmenge an Nahrung zu sich nimmt.",
+            "<table><caption>Täglicher Nahrungsbedarf</caption><thead><tr><th><p>Größe</p></th><th><p>Nahrung</p></th><th></th><th><p>Größe</p></th><th><p>Nahrung</p></th></tr></thead><tbody><tr><td><p>Winzig</p></td><td><p>125 Gramm</p></td><td></td><td><p>Groß</p></td><td><p>2 Kilogramm</p></td></tr><tr><td><p>Klein</p></td><td><p>500 Gramm</p></td><td></td><td><p>Riesig</p></td><td><p>8 Kilogramm</p></td></tr><tr><td><p>Mittel</p></td><td><p>500 Gramm</p></td><td></td><td><p>Gigantisch</p></td><td><p>32 Kilogramm</p></td></tr></tbody></table>"
         ]
     },
     {
-        title: "Ersticken",
+        title: "Erstickung",
         icon: "ersticken",
         subtitle: "Nach Luft ringen",
         description: "Die meisten Kreaturen brauchen Luft",
         reference: "PHB 2024",
         bullets: [
-            "A creature can hold its breath for a number of minutes equal to 1 plus its Constitution modifier (minimum of 30 seconds) before suffocation begins. When a creature runs out of breath or is choking, it gains 1 Exhaustion level at the end of each of its turns. When a creature can breathe again, it removes all levels of Exhaustion it gained from suffocating."
+            "Eine Kreatur kann für eine Zeitspanne die Luft anhalten, die ihrem Konstitutionsmodifikator + 1 in Minuten entspricht (mindestens 30 Sekunden). Danach setzt die Erstickung ein. Solange eine Kreatur keine Luft bekommt oder erstickt, erhält sie am Ende jedes ihrer Züge eine Erschöpfungsstufe. Sobald sie wieder atmen kann, werden alle Erschöpfungsstufen entfernt, die sie durch die Erstickung erhalten hat."
         ]
     }
 ]
